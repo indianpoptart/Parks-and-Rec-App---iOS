@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  NPAppDelegate.h
 //  Ridgefield Parks and Recreation
 //
 //  Created by Nikhil Paranjape on 3/1/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface NPAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

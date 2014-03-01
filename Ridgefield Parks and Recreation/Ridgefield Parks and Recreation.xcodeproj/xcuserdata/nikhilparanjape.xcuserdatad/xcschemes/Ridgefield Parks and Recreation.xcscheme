@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4CE2E06318C279A600D71DD3"
+               BlueprintIdentifier = "4C88D4EF18C2806B00D4F4AC"
                BuildableName = "Ridgefield Parks and Recreation.app"
                BlueprintName = "Ridgefield Parks and Recreation"
                ReferencedContainer = "container:Ridgefield Parks and Recreation.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4CE2E08A18C279A700D71DD3"
+               BlueprintIdentifier = "4C88D51018C2806B00D4F4AC"
                BuildableName = "Ridgefield Parks and RecreationTests.xctest"
                BlueprintName = "Ridgefield Parks and RecreationTests"
                ReferencedContainer = "container:Ridgefield Parks and Recreation.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4CE2E06318C279A600D71DD3"
+            BlueprintIdentifier = "4C88D4EF18C2806B00D4F4AC"
             BuildableName = "Ridgefield Parks and Recreation.app"
             BlueprintName = "Ridgefield Parks and Recreation"
             ReferencedContainer = "container:Ridgefield Parks and Recreation.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4CE2E06318C279A600D71DD3"
+            BlueprintIdentifier = "4C88D4EF18C2806B00D4F4AC"
             BuildableName = "Ridgefield Parks and Recreation.app"
             BlueprintName = "Ridgefield Parks and Recreation"
             ReferencedContainer = "container:Ridgefield Parks and Recreation.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4CE2E06318C279A600D71DD3"
+            BlueprintIdentifier = "4C88D4EF18C2806B00D4F4AC"
             BuildableName = "Ridgefield Parks and Recreation.app"
             BlueprintName = "Ridgefield Parks and Recreation"
             ReferencedContainer = "container:Ridgefield Parks and Recreation.xcodeproj">
