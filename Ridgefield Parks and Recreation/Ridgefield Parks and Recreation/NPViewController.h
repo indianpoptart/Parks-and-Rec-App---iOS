@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NPViewController : UIViewController
+@interface NPViewController : UIViewController{
+    
+}
+
+-(IBAction)makePhoneCall:(id)sender;
+-(IBAction)openSchedules:(id)sender;
+-(IBAction)openAgenda:(id)sender;
 
 @end

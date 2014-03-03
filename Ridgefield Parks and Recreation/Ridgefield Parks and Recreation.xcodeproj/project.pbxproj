@@ -23,6 +23,11 @@
 		4C88D51F18C2806B00D4F4AC /* Ridgefield_Parks_and_RecreationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C88D51E18C2806B00D4F4AC /* Ridgefield_Parks_and_RecreationTests.m */; };
 		4C88D52C18C2812400D4F4AC /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D52B18C2812400D4F4AC /* background.png */; };
 		4C88D52D18C2813500D4F4AC /* applabels.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D52F18C2813500D4F4AC /* applabels.png */; };
+		4C88D53318C2835700D4F4AC /* lnchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D53218C2835700D4F4AC /* lnchImage.png */; };
+		4C88D53718C283D800D4F4AC /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D53618C283D800D4F4AC /* Icon-Small@2x.png */; };
+		4C88D53918C283EE00D4F4AC /* Icon-Spotlight-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D53818C283EE00D4F4AC /* Icon-Spotlight-40@2x.png */; };
+		4C88D53C18C28A1D00D4F4AC /* LnchImage-NR.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D53A18C28A1D00D4F4AC /* LnchImage-NR.png */; };
+		4C88D53F18C28CBF00D4F4AC /* applabdark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D53E18C28CBF00D4F4AC /* applabdark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +62,13 @@
 		4C88D51E18C2806B00D4F4AC /* Ridgefield_Parks_and_RecreationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ridgefield_Parks_and_RecreationTests.m; sourceTree = "<group>"; };
 		4C88D52818C280BD00D4F4AC /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "../../../../Pictures/PandR-iOS-Icons/iPhone/Icon-60@2x.png"; sourceTree = "<group>"; };
 		4C88D52B18C2812400D4F4AC /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../../../../Pictures/background.png; sourceTree = "<group>"; };
-		4C88D52E18C2813500D4F4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/applabels.png; sourceTree = "<group>"; };
+		4C88D52E18C2813500D4F4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/applabels.png; sourceTree = "<group>"; };
+		4C88D53218C2835700D4F4AC /* lnchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lnchImage.png; path = ../../../../../Pictures/lnchImage.png; sourceTree = "<group>"; };
+		4C88D53618C283D800D4F4AC /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "../../../../../Pictures/PandR-iOS-Icons/iPhone/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		4C88D53818C283EE00D4F4AC /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Spotlight-40@2x.png"; path = "../../../../../Pictures/PandR-iOS-Icons/iPhone/Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
+		4C88D53A18C28A1D00D4F4AC /* LnchImage-NR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LnchImage-NR.png"; path = "../../../../../Pictures/LnchImage-NR.png"; sourceTree = "<group>"; };
+		4C88D53E18C28CBF00D4F4AC /* applabdark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = applabdark.png; path = ../../../../../Pictures/applabdark.png; sourceTree = "<group>"; };
+		4C88D55118C2927D00D4F4AC /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +118,7 @@
 		4C88D4F218C2806B00D4F4AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C88D55118C2927D00D4F4AC /* libxml2.dylib */,
 				4C88D4F318C2806B00D4F4AC /* Foundation.framework */,
 				4C88D4F518C2806B00D4F4AC /* CoreGraphics.framework */,
 				4C88D4F718C2806B00D4F4AC /* UIKit.framework */,
@@ -119,6 +131,11 @@
 			isa = PBXGroup;
 			children = (
 				4C88D50218C2806B00D4F4AC /* NPAppDelegate.h */,
+				4C88D53218C2835700D4F4AC /* lnchImage.png */,
+				4C88D53E18C28CBF00D4F4AC /* applabdark.png */,
+				4C88D53618C283D800D4F4AC /* Icon-Small@2x.png */,
+				4C88D53A18C28A1D00D4F4AC /* LnchImage-NR.png */,
+				4C88D53818C283EE00D4F4AC /* Icon-Spotlight-40@2x.png */,
 				4C88D52B18C2812400D4F4AC /* background.png */,
 				4C88D52F18C2813500D4F4AC /* applabels.png */,
 				4C88D50318C2806B00D4F4AC /* NPAppDelegate.m */,
@@ -237,10 +254,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C88D53318C2835700D4F4AC /* lnchImage.png in Resources */,
+				4C88D53918C283EE00D4F4AC /* Icon-Spotlight-40@2x.png in Resources */,
 				4C88D52D18C2813500D4F4AC /* applabels.png in Resources */,
+				4C88D53F18C28CBF00D4F4AC /* applabdark.png in Resources */,
 				4C88D52C18C2812400D4F4AC /* background.png in Resources */,
 				4C88D50C18C2806B00D4F4AC /* Images.xcassets in Resources */,
+				4C88D53718C283D800D4F4AC /* Icon-Small@2x.png in Resources */,
 				4C88D4FE18C2806B00D4F4AC /* InfoPlist.strings in Resources */,
+				4C88D53C18C28A1D00D4F4AC /* LnchImage-NR.png in Resources */,
 				4C88D50718C2806B00D4F4AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,9 +418,12 @@
 		4C88D52318C2806B00D4F4AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ridgefield Parks and Recreation/Ridgefield Parks and Recreation-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "Ridgefield Parks and Recreation/Ridgefield Parks and Recreation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -408,7 +433,6 @@
 		4C88D52418C2806B00D4F4AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ridgefield Parks and Recreation/Ridgefield Parks and Recreation-Prefix.pch";
 				INFOPLIST_FILE = "Ridgefield Parks and Recreation/Ridgefield Parks and Recreation-Info.plist";
@@ -478,6 +502,7 @@
 				4C88D52418C2806B00D4F4AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C88D52518C2806B00D4F4AC /* Build configuration list for PBXNativeTarget "Ridgefield Parks and RecreationTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +511,7 @@
 				4C88D52718C2806B00D4F4AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

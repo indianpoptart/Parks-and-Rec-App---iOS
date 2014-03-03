@@ -17,13 +17,25 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)makePhoneCall:(id)sender{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://2034312755"]];
+}
+-(IBAction)openSchedules:(id)sender{
+    
+}
+-(IBAction)openAgenda:(id)sender{
+    
 }
 
 @end

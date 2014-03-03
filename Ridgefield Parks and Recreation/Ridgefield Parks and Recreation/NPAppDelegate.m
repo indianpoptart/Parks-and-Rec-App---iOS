@@ -15,6 +15,9 @@
     // Override point for customization after application launch.
     return YES;
 }
+-(IBAction)callPhone:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://2034312755"]];
+}
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
