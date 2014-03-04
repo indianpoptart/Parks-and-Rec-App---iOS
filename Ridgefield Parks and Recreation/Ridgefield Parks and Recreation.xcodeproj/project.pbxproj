@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C26A73A18C55D65001845CB /* NPScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26A73918C55D65001845CB /* NPScheduleViewController.m */; };
 		4C88D4F418C2806B00D4F4AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D4F318C2806B00D4F4AC /* Foundation.framework */; };
 		4C88D4F618C2806B00D4F4AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D4F518C2806B00D4F4AC /* CoreGraphics.framework */; };
 		4C88D4F818C2806B00D4F4AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D4F718C2806B00D4F4AC /* UIKit.framework */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C26A73818C55D65001845CB /* NPScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPScheduleViewController.h; sourceTree = "<group>"; };
+		4C26A73918C55D65001845CB /* NPScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPScheduleViewController.m; sourceTree = "<group>"; };
 		4C88D4F018C2806B00D4F4AC /* Ridgefield Parks and Recreation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ridgefield Parks and Recreation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C88D4F318C2806B00D4F4AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4C88D4F518C2806B00D4F4AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -144,6 +147,8 @@
 				4C88D50918C2806B00D4F4AC /* NPViewController.m */,
 				4C88D50B18C2806B00D4F4AC /* Images.xcassets */,
 				4C88D4FA18C2806B00D4F4AC /* Supporting Files */,
+				4C26A73818C55D65001845CB /* NPScheduleViewController.h */,
+				4C26A73918C55D65001845CB /* NPScheduleViewController.m */,
 			);
 			path = "Ridgefield Parks and Recreation";
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 				4C88D50A18C2806B00D4F4AC /* NPViewController.m in Sources */,
 				4C88D50418C2806B00D4F4AC /* NPAppDelegate.m in Sources */,
 				4C88D50018C2806B00D4F4AC /* main.m in Sources */,
+				4C26A73A18C55D65001845CB /* NPScheduleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
