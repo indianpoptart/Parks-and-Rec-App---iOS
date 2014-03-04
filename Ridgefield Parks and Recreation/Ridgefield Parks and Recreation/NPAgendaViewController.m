@@ -1,19 +1,19 @@
 //
-//  PWCodeViewController.m
-//  Pocket Weather
+//  NPAgendaViewController.m
+//  Ridgefield Parks and Recreation
 //
 //  Copyright (c) 2014 NikhilP. All rights reserved.
 //
-//  This is the code view controller that manages source code page
+//  This is the agenda view controller that manages the agenda page on the main website
 
-#import "PWCodeViewController.h"
+#import "NPAgendaViewController.h"
 
 // address to the source code on GitHub
 #define SOURCE_CODE_ADDRESS @"http://www.ridgefieldparksandrec.org/agenda"
 
 @interface PWCodeViewController ()
 @property(weak, nonatomic) IBOutlet UIWebView *webView;
-
+@property (nonatomic, strong) IBOutlet UIImageView *imageView;
 @end
 
 @implementation PWCodeViewController
