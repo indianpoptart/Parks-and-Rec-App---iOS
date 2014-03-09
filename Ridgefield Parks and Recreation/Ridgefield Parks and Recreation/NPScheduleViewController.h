@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NPScheduleViewController : UITableViewController{
-    NSArray *contentArray;
-}
+@interface NPScheduleViewController : UITableViewController
+
+@property (nonatomic, strong) NSArray *Title;
+
 
 @end
