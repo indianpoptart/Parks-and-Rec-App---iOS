@@ -8,6 +8,13 @@ It is only useful to members of Ridgefield Parks and Recreation
 It displays alerts for closings, and it has schedules, agenda's
 and a button to call the facility
 
+## Why go open source?
+
+Just cause I wanted to.
+
+Nah, this app is open source since the app is already free. It is intended to be a source of sample code for everyone to benefit from. You can make cool apps that use core features of this app and hopefully get more users because you built something cool.
+
+Also, if you want to help out and fix some bugs, that would make my year :).
 
 ## License
 
