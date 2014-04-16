@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad
 {
-    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]]];
+    [self.view setBackgroundColor:[UIColor clearColor]];
     [super viewDidLoad];
     
 	// Do any additional setup after loading the view, typically from a nib.

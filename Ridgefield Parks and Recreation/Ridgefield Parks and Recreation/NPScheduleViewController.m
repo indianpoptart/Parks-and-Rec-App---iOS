@@ -29,7 +29,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    [self.view setBackgroundColor:[UIColor clearColor]];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -38,10 +38,9 @@
     _Title = @[@"Pool Schedule",
                @"Gymnasium Schedule",
                @"Premium Group Schedule",
-               @"Winter Private Swim",
-               @"Winter Swim Test Out",
+               @"Swim Lesson Schedule",
                @"Group Fitness Class",
-               @"Winter Private Swim",];
+               @"Spring Private Swim",];
 }
 
 - (void)didReceiveMemoryWarning
