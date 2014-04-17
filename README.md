@@ -23,6 +23,6 @@ If you want to fix bugs, I'll love you forever! If you would like to add some fe
 
 ## License
 
-The Parks and Rec for iOS source code is released under the [MIT License](https://github.com/indianpoptart/Parks-and-Rec-App---iOS/blob/master/LICENSE).
+The Parks and Rec for iOS source code is released under the [BSD (3-Clause) License](https://github.com/indianpoptart/Parks-and-Rec-App---iOS/blob/master/LICENSE).
 
 While it is not strictly forbidden by the license, I would greatly appreciate it if you didn't redistribute this app exactly the way it is in the App Store. There's nothing stopping you, but please don't do it.
