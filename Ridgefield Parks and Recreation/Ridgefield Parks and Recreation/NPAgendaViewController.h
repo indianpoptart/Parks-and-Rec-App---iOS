@@ -7,8 +7,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PWCodeViewController : UIViewController{
+@interface NPAgendaViewController : UIViewController{
     
+    IBOutlet UIWebView *webView;
 }
 
 @end

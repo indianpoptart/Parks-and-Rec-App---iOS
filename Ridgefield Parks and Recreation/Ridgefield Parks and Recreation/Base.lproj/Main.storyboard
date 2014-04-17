@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <deployment defaultVersion="1536" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
@@ -24,6 +24,9 @@
                                 <state key="normal" title="Schedules" backgroundImage="applabels.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="gwJ-ST-nIB" kind="push" id="nAA-LO-tty"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hm-T4-Mmh">
                                 <rect key="frame" x="20" y="286" width="280" height="52"/>
@@ -34,7 +37,7 @@
                                 </state>
                                 <connections>
                                     <action selector="openAgenda:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ETS-Me-gEX"/>
-                                    <segue destination="KMI-A1-w9N" kind="push" id="Qc4-8D-1Tc"/>
+                                    <segue destination="KMI-A1-w9N" kind="push" id="ptf-0U-KwB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pVT-TV-3p5">
@@ -69,6 +72,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="240" y="-5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kRl-75-F0p">
@@ -83,7 +87,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N4N-5o-YqD">
-                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="460"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -94,10 +98,39 @@
                                     <navigationItem title="Agenda" id="I3A-as-cbb"/>
                                 </items>
                             </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1WP-Qt-uHv">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem systemItem="rewind" id="iFn-vJ-uFw">
+                                        <connections>
+                                            <action selector="goBack" destination="N4N-5o-YqD" id="Ckl-Om-q3i"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="fastForward" id="b6w-EM-cUH">
+                                        <connections>
+                                            <action selector="goForward" destination="N4N-5o-YqD" id="fZS-YG-mEd"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="VUY-ac-JEB"/>
+                                    <barButtonItem systemItem="refresh" id="Rh8-km-C1h">
+                                        <connections>
+                                            <action selector="reload" destination="N4N-5o-YqD" id="QpU-PL-8sH"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="stop" id="vp2-ZT-aNh">
+                                        <connections>
+                                            <action selector="stopLoading" destination="N4N-5o-YqD" id="LSa-2R-tYX"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="5sz-HQ-sF2"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dqr-hS-7Nt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -113,7 +146,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="NPScheduleCell" rowHeight="70" id="4Y2-5V-XEJ" customClass="NPScheduleCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="70"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="70"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4Y2-5V-XEJ" id="Fy2-Mb-tcO">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
@@ -142,25 +175,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ng3-e5-7qB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2021" y="135"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="2wh-hA-9wO">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S5P-ji-vQ6" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FD3-WE-Hee">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="gwJ-ST-nIB" kind="relationship" relationship="rootViewController" id="o7v-5M-IZP"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="moy-je-2Dw" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1495" y="135"/>
+            <point key="canvasLocation" x="1021" y="151"/>
         </scene>
     </scenes>
     <resources>

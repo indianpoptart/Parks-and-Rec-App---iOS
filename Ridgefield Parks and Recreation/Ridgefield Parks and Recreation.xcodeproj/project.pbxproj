@@ -32,6 +32,7 @@
 		4C88D53918C283EE00D4F4AC /* Icon-Spotlight-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D53818C283EE00D4F4AC /* Icon-Spotlight-40@2x.png */; };
 		4C88D53C18C28A1D00D4F4AC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D53A18C28A1D00D4F4AC /* Default.png */; };
 		4C88D53F18C28CBF00D4F4AC /* applabdark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D53E18C28CBF00D4F4AC /* applabdark.png */; };
+		4CE1643D19006CFB000981BE /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE1643C19006CFB000981BE /* reload.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		4C88D53A18C28A1D00D4F4AC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../../../../Pictures/Default.png; sourceTree = "<group>"; };
 		4C88D53E18C28CBF00D4F4AC /* applabdark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = applabdark.png; path = ../../../../../Pictures/applabdark.png; sourceTree = "<group>"; };
 		4C88D55118C2927D00D4F4AC /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		4CE1643C19006CFB000981BE /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		4C26A73F18C56FD7001845CB /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				4CE1643C19006CFB000981BE /* reload.png */,
 				4C88D53218C2835700D4F4AC /* Default~iphone.png */,
 				4C88D53E18C28CBF00D4F4AC /* applabdark.png */,
 				4C88D53618C283D800D4F4AC /* Icon-Small@2x.png */,
@@ -300,6 +303,7 @@
 				4C88D4FE18C2806B00D4F4AC /* InfoPlist.strings in Resources */,
 				4C88D53C18C28A1D00D4F4AC /* Default.png in Resources */,
 				4C88D50718C2806B00D4F4AC /* Main.storyboard in Resources */,
+				4CE1643D19006CFB000981BE /* reload.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

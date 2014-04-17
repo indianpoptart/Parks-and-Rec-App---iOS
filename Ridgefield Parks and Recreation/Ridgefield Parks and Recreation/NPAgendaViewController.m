@@ -11,19 +11,17 @@
 // address to the source code on GitHub
 #define SOURCE_CODE_ADDRESS @"http://www.ridgefieldparksandrec.org/agenda"
 
-@interface PWCodeViewController ()
+@interface NPAgendaViewController ()
 @property(weak, nonatomic) IBOutlet UIWebView *webView;
 @property (nonatomic, strong) IBOutlet UIImageView *imageView;
 @end
 
-@implementation PWCodeViewController
+@implementation NPAgendaViewController
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	NSURL *websiteUrl = [NSURL URLWithString:SOURCE_CODE_ADDRESS];
-    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:websiteUrl];
-    [self.webView loadRequest:urlRequest];
+	[webView loadRequest: [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://ridgefieldparksandrec.org/agenda"]]];
 }
 
 @end
