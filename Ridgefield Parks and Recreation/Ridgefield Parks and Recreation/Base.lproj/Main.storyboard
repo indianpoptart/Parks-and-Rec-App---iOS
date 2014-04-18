@@ -59,7 +59,20 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qN3-pi-8Hz">
                                         <rect key="frame" x="-37" y="-51" width="314" height="522"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
+                                        </accessibility>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfK-yH-Up9">
+                                        <rect key="frame" x="194" y="0.0" width="46" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" backgroundImage="reload.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="reloadData:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Fiw-XL-K4z"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.31521613569777351" green="0.59370350439876329" blue="0.84466287364130432" alpha="1" colorSpace="calibratedRGB"/>
                             </scrollView>
@@ -74,10 +87,10 @@
             </objects>
             <point key="canvasLocation" x="240" y="-5"/>
         </scene>
-        <!--View Controller-->
+        <!--Agenda View Controller-->
         <scene sceneID="kRl-75-F0p">
             <objects>
-                <viewController id="KMI-A1-w9N" sceneMemberID="viewController">
+                <viewController id="KMI-A1-w9N" customClass="NPAgendaViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cxb-AZ-wLT"/>
                         <viewControllerLayoutGuide type="bottom" id="Esw-62-10L"/>
@@ -180,6 +193,7 @@
     </scenes>
     <resources>
         <image name="applabels.png" width="388" height="72"/>
+        <image name="reload.png" width="512" height="512"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

@@ -7,6 +7,8 @@
 //
 
 #import "NPViewController.h"
+#import "TFHpple.h"
+#import "Contributor.h"
 
 @interface NPViewController ()
 
@@ -18,7 +20,6 @@
 {
     [self.view setBackgroundColor:[UIColor clearColor]];
     [super viewDidLoad];
-    
 	// Do any additional setup after loading the view, typically from a nib.
     
 }
@@ -30,13 +31,36 @@
 }
 
 -(IBAction)makePhoneCall:(id)sender{
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://2034312755"]];
-}
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:2034312755"]];
+    }
 -(IBAction)openSchedules:(id)sender{
     
 }
 -(IBAction)openAgenda:(id)sender{
     
+}
+-(IBAction)reloadData:(id)sender{
+    // 1
+    NSURL *tutorialsUrl = [NSURL URLWithString:@"http://www.ridgefieldparksandrec.org/"];
+    NSData *tutorialsHtmlData = [NSData dataWithContentsOfURL:tutorialsUrl];
+    
+    // 2
+    TFHpple *tutorialsParser = [TFHpple hppleWithHTMLData:tutorialsHtmlData];
+    
+    // 3
+    NSString *tutorialsXpathQueryString = @"//div[@class='alert']/ul/li/a";
+    NSArray *tutorialsNodes = [tutorialsParser searchWithXPathQuery:tutorialsXpathQueryString];
+    
+    // 4
+    NSMutableArray *newTutorials = [[NSMutableArray alloc] initWithCapacity:0];
+    for (TFHppleElement *element in tutorialsNodes) {
+        // 5
+        NPViewController *tutorial = [[NPViewController alloc] init];
+        [newTutorials addObject:tutorial];
+        
+        // 6
+        tutorial.title = [[element firstChild] content];
+    }
 }
 
 @end
