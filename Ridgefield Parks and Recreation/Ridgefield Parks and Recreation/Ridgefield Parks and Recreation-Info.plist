@@ -9,17 +9,9 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIcons</key>
-	<dict>
-		<key>CFBundlePrimaryIcon</key>
-		<dict>
-			<key>CFBundleIconFiles</key>
-			<array>
-				<string>Icon-Spotlight-40</string>
-				<string>Icon-Small</string>
-				<string>Icon-60</string>
-			</array>
-		</dict>
-	</dict>
+	<dict/>
+	<key>CFBundleIcons~ipad</key>
+	<dict/>
 	<key>CFBundleIdentifier</key>
 	<string>com.nikhilparanjape.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -36,71 +28,8 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>UILaunchImageFile</key>
-	<string>Default</string>
-	<key>UILaunchImages</key>
-	<array>
-		<dict>
-			<key>UILaunchImageMinimumOSVersion</key>
-			<string>7.0</string>
-			<key>UILaunchImageName</key>
-			<string>Default</string>
-			<key>UILaunchImageOrientation</key>
-			<string>Portrait</string>
-			<key>UILaunchImageSize</key>
-			<string>{320, 480}</string>
-		</dict>
-		<dict>
-			<key>UILaunchImageMinimumOSVersion</key>
-			<string>7.0</string>
-			<key>UILaunchImageName</key>
-			<string>Default</string>
-			<key>UILaunchImageOrientation</key>
-			<string>Portrait</string>
-			<key>UILaunchImageSize</key>
-			<string>{320, 568}</string>
-		</dict>
-		<dict>
-			<key>UILaunchImageMinimumOSVersion</key>
-			<string>7.0</string>
-			<key>UILaunchImageName</key>
-			<string>lnchImage</string>
-			<key>UILaunchImageOrientation</key>
-			<string>Portrait</string>
-			<key>UILaunchImageSize</key>
-			<string>{320, 568}</string>
-		</dict>
-		<dict>
-			<key>UILaunchImageMinimumOSVersion</key>
-			<string>7.0</string>
-			<key>UILaunchImageName</key>
-			<string>LnchImage-NR</string>
-			<key>UILaunchImageOrientation</key>
-			<string>Portrait</string>
-			<key>UILaunchImageSize</key>
-			<string>{320, 480}</string>
-		</dict>
-		<dict>
-			<key>UILaunchImageMinimumOSVersion</key>
-			<string>7.0</string>
-			<key>UILaunchImageName</key>
-			<string>lnchImage</string>
-			<key>UILaunchImageOrientation</key>
-			<string>Portrait</string>
-			<key>UILaunchImageSize</key>
-			<string>{320, 568}</string>
-		</dict>
-		<dict>
-			<key>UILaunchImageMinimumOSVersion</key>
-			<string>7.0</string>
-			<key>UILaunchImageName</key>
-			<string>launchImage</string>
-			<key>UILaunchImageOrientation</key>
-			<string>Portrait</string>
-			<key>UILaunchImageSize</key>
-			<string>{320, 568}</string>
-		</dict>
-	</array>
+	<key>NSMainNibFile~ipad</key>
+	<string>Main-iPad</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>

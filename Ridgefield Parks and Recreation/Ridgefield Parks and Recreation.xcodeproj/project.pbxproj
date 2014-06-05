@@ -25,13 +25,6 @@
 		4C88D51518C2806B00D4F4AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D4F718C2806B00D4F4AC /* UIKit.framework */; };
 		4C88D51D18C2806B00D4F4AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D51B18C2806B00D4F4AC /* InfoPlist.strings */; };
 		4C88D51F18C2806B00D4F4AC /* Ridgefield_Parks_and_RecreationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C88D51E18C2806B00D4F4AC /* Ridgefield_Parks_and_RecreationTests.m */; };
-		4C88D52C18C2812400D4F4AC /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D52B18C2812400D4F4AC /* background.png */; };
-		4C88D52D18C2813500D4F4AC /* applabels.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D52F18C2813500D4F4AC /* applabels.png */; };
-		4C88D53318C2835700D4F4AC /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D53218C2835700D4F4AC /* Default~iphone.png */; };
-		4C88D53718C283D800D4F4AC /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D53618C283D800D4F4AC /* Icon-Small@2x.png */; };
-		4C88D53918C283EE00D4F4AC /* Icon-Spotlight-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D53818C283EE00D4F4AC /* Icon-Spotlight-40@2x.png */; };
-		4C88D53C18C28A1D00D4F4AC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D53A18C28A1D00D4F4AC /* Default.png */; };
-		4C88D53F18C28CBF00D4F4AC /* applabdark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D53E18C28CBF00D4F4AC /* applabdark.png */; };
 		4C8CC6FB1901A4BB008A2316 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CC6F81901A4BB008A2316 /* TFHpple.m */; };
 		4C8CC6FC1901A4BB008A2316 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CC6FA1901A4BB008A2316 /* TFHppleElement.m */; };
 		4C8CC6FE1901A528008A2316 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8CC6FD1901A528008A2316 /* libxml2.2.dylib */; };
@@ -78,14 +71,6 @@
 		4C88D51A18C2806B00D4F4AC /* Ridgefield Parks and RecreationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ridgefield Parks and RecreationTests-Info.plist"; sourceTree = "<group>"; };
 		4C88D51C18C2806B00D4F4AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C88D51E18C2806B00D4F4AC /* Ridgefield_Parks_and_RecreationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ridgefield_Parks_and_RecreationTests.m; sourceTree = "<group>"; };
-		4C88D52818C280BD00D4F4AC /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "../../../../Pictures/PandR-iOS-Icons/iPhone/Icon-60@2x.png"; sourceTree = "<group>"; };
-		4C88D52B18C2812400D4F4AC /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../../../../Pictures/background.png; sourceTree = "<group>"; };
-		4C88D52E18C2813500D4F4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/applabels.png; sourceTree = "<group>"; };
-		4C88D53218C2835700D4F4AC /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~iphone.png"; path = "../../../../../Pictures/Default~iphone.png"; sourceTree = "<group>"; };
-		4C88D53618C283D800D4F4AC /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "../../../../../Pictures/PandR-iOS-Icons/iPhone/Icon-Small@2x.png"; sourceTree = "<group>"; };
-		4C88D53818C283EE00D4F4AC /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Spotlight-40@2x.png"; path = "../../../../../Pictures/PandR-iOS-Icons/iPhone/Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
-		4C88D53A18C28A1D00D4F4AC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../../../../Pictures/Default.png; sourceTree = "<group>"; };
-		4C88D53E18C28CBF00D4F4AC /* applabdark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = applabdark.png; path = ../../../../../Pictures/applabdark.png; sourceTree = "<group>"; };
 		4C88D55118C2927D00D4F4AC /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		4C8CC6F71901A4BB008A2316 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
 		4C8CC6F81901A4BB008A2316 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
@@ -145,13 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				4CE1643C19006CFB000981BE /* reload.png */,
-				4C88D53218C2835700D4F4AC /* Default~iphone.png */,
-				4C88D53E18C28CBF00D4F4AC /* applabdark.png */,
-				4C88D53618C283D800D4F4AC /* Icon-Small@2x.png */,
-				4C88D53A18C28A1D00D4F4AC /* Default.png */,
-				4C88D53818C283EE00D4F4AC /* Icon-Spotlight-40@2x.png */,
-				4C88D52B18C2812400D4F4AC /* background.png */,
-				4C88D52F18C2813500D4F4AC /* applabels.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -159,7 +137,6 @@
 		4C88D4E718C2806B00D4F4AC = {
 			isa = PBXGroup;
 			children = (
-				4C88D52818C280BD00D4F4AC /* Icon-60@2x.png */,
 				4C88D4F918C2806B00D4F4AC /* Ridgefield Parks and Recreation */,
 				4C88D51818C2806B00D4F4AC /* Ridgefield Parks and RecreationTests */,
 				4C88D4F218C2806B00D4F4AC /* Frameworks */,
@@ -192,6 +169,7 @@
 		4C88D4F918C2806B00D4F4AC /* Ridgefield Parks and Recreation */ = {
 			isa = PBXGroup;
 			children = (
+				4CDFE6321941151E00A368CE /* iPad */,
 				4C88D50218C2806B00D4F4AC /* NPAppDelegate.h */,
 				4C88D50318C2806B00D4F4AC /* NPAppDelegate.m */,
 				4C88D50518C2806B00D4F4AC /* Main.storyboard */,
@@ -247,6 +225,13 @@
 			name = HTMLParsing;
 			sourceTree = "<group>";
 		};
+		4CDFE6321941151E00A368CE /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -295,6 +280,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = NikhilP;
 				TargetAttributes = {
+					4C88D4EF18C2806B00D4F4AC = {
+						DevelopmentTeam = H29XD2P9YS;
+					};
 					4C88D51018C2806B00D4F4AC = {
 						TestTargetID = 4C88D4EF18C2806B00D4F4AC;
 					};
@@ -324,15 +312,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C88D53318C2835700D4F4AC /* Default~iphone.png in Resources */,
-				4C88D53918C283EE00D4F4AC /* Icon-Spotlight-40@2x.png in Resources */,
-				4C88D52D18C2813500D4F4AC /* applabels.png in Resources */,
-				4C88D53F18C28CBF00D4F4AC /* applabdark.png in Resources */,
-				4C88D52C18C2812400D4F4AC /* background.png in Resources */,
 				4C88D50C18C2806B00D4F4AC /* Images.xcassets in Resources */,
-				4C88D53718C283D800D4F4AC /* Icon-Small@2x.png in Resources */,
 				4C88D4FE18C2806B00D4F4AC /* InfoPlist.strings in Resources */,
-				4C88D53C18C28A1D00D4F4AC /* Default.png in Resources */,
 				4C88D50718C2806B00D4F4AC /* Main.storyboard in Resources */,
 				4CE1643D19006CFB000981BE /* reload.png in Resources */,
 			);
@@ -407,15 +388,6 @@
 				4C88D51C18C2806B00D4F4AC /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4C88D52F18C2813500D4F4AC /* applabels.png */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C88D52E18C2813500D4F4AC /* Base */,
-			);
-			name = applabels.png;
-			path = ../../../../../Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -496,6 +468,10 @@
 		4C88D52318C2806B00D4F4AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ridgefield Parks and Recreation/Ridgefield Parks and Recreation-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -504,10 +480,10 @@
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "Ridgefield Parks and Recreation/Ridgefield Parks and Recreation-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "EE1E7BDC-F0A5-4AE9-A94E-1B083772D013";
-				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -515,7 +491,10 @@
 		4C88D52418C2806B00D4F4AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Nikhil Paranjape (8EW3GQQZAQ)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ridgefield Parks and Recreation/Ridgefield Parks and Recreation-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -524,10 +503,10 @@
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "Ridgefield Parks and Recreation/Ridgefield Parks and Recreation-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "EE1E7BDC-F0A5-4AE9-A94E-1B083772D013";
-				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
