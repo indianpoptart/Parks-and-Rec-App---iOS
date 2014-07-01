@@ -30,6 +30,7 @@
 		4C8CC6FE1901A528008A2316 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8CC6FD1901A528008A2316 /* libxml2.2.dylib */; };
 		4C8CC6FF1901A52F008A2316 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D55118C2927D00D4F4AC /* libxml2.dylib */; };
 		4C8CC7031901A67F008A2316 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CC7021901A67F008A2316 /* XPathQuery.m */; };
+		4CD9ABC5195E548700E03CFA /* applabels.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD9ABC4195E548700E03CFA /* applabels.png */; };
 		4CE1643D19006CFB000981BE /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE1643C19006CFB000981BE /* reload.png */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +81,7 @@
 		4C8CC7001901A5A0008A2316 /* Contributer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contributer.h; sourceTree = "<group>"; };
 		4C8CC7011901A67F008A2316 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
 		4C8CC7021901A67F008A2316 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		4CD9ABC4195E548700E03CFA /* applabels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applabels.png; sourceTree = "<group>"; };
 		4CE1643C19006CFB000981BE /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,6 +131,7 @@
 		4C26A73F18C56FD7001845CB /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				4CD9ABC4195E548700E03CFA /* applabels.png */,
 				4CE1643C19006CFB000981BE /* reload.png */,
 			);
 			name = Images;
@@ -313,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C88D50C18C2806B00D4F4AC /* Images.xcassets in Resources */,
+				4CD9ABC5195E548700E03CFA /* applabels.png in Resources */,
 				4C88D4FE18C2806B00D4F4AC /* InfoPlist.strings in Resources */,
 				4C88D50718C2806B00D4F4AC /* Main.storyboard in Resources */,
 				4CE1643D19006CFB000981BE /* reload.png in Resources */,
