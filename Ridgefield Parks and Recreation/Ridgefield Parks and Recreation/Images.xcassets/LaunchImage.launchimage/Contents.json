@@ -5,6 +5,7 @@
       "idiom" : "iphone",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
+      "filename" : "iPhone5-iPodT5g.png",
       "scale" : "2x"
     },
     {
@@ -41,7 +42,6 @@
       "idiom" : "ipad",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "launchImage.png",
       "scale" : "2x"
     }
   ],

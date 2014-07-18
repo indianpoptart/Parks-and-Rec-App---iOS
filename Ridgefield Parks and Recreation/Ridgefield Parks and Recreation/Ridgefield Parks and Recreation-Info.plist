@@ -30,6 +30,8 @@
 	<true/>
 	<key>NSMainNibFile~ipad</key>
 	<string>Main-iPad</string>
+	<key>UILaunchStoryboardName</key>
+	<string>Main</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
