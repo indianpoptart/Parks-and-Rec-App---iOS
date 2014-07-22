@@ -11,6 +11,7 @@
 		4C26A73D18C56FB5001845CB /* NPAgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26A73C18C56FB5001845CB /* NPAgendaViewController.m */; };
 		4C41F80B18CBEC910022FCCB /* NPScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C41F80A18CBEC910022FCCB /* NPScheduleCell.m */; };
 		4C41F80E18CBF02B0022FCCB /* NPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C41F80D18CBF02B0022FCCB /* NPDetailViewController.m */; };
+		4C7F0F4C197E510F0094BB48 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F4B197E510F0094BB48 /* background2.png */; };
 		4C88D4F418C2806B00D4F4AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D4F318C2806B00D4F4AC /* Foundation.framework */; };
 		4C88D4F618C2806B00D4F4AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D4F518C2806B00D4F4AC /* CoreGraphics.framework */; };
 		4C88D4F818C2806B00D4F4AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D4F718C2806B00D4F4AC /* UIKit.framework */; };
@@ -53,6 +54,7 @@
 		4C41F80A18CBEC910022FCCB /* NPScheduleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPScheduleCell.m; sourceTree = "<group>"; };
 		4C41F80C18CBF02B0022FCCB /* NPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPDetailViewController.h; sourceTree = "<group>"; };
 		4C41F80D18CBF02B0022FCCB /* NPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPDetailViewController.m; sourceTree = "<group>"; };
+		4C7F0F4B197E510F0094BB48 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
 		4C88D4F018C2806B00D4F4AC /* Ridgefield Parks and Recreation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ridgefield Parks and Recreation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C88D4F318C2806B00D4F4AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4C88D4F518C2806B00D4F4AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				4CD9ABC4195E548700E03CFA /* applabels.png */,
+				4C7F0F4B197E510F0094BB48 /* background2.png */,
 				4CE1643C19006CFB000981BE /* reload.png */,
 			);
 			name = Images;
@@ -319,6 +322,7 @@
 				4CD9ABC5195E548700E03CFA /* applabels.png in Resources */,
 				4C88D4FE18C2806B00D4F4AC /* InfoPlist.strings in Resources */,
 				4C88D50718C2806B00D4F4AC /* Main.storyboard in Resources */,
+				4C7F0F4C197E510F0094BB48 /* background2.png in Resources */,
 				4CE1643D19006CFB000981BE /* reload.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,7 +490,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -508,7 +512,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

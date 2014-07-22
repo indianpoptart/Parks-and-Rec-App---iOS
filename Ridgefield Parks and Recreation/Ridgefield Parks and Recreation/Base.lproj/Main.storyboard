@@ -33,8 +33,8 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="openAgenda:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ETS-Me-gEX"/>
-                                    <segue destination="KMI-A1-w9N" kind="push" id="ptf-0U-KwB"/>
+                                    <action selector="openAgenda:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gqx-mS-7HB"/>
+                                    <segue destination="KMI-A1-w9N" kind="push" id="9S7-9O-nBf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pVT-TV-3p5">
@@ -63,9 +63,15 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="reloadData:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Fiw-XL-K4z"/>
+                                            <action selector="reloadData:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GTY-5Y-ziw"/>
                                         </connections>
                                     </button>
+                                    <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Information" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="127" translatesAutoresizingMaskIntoConstraints="NO" id="Onb-tE-blb">
+                                        <rect key="frame" x="59" y="0.0" width="127" height="85"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.99215692281723022" green="0.9960784912109375" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.31521613569777351" green="0.59370350439876329" blue="0.84466287364130432" alpha="1" colorSpace="calibratedRGB"/>
                             </scrollView>
@@ -78,7 +84,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="240" y="-5"/>
+            <point key="canvasLocation" x="138" y="69"/>
         </scene>
         <!--Agenda View Controller-->
         <scene sceneID="kRl-75-F0p">
@@ -92,10 +98,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N4N-5o-YqD">
-                                <rect key="frame" x="0.0" y="64" width="320" height="460"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </webView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="McX-Yl-QEe">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <items>
@@ -128,6 +130,10 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N4N-5o-YqD">
+                                <rect key="frame" x="0.0" y="64" width="320" height="460"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -137,7 +143,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dqr-hS-7Nt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1041" y="-574"/>
+            <point key="canvasLocation" x="555" y="-350"/>
         </scene>
         <!--Schedule Table Cell - Schedules-->
         <scene sceneID="dlH-aO-zAC">

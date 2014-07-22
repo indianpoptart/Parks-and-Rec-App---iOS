@@ -15,10 +15,10 @@
 @end
 
 @implementation NPViewController
-
 - (void)viewDidLoad
 {
     [self.view setBackgroundColor:[UIColor clearColor]];
+	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background2.png"]]];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
@@ -32,23 +32,23 @@
 
 -(IBAction)makePhoneCall:(id)sender{
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:2034312755"]];
-    }
+}
 -(IBAction)openSchedules:(id)sender{
     
 }
 -(IBAction)openAgenda:(id)sender{
-    
+	[super viewDidLoad];
 }
 -(IBAction)reloadData:(id)sender{
     // 1
-    NSURL *tutorialsUrl = [NSURL URLWithString:@"http://www.ridgefieldparksandrec.org/"];
+    NSURL *tutorialsUrl = [NSURL URLWithString:@"http://www.test.nikhilp.org/"];
     NSData *tutorialsHtmlData = [NSData dataWithContentsOfURL:tutorialsUrl];
     
     // 2
     TFHpple *tutorialsParser = [TFHpple hppleWithHTMLData:tutorialsHtmlData];
     
     // 3
-    NSString *tutorialsXpathQueryString = @"//div[@class='alert']/ul/li/a";
+    NSString *tutorialsXpathQueryString = @"";
     NSArray *tutorialsNodes = [tutorialsParser searchWithXPathQuery:tutorialsXpathQueryString];
     
     // 4
