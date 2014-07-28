@@ -51,7 +51,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KTG-Rx-xmf">
                                 <rect key="frame" x="40" y="75" width="240" height="85"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qN3-pi-8Hz">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="applabelsdark.png" translatesAutoresizingMaskIntoConstraints="NO" id="qN3-pi-8Hz">
                                         <rect key="frame" x="-37" y="-51" width="314" height="522"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
@@ -188,6 +188,7 @@
     </scenes>
     <resources>
         <image name="applabels.png" width="388" height="72"/>
+        <image name="applabelsdark.png" width="372" height="88"/>
         <image name="reload.png" width="512" height="512"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
