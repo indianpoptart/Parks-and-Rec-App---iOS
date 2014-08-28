@@ -20,6 +20,7 @@
 	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background2.png"]]];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+	
     
 }
 
@@ -33,21 +34,21 @@
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:2034312755"]];
 }
 -(IBAction)openSchedules:(id)sender{
-    
+	[super viewDidLoad];
 }
 -(IBAction)openAgenda:(id)sender{
 	[super viewDidLoad];
 }
 -(IBAction)reloadData:(id)sender{
     // 1
-    NSURL *tutorialsUrl = [NSURL URLWithString:@"http://www.test.nikhilp.org/"];
+    NSURL *tutorialsUrl = [NSURL URLWithString:@"http://www.ridgefieldparksandrec.org/"];
     NSData *tutorialsHtmlData = [NSData dataWithContentsOfURL:tutorialsUrl];
     
     // 2
     TFHpple *tutorialsParser = [TFHpple hppleWithHTMLData:tutorialsHtmlData];
     
     // 3
-    NSString *tutorialsXpathQueryString = @"";
+    NSString *tutorialsXpathQueryString = @"//div[@class='alert']/ul/li/a";
     NSArray *tutorialsNodes = [tutorialsParser searchWithXPathQuery:tutorialsXpathQueryString];
     
     // 4
