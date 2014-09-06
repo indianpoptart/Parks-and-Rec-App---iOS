@@ -32,6 +32,10 @@
 		4C8547B819BABB870044AA4F /* GymController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8547B719BABB870044AA4F /* GymController.m */; };
 		4C8547BB19BABCFF0044AA4F /* GroupFitnessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8547BA19BABCFF0044AA4F /* GroupFitnessController.m */; };
 		4C8547BE19BABD940044AA4F /* PremiumGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8547BD19BABD940044AA4F /* PremiumGroupController.m */; };
+		4C8547C119BAC2500044AA4F /* NPAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8547C019BAC2500044AA4F /* NPAboutViewController.m */; };
+		4C8547C319BAC3480044AA4F /* prlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8547C219BAC3480044AA4F /* prlogo.png */; };
+		4C8547C519BAC4120044AA4F /* rec.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8547C419BAC4120044AA4F /* rec.png */; };
+		4C8547C819BAC83C0044AA4F /* NPScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8547C719BAC83C0044AA4F /* NPScheduleViewController.m */; };
 		4C88D4F418C2806B00D4F4AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D4F318C2806B00D4F4AC /* Foundation.framework */; };
 		4C88D4F618C2806B00D4F4AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D4F518C2806B00D4F4AC /* CoreGraphics.framework */; };
 		4C88D4F818C2806B00D4F4AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D4F718C2806B00D4F4AC /* UIKit.framework */; };
@@ -98,6 +102,12 @@
 		4C8547BA19BABCFF0044AA4F /* GroupFitnessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupFitnessController.m; sourceTree = "<group>"; };
 		4C8547BC19BABD940044AA4F /* PremiumGroupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremiumGroupController.h; sourceTree = "<group>"; };
 		4C8547BD19BABD940044AA4F /* PremiumGroupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremiumGroupController.m; sourceTree = "<group>"; };
+		4C8547BF19BAC2500044AA4F /* NPAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPAboutViewController.h; sourceTree = "<group>"; };
+		4C8547C019BAC2500044AA4F /* NPAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPAboutViewController.m; sourceTree = "<group>"; };
+		4C8547C219BAC3480044AA4F /* prlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prlogo.png; sourceTree = "<group>"; };
+		4C8547C419BAC4120044AA4F /* rec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec.png; sourceTree = "<group>"; };
+		4C8547C619BAC83C0044AA4F /* NPScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPScheduleViewController.h; sourceTree = "<group>"; };
+		4C8547C719BAC83C0044AA4F /* NPScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPScheduleViewController.m; sourceTree = "<group>"; };
 		4C88D4F018C2806B00D4F4AC /* Ridgefield Parks and Recreation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ridgefield Parks and Recreation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C88D4F318C2806B00D4F4AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4C88D4F518C2806B00D4F4AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -163,6 +173,10 @@
 				4C88D50918C2806B00D4F4AC /* NPViewController.m */,
 				4C26A73B18C56FB5001845CB /* NPAgendaViewController.h */,
 				4C26A73C18C56FB5001845CB /* NPAgendaViewController.m */,
+				4C8547BF19BAC2500044AA4F /* NPAboutViewController.h */,
+				4C8547C019BAC2500044AA4F /* NPAboutViewController.m */,
+				4C8547C619BAC83C0044AA4F /* NPScheduleViewController.h */,
+				4C8547C719BAC83C0044AA4F /* NPScheduleViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -181,6 +195,8 @@
 				4C85479C19BAB71B0044AA4F /* reload6.png */,
 				4C85479D19BAB71B0044AA4F /* reload7.png */,
 				4C85479E19BAB71B0044AA4F /* reload8.png */,
+				4C8547C219BAC3480044AA4F /* prlogo.png */,
+				4C8547C419BAC4120044AA4F /* rec.png */,
 				4CD9ABC4195E548700E03CFA /* applabels.png */,
 				4C7F0F4F198120A90094BB48 /* applabelsdark.png */,
 				4C7F0F4B197E510F0094BB48 /* background2.png */,
@@ -408,8 +424,10 @@
 				4CD9ABC5195E548700E03CFA /* applabels.png in Resources */,
 				4C88D4FE18C2806B00D4F4AC /* InfoPlist.strings in Resources */,
 				4C8547AF19BAB8680044AA4F /* premiumgroup.pdf in Resources */,
+				4C8547C319BAC3480044AA4F /* prlogo.png in Resources */,
 				4C85478B19BAB0CA0044AA4F /* privateswim.pdf in Resources */,
 				4C8547A019BAB71B0044AA4F /* reload6.png in Resources */,
+				4C8547C519BAC4120044AA4F /* rec.png in Resources */,
 				4C88D50718C2806B00D4F4AC /* Main.storyboard in Resources */,
 				4C85477D19BAA4690044AA4F /* pool.pdf in Resources */,
 				4C8547A219BAB71B0044AA4F /* reload8.png in Resources */,
@@ -443,7 +461,9 @@
 				4C85478E19BAB0E90044AA4F /* PrivateSwimController.m in Sources */,
 				4C88D50018C2806B00D4F4AC /* main.m in Sources */,
 				4C8547BB19BABCFF0044AA4F /* GroupFitnessController.m in Sources */,
+				4C8547C119BAC2500044AA4F /* NPAboutViewController.m in Sources */,
 				4C26A73D18C56FB5001845CB /* NPAgendaViewController.m in Sources */,
+				4C8547C819BAC83C0044AA4F /* NPScheduleViewController.m in Sources */,
 				4C8CC6FC1901A4BB008A2316 /* TFHppleElement.m in Sources */,
 				4C8CC6FB1901A4BB008A2316 /* TFHpple.m in Sources */,
 			);
@@ -584,7 +604,7 @@
 				INFOPLIST_FILE = "Ridgefield Parks and Recreation/Ridgefield Parks and Recreation-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "bd2f34fc-ea51-4bbd-a6c6-03f430aee9f4";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -596,7 +616,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ridgefield Parks and Recreation/Ridgefield Parks and Recreation-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -607,7 +627,7 @@
 				INFOPLIST_FILE = "Ridgefield Parks and Recreation/Ridgefield Parks and Recreation-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "bd2f34fc-ea51-4bbd-a6c6-03f430aee9f4";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

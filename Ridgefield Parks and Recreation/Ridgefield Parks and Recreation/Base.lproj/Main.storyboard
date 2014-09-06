@@ -77,6 +77,16 @@
                                     <navigationItem title="Parks and Rec Center" id="LLu-FC-5N9"/>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TBf-DQ-a1r">
+                                <rect key="frame" x="20" y="406" width="280" height="52"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <state key="normal" title="About" backgroundImage="applabels.png">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FYJ-w0-xA5" kind="modal" id="fRc-48-ZYc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -94,7 +104,7 @@
         <!--Schedules-->
         <scene sceneID="bu9-Ic-3Az">
             <objects>
-                <viewController title="Schedules" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="yWI-a7-XbD" sceneMemberID="viewController">
+                <viewController title="Schedules" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="yWI-a7-XbD" customClass="NPScheduleViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uVv-LW-GeF"/>
                         <viewControllerLayoutGuide type="bottom" id="Eb0-ht-t8W"/>
@@ -200,6 +210,66 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aCq-5j-Yt2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="564" y="302"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="lZd-tr-5jW">
+            <objects>
+                <viewController title="About" modalTransitionStyle="crossDissolve" id="FYJ-w0-xA5" customClass="NPAboutViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3ev-hD-V21"/>
+                        <viewControllerLayoutGuide type="bottom" id="vym-4H-zT1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xRq-H9-w6Y">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OjJ-9Z-IGr">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <color key="barTintColor" red="0.97254901959999995" green="0.64313725489999995" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="About" id="eYb-RJ-jNc"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHJ-yk-uQc">
+                                <rect key="frame" x="10" y="38" width="30" height="30"/>
+                                <state key="normal" image="backward-7.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="9RQ-8x-10C"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Parks and Rec for iOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFU-rE-qyl">
+                                <rect key="frame" x="0.0" y="76" width="320" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prlogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="T2D-qv-6ZY">
+                                <rect key="frame" x="0.0" y="381" width="320" height="187"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Version 1.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wn7-EP-6N2">
+                                <rect key="frame" x="0.0" y="352" width="320" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Created by Nikhil Paranjape" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsC-vF-e9k">
+                                <rect key="frame" x="0.0" y="333" width="320" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rec.png" translatesAutoresizingMaskIntoConstraints="NO" id="6AA-pX-kEz">
+                                <rect key="frame" x="10" y="127" width="294" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FN0-RA-Slf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="729"/>
         </scene>
         <!--Pool Schedule-->
         <scene sceneID="3Cm-6p-hB2">
@@ -584,6 +654,8 @@
         <image name="applabels.png" width="388" height="72"/>
         <image name="applabelsdark.png" width="372" height="88"/>
         <image name="backward-7.png" width="30" height="30"/>
+        <image name="prlogo.png" width="945" height="547"/>
+        <image name="rec.png" width="700" height="300"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
