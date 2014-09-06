@@ -12,6 +12,7 @@
 		4C7F0F50198120A90094BB48 /* applabelsdark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F4F198120A90094BB48 /* applabelsdark.png */; };
 		4C7F0F5419839CD30094BB48 /* default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F5319839CD30094BB48 /* default-568h@2x.png */; };
 		4C7F0F5619839CD80094BB48 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F5519839CD80094BB48 /* default@2x.png */; };
+		4C853A1A19BB37B700C3CFF3 /* rec2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C853A1919BB37B700C3CFF3 /* rec2.png */; };
 		4C85477D19BAA4690044AA4F /* pool.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C85477C19BAA4690044AA4F /* pool.pdf */; };
 		4C85478919BAAE180044AA4F /* PoolController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C85478819BAAE180044AA4F /* PoolController.m */; };
 		4C85478B19BAB0CA0044AA4F /* privateswim.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C85478A19BAB0CA0044AA4F /* privateswim.pdf */; };
@@ -34,7 +35,6 @@
 		4C8547BE19BABD940044AA4F /* PremiumGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8547BD19BABD940044AA4F /* PremiumGroupController.m */; };
 		4C8547C119BAC2500044AA4F /* NPAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8547C019BAC2500044AA4F /* NPAboutViewController.m */; };
 		4C8547C319BAC3480044AA4F /* prlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8547C219BAC3480044AA4F /* prlogo.png */; };
-		4C8547C519BAC4120044AA4F /* rec.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8547C419BAC4120044AA4F /* rec.png */; };
 		4C8547C819BAC83C0044AA4F /* NPScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8547C719BAC83C0044AA4F /* NPScheduleViewController.m */; };
 		4C88D4F418C2806B00D4F4AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D4F318C2806B00D4F4AC /* Foundation.framework */; };
 		4C88D4F618C2806B00D4F4AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D4F518C2806B00D4F4AC /* CoreGraphics.framework */; };
@@ -76,6 +76,7 @@
 		4C7F0F4F198120A90094BB48 /* applabelsdark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applabelsdark.png; sourceTree = "<group>"; };
 		4C7F0F5319839CD30094BB48 /* default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-568h@2x.png"; sourceTree = "<group>"; };
 		4C7F0F5519839CD80094BB48 /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@2x.png"; sourceTree = "<group>"; };
+		4C853A1919BB37B700C3CFF3 /* rec2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec2.png; sourceTree = "<group>"; };
 		4C85477C19BAA4690044AA4F /* pool.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pool.pdf; sourceTree = "<group>"; };
 		4C85478719BAAE180044AA4F /* PoolController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoolController.h; sourceTree = "<group>"; };
 		4C85478819BAAE180044AA4F /* PoolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoolController.m; sourceTree = "<group>"; };
@@ -105,7 +106,6 @@
 		4C8547BF19BAC2500044AA4F /* NPAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPAboutViewController.h; sourceTree = "<group>"; };
 		4C8547C019BAC2500044AA4F /* NPAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPAboutViewController.m; sourceTree = "<group>"; };
 		4C8547C219BAC3480044AA4F /* prlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prlogo.png; sourceTree = "<group>"; };
-		4C8547C419BAC4120044AA4F /* rec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec.png; sourceTree = "<group>"; };
 		4C8547C619BAC83C0044AA4F /* NPScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPScheduleViewController.h; sourceTree = "<group>"; };
 		4C8547C719BAC83C0044AA4F /* NPScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPScheduleViewController.m; sourceTree = "<group>"; };
 		4C88D4F018C2806B00D4F4AC /* Ridgefield Parks and Recreation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ridgefield Parks and Recreation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -196,7 +196,7 @@
 				4C85479D19BAB71B0044AA4F /* reload7.png */,
 				4C85479E19BAB71B0044AA4F /* reload8.png */,
 				4C8547C219BAC3480044AA4F /* prlogo.png */,
-				4C8547C419BAC4120044AA4F /* rec.png */,
+				4C853A1919BB37B700C3CFF3 /* rec2.png */,
 				4CD9ABC4195E548700E03CFA /* applabels.png */,
 				4C7F0F4F198120A90094BB48 /* applabelsdark.png */,
 				4C7F0F4B197E510F0094BB48 /* background2.png */,
@@ -414,6 +414,7 @@
 				4C8547AE19BAB8680044AA4F /* gym.pdf in Resources */,
 				4C8547A119BAB71B0044AA4F /* reload7.png in Resources */,
 				4C7F0F50198120A90094BB48 /* applabelsdark.png in Resources */,
+				4C853A1A19BB37B700C3CFF3 /* rec2.png in Resources */,
 				4CA894D819BA955800D74A46 /* backward-7.png in Resources */,
 				4C85479819BAB7040044AA4F /* reload2.png in Resources */,
 				4C8547B019BAB8680044AA4F /* swimlesson.pdf in Resources */,
@@ -427,7 +428,6 @@
 				4C8547C319BAC3480044AA4F /* prlogo.png in Resources */,
 				4C85478B19BAB0CA0044AA4F /* privateswim.pdf in Resources */,
 				4C8547A019BAB71B0044AA4F /* reload6.png in Resources */,
-				4C8547C519BAC4120044AA4F /* rec.png in Resources */,
 				4C88D50718C2806B00D4F4AC /* Main.storyboard in Resources */,
 				4C85477D19BAA4690044AA4F /* pool.pdf in Resources */,
 				4C8547A219BAB71B0044AA4F /* reload8.png in Resources */,
