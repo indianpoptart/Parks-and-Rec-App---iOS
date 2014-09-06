@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>292F9FCE-3C74-4310-8D7F-F8C6A17BE493</string>
+	<string>14527C9E-C140-48D9-B1FF-3BE8D7AC870C</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Ridgefield Parks and Recreation</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>47AB632E-4F62-415E-8D2F-3C3735512403</key>
+		<key>E80938D0D9DFD535F2EFD1F9AA70779B0B3B80A2</key>
 		<string>https://github.com/indianpoptart/Parks-and-Rec-App---iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Ridgefield Parks and Recreation/Ridgefield Parks and Recreation.xcodeproj/project.xcworkspace</string>
+	<string>Ridgefield Parks and Recreation/Ridgefield Parks and Recreation.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>47AB632E-4F62-415E-8D2F-3C3735512403</key>
+		<key>E80938D0D9DFD535F2EFD1F9AA70779B0B3B80A2</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/indianpoptart/Parks-and-Rec-App---iOS.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>47AB632E-4F62-415E-8D2F-3C3735512403</string>
+	<string>E80938D0D9DFD535F2EFD1F9AA70779B0B3B80A2</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>47AB632E-4F62-415E-8D2F-3C3735512403</string>
+			<string>E80938D0D9DFD535F2EFD1F9AA70779B0B3B80A2</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Parks and Rec App - iOS</string>
+			<string>Parks-and-Rec-App---iOS</string>
 		</dict>
 	</array>
 </dict>

@@ -7,6 +7,7 @@
 //
 
 #import "NPViewController.h"
+#import "NPAgendaViewController.h"
 #import "TFHpple.h"
 #import "Contributor.h"
 
@@ -37,7 +38,8 @@
 	[super viewDidLoad];
 }
 -(IBAction)openAgenda:(id)sender{
-	[super viewDidLoad];
+	NPViewController *agenda = [[NPViewController alloc ] initWithNibName:nil bundle:nil];
+	[self presentViewController:agenda animated:YES completion:NULL];
 }
 -(IBAction)reloadData:(id)sender{
     // 1

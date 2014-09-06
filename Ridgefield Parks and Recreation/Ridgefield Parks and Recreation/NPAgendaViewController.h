@@ -9,7 +9,9 @@
 
 @interface NPAgendaViewController : UIViewController{
     
-    IBOutlet UIWebView *webView;
+	IBOutlet UIWebView *webview;
+	IBOutlet UIActivityIndicatorView*activityind;
+	NSTimer *timer;
 }
 
 @end

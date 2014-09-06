@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0600"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,6 +17,20 @@
                BlueprintIdentifier = "4C88D4EF18C2806B00D4F4AC"
                BuildableName = "Ridgefield Parks and Recreation.app"
                BlueprintName = "Ridgefield Parks and Recreation"
+               ReferencedContainer = "container:Ridgefield Parks and Recreation.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4C88D51018C2806B00D4F4AC"
+               BuildableName = "Ridgefield Parks and RecreationTests.xctest"
+               BlueprintName = "Ridgefield Parks and RecreationTests"
                ReferencedContainer = "container:Ridgefield Parks and Recreation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
