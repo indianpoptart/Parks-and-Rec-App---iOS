@@ -31,6 +31,7 @@
 		4C8547B419BAB87F0044AA4F /* SwimLessonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8547B219BAB87F0044AA4F /* SwimLessonController.m */; };
 		4C8547B819BABB870044AA4F /* GymController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8547B719BABB870044AA4F /* GymController.m */; };
 		4C8547BB19BABCFF0044AA4F /* GroupFitnessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8547BA19BABCFF0044AA4F /* GroupFitnessController.m */; };
+		4C8547BE19BABD940044AA4F /* PremiumGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8547BD19BABD940044AA4F /* PremiumGroupController.m */; };
 		4C88D4F418C2806B00D4F4AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D4F318C2806B00D4F4AC /* Foundation.framework */; };
 		4C88D4F618C2806B00D4F4AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D4F518C2806B00D4F4AC /* CoreGraphics.framework */; };
 		4C88D4F818C2806B00D4F4AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D4F718C2806B00D4F4AC /* UIKit.framework */; };
@@ -95,6 +96,8 @@
 		4C8547B719BABB870044AA4F /* GymController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GymController.m; sourceTree = "<group>"; };
 		4C8547B919BABCFF0044AA4F /* GroupFitnessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupFitnessController.h; sourceTree = "<group>"; };
 		4C8547BA19BABCFF0044AA4F /* GroupFitnessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupFitnessController.m; sourceTree = "<group>"; };
+		4C8547BC19BABD940044AA4F /* PremiumGroupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremiumGroupController.h; sourceTree = "<group>"; };
+		4C8547BD19BABD940044AA4F /* PremiumGroupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremiumGroupController.m; sourceTree = "<group>"; };
 		4C88D4F018C2806B00D4F4AC /* Ridgefield Parks and Recreation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ridgefield Parks and Recreation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C88D4F318C2806B00D4F4AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4C88D4F518C2806B00D4F4AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -290,6 +293,8 @@
 				4C8547B719BABB870044AA4F /* GymController.m */,
 				4C8547B919BABCFF0044AA4F /* GroupFitnessController.h */,
 				4C8547BA19BABCFF0044AA4F /* GroupFitnessController.m */,
+				4C8547BC19BABD940044AA4F /* PremiumGroupController.h */,
+				4C8547BD19BABD940044AA4F /* PremiumGroupController.m */,
 			);
 			name = Schedules;
 			sourceTree = "<group>";
@@ -431,6 +436,7 @@
 				4C8CC7031901A67F008A2316 /* XPathQuery.m in Sources */,
 				4C8547B419BAB87F0044AA4F /* SwimLessonController.m in Sources */,
 				4C85478919BAAE180044AA4F /* PoolController.m in Sources */,
+				4C8547BE19BABD940044AA4F /* PremiumGroupController.m in Sources */,
 				4C88D50A18C2806B00D4F4AC /* NPViewController.m in Sources */,
 				4C88D50418C2806B00D4F4AC /* NPAppDelegate.m in Sources */,
 				4C8547B819BABB870044AA4F /* GymController.m in Sources */,

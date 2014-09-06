@@ -21,10 +21,11 @@
 - (void)viewDidLoad {
 	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background2.png"]]];
 	[super viewDidLoad];
+	
 	// Do any additional setup after loading the view, typically from a nib.
 	
 	[webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.ridgefieldparksandrec.org/agenda"]]];
-	
+	webview.scalesPageToFit = YES;
 	timer = [NSTimer scheduledTimerWithTimeInterval:(1.0/2.0)
 											 target:self
 										   selector:@selector(loading)

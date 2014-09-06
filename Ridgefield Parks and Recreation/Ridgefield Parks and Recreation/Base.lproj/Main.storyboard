@@ -42,13 +42,13 @@
                                 <rect key="frame" x="40" y="75" width="240" height="85"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="applabelsdark.png" translatesAutoresizingMaskIntoConstraints="NO" id="qN3-pi-8Hz">
-                                        <rect key="frame" x="-37" y="-51" width="314" height="522"/>
+                                        <rect key="frame" x="-37" y="0.0" width="314" height="522"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
                                         </accessibility>
                                     </imageView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coming Soon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="127" translatesAutoresizingMaskIntoConstraints="NO" id="Onb-tE-blb">
-                                        <rect key="frame" x="59" y="0.0" width="127" height="85"/>
+                                        <rect key="frame" x="57" y="13" width="127" height="59"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.99215692281723022" green="0.9960784912109375" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
@@ -56,16 +56,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.31521613569777351" green="0.59370350439876329" blue="0.84466287364130432" alpha="1" colorSpace="calibratedRGB"/>
                             </scrollView>
-                            <navigationBar contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d39-1h-jtB">
-                                <rect key="frame" x="0.0" y="16" width="320" height="44"/>
-                                <color key="barTintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
-                                <textAttributes key="titleTextAttributes">
-                                    <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
-                                </textAttributes>
-                                <items>
-                                    <navigationItem title="Parks and Rec Center" id="LLu-FC-5N9"/>
-                                </items>
-                            </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6iQ-81-Fal">
                                 <rect key="frame" x="20" y="226" width="280" height="52"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
@@ -77,11 +67,22 @@
                                     <segue destination="yWI-a7-XbD" kind="modal" id="c6I-Tz-A8F"/>
                                 </connections>
                             </button>
+                            <navigationBar contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d39-1h-jtB">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <color key="barTintColor" red="0.97254901960784312" green="0.64313725490196083" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Parks and Rec Center" id="LLu-FC-5N9"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="5Yj-us-VZP"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
@@ -437,7 +438,7 @@
         <!--Premium Group Schedule-->
         <scene sceneID="5Sq-dx-r7z">
             <objects>
-                <viewController title="Premium Group Schedule" modalTransitionStyle="crossDissolve" id="sbZ-kW-882" sceneMemberID="viewController">
+                <viewController title="Premium Group Schedule" modalTransitionStyle="crossDissolve" id="sbZ-kW-882" customClass="PremiumGroupController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="W3g-7h-RnV"/>
                         <viewControllerLayoutGuide type="bottom" id="jg2-9M-XHG"/>
@@ -475,7 +476,7 @@
                     </view>
                     <connections>
                         <outlet property="activityind" destination="2no-aG-lxv" id="B4s-aU-LGY"/>
-                        <outlet property="slview" destination="Vce-VH-E2R" id="A65-eL-1yC"/>
+                        <outlet property="pgview" destination="Vce-VH-E2R" id="dpD-VP-IqJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LOn-rg-rAt" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -593,7 +594,7 @@
         </simulatedScreenMetrics>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="VZz-hI-nKb"/>
+        <segue reference="c6I-Tz-A8F"/>
         <segue reference="iIb-3H-8y0"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
