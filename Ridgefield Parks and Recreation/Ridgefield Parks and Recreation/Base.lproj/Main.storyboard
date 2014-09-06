@@ -8,10 +8,10 @@
         <!--Ridgefield Parks and Rec-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController title="Ridgefield Parks and Rec" id="vXZ-lx-hvc" customClass="NPViewController" sceneMemberID="viewController">
+                <viewController title="Ridgefield Parks and Rec" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="vXZ-lx-hvc" customClass="NPViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="VJS-r9-yWf"/>
-                        <viewControllerLayoutGuide type="bottom" id="Rbm-JR-jAR"/>
+                        <viewControllerLayoutGuide type="top" id="g0l-XO-Ej4"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wim-Qb-5jY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -25,7 +25,7 @@
                                 </state>
                                 <connections>
                                     <action selector="openAgenda:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RNI-Sp-yzH"/>
-                                    <segue destination="KMI-A1-w9N" kind="custom" id="h0i-zg-MWB"/>
+                                    <segue destination="KMI-A1-w9N" kind="modal" id="Ore-Gj-isn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pVT-TV-3p5">
@@ -47,16 +47,7 @@
                                             <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
                                         </accessibility>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfK-yH-Up9">
-                                        <rect key="frame" x="194" y="0.0" width="46" height="43"/>
-                                        <state key="normal" backgroundImage="reload.png">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="reloadData:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GTY-5Y-ziw"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Information" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="127" translatesAutoresizingMaskIntoConstraints="NO" id="Onb-tE-blb">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coming Soon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="127" translatesAutoresizingMaskIntoConstraints="NO" id="Onb-tE-blb">
                                         <rect key="frame" x="59" y="0.0" width="127" height="85"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.99215692281723022" green="0.9960784912109375" blue="0.99215692281723022" alpha="1" colorSpace="deviceRGB"/>
@@ -83,6 +74,7 @@
                                 </state>
                                 <connections>
                                     <action selector="openSchedules:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VZN-aY-2Kb"/>
+                                    <segue destination="yWI-a7-XbD" kind="modal" id="c6I-Tz-A8F"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -90,21 +82,21 @@
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="5Yj-us-VZP"/>
-                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="138" y="80"/>
         </scene>
-        <!--View Controller-->
+        <!--Schedules-->
         <scene sceneID="bu9-Ic-3Az">
             <objects>
-                <viewController id="yWI-a7-XbD" sceneMemberID="viewController">
+                <viewController title="Schedules" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="yWI-a7-XbD" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="GBv-A5-2Pc"/>
-                        <viewControllerLayoutGuide type="bottom" id="ML5-YL-dbO"/>
+                        <viewControllerLayoutGuide type="top" id="uVv-LW-GeF"/>
+                        <viewControllerLayoutGuide type="bottom" id="Eb0-ht-t8W"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="59h-SI-76h">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -117,6 +109,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="3yr-Iz-yzY" kind="modal" id="l4s-g5-dJm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRF-BW-bt2">
                                 <rect key="frame" x="20" y="87" width="280" height="52"/>
@@ -125,19 +120,10 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="38u-Oj-GaV" kind="modal" id="Zp0-U4-fGR"/>
+                                </connections>
                             </button>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5D0-d3-VpP">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <color key="barTintColor" red="0.98431372549019602" green="0.67843137254901964" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
-                                <textAttributes key="titleTextAttributes">
-                                    <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
-                                </textAttributes>
-                                <items>
-                                    <navigationItem title="Schedules" id="eEZ-zD-TFv">
-                                        <barButtonItem key="backBarButtonItem" title="Back" id="nbh-fX-Tk6"/>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQC-F4-SsP">
                                 <rect key="frame" x="20" y="207" width="280" height="52"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -145,6 +131,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="sbZ-kW-882" kind="modal" id="Xix-5W-vxa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gUe-rH-TMU">
                                 <rect key="frame" x="20" y="267" width="280" height="52"/>
@@ -153,6 +142,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="bfw-er-XBU" kind="modal" id="rxd-es-m9q"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="scA-sC-U7z">
                                 <rect key="frame" x="20" y="327" width="280" height="52"/>
@@ -161,6 +153,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="pNi-eQ-pBg" kind="modal" id="srm-H6-kL0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AyW-CU-0FZ">
                                 <rect key="frame" x="20" y="387" width="280" height="52"/>
@@ -169,7 +164,33 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="hwi-11-6Zz" kind="modal" id="b11-xU-nib"/>
+                                </connections>
                             </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5D0-d3-VpP">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <color key="barTintColor" red="0.98431372549019602" green="0.67843137254901964" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <offsetWrapper key="textShadowOffset" horizontal="0.0" vertical="0.0"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Schedules" id="eEZ-zD-TFv">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="NuF-3v-XLJ">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CpF-p4-LxI">
+                                                <rect key="frame" x="130" y="473" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="backward-7.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="vXZ-lx-hvc" kind="modal" id="iIb-3H-8y0"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -177,15 +198,120 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aCq-5j-Yt2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="562" y="271"/>
+            <point key="canvasLocation" x="564" y="302"/>
         </scene>
-        <!--Agenda View Controller-->
+        <!--Pool Schedule-->
+        <scene sceneID="3Cm-6p-hB2">
+            <objects>
+                <viewController title="Pool Schedule" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="38u-Oj-GaV" customClass="PoolController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4BB-Fn-NoT"/>
+                        <viewControllerLayoutGuide type="bottom" id="U6J-jB-EFR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="b6G-h1-9g1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eIh-Iw-CaI">
+                                <rect key="frame" x="0.0" y="72" width="320" height="496"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="9e0-yG-awJ">
+                                <rect key="frame" x="142" y="297" width="37" height="37"/>
+                                <color key="color" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOS-oZ-jDh">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <color key="barTintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Pool Schedule" id="mH7-my-Cr4">
+                                        <barButtonItem key="backBarButtonItem" title="back" id="MF7-7P-F2x"/>
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="pX2-DG-mrq">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="atH-gp-AJs">
+                                                <rect key="frame" x="10" y="30" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="backward-7.png" backgroundImage="backward-7.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="yWI-a7-XbD" kind="modal" id="mAr-qu-Sf7"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityind" destination="9e0-yG-awJ" id="XYI-0V-00Y"/>
+                        <outlet property="poolview" destination="eIh-Iw-CaI" id="z8o-fi-lAd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y1f-Aa-39z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="530" y="1094"/>
+        </scene>
+        <!--Private Swim Controller-->
+        <scene sceneID="JbA-pH-HN4">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="hwi-11-6Zz" customClass="PrivateSwimController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sB9-cQ-2or"/>
+                        <viewControllerLayoutGuide type="bottom" id="5cd-l6-OTf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kUe-3x-qay">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6hH-3B-77n">
+                                <rect key="frame" x="0.0" y="76" width="320" height="492"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="uwl-fo-c4p">
+                                <rect key="frame" x="142" y="301" width="37" height="37"/>
+                                <color key="color" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wA1-Tu-40V">
+                                <rect key="frame" x="0.0" y="31" width="320" height="44"/>
+                                <color key="barTintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Private Swim Schedule" id="CB2-hF-Bzd">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="8Gk-20-P8I">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AhZ-zZ-31Z">
+                                                <rect key="frame" x="10" y="38" width="30" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="backward-7.png">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="yWI-a7-XbD" kind="modal" id="sq9-Bb-AgO"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityind" destination="uwl-fo-c4p" id="zTh-mc-hxc"/>
+                        <outlet property="psview" destination="6hH-3B-77n" id="spx-2d-zjD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pg8-mz-EqK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="886" y="1090"/>
+        </scene>
+        <!--Agenda-->
         <scene sceneID="kRl-75-F0p">
             <objects>
-                <viewController id="KMI-A1-w9N" customClass="NPAgendaViewController" sceneMemberID="viewController">
+                <viewController title="Agenda" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="KMI-A1-w9N" customClass="NPAgendaViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cxb-AZ-wLT"/>
-                        <viewControllerLayoutGuide type="bottom" id="Esw-62-10L"/>
+                        <viewControllerLayoutGuide type="top" id="Bcd-0Z-bSc"/>
+                        <viewControllerLayoutGuide type="bottom" id="iLc-BG-SoA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="FvG-m9-4oa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -193,11 +319,21 @@
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="McX-Yl-QEe">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <color key="barTintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="Agenda" id="I3A-as-cbb"/>
                                 </items>
                             </navigationBar>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N4N-5o-YqD">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nqe-eR-Eoi">
+                                <rect key="frame" x="10" y="30" width="30" height="30"/>
+                                <state key="normal" image="backward-7.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="7On-w4-vbk"/>
+                                </connections>
+                            </button>
+                            <webView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N4N-5o-YqD">
                                 <rect key="frame" x="0.0" y="64" width="320" height="460"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
@@ -231,9 +367,10 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="X5u-cf-FIS">
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="X5u-cf-FIS">
                                 <rect key="frame" x="142" y="275" width="37" height="37"/>
-                                <color key="color" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                <color key="color" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="0.0" colorSpace="calibratedRGB"/>
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -241,6 +378,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="5sz-HQ-sF2"/>
                     <connections>
+                        <outlet property="activityind" destination="X5u-cf-FIS" id="3Ig-eo-9ld"/>
                         <outlet property="webview" destination="N4N-5o-YqD" id="tFB-dA-1p0"/>
                     </connections>
                 </viewController>
@@ -248,11 +386,203 @@
             </objects>
             <point key="canvasLocation" x="555" y="-350"/>
         </scene>
+        <!--Swim Lesson Schedule-->
+        <scene sceneID="Osu-SP-hHd">
+            <objects>
+                <viewController title="Swim Lesson Schedule" modalTransitionStyle="crossDissolve" id="bfw-er-XBU" customClass="SwimLessonController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gyn-pB-eJg"/>
+                        <viewControllerLayoutGuide type="bottom" id="sJb-ns-zTY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="E5l-oh-Ksc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JPx-58-ipy">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <color key="barTintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Swim Lesson Schedule" id="Bv5-MU-pJw"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJW-9c-nwq">
+                                <rect key="frame" x="10" y="38" width="30" height="30"/>
+                                <state key="normal" image="backward-7.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yWI-a7-XbD" kind="modal" id="Sft-om-IIO"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vi3-fA-tBB">
+                                <rect key="frame" x="0.0" y="72" width="320" height="496"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="d1t-cI-Un8">
+                                <rect key="frame" x="142" y="301" width="37" height="37"/>
+                                <color key="color" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityind" destination="d1t-cI-Un8" id="44h-3C-UBH"/>
+                        <outlet property="slview" destination="Vi3-fA-tBB" id="IAf-Xg-jKy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Dg-C5-ItP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1235" y="1090"/>
+        </scene>
+        <!--Premium Group Schedule-->
+        <scene sceneID="5Sq-dx-r7z">
+            <objects>
+                <viewController title="Premium Group Schedule" modalTransitionStyle="crossDissolve" id="sbZ-kW-882" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="W3g-7h-RnV"/>
+                        <viewControllerLayoutGuide type="bottom" id="jg2-9M-XHG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BEE-WH-NNW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y3k-k3-AW4">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <color key="barTintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Premium Group Schedule" id="hvx-B7-rXT"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxr-TD-pE6">
+                                <rect key="frame" x="10" y="38" width="30" height="30"/>
+                                <state key="normal" image="backward-7.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yWI-a7-XbD" kind="modal" id="PbI-2f-ENx"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vce-VH-E2R">
+                                <rect key="frame" x="0.0" y="72" width="320" height="496"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="2no-aG-lxv">
+                                <rect key="frame" x="142" y="301" width="37" height="37"/>
+                                <color key="color" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityind" destination="2no-aG-lxv" id="B4s-aU-LGY"/>
+                        <outlet property="slview" destination="Vce-VH-E2R" id="A65-eL-1yC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LOn-rg-rAt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1921" y="1090"/>
+        </scene>
+        <!--Gymnasium Schedule-->
+        <scene sceneID="khn-EB-ISA">
+            <objects>
+                <viewController title="Gymnasium Schedule" modalTransitionStyle="crossDissolve" id="3yr-Iz-yzY" customClass="GymController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aU0-Ee-oeK"/>
+                        <viewControllerLayoutGuide type="bottom" id="MT7-lo-nv6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="M6Z-B0-uFw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SX0-jc-NR6">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <color key="barTintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Gymnasium Schedule" id="kfs-Wv-WxF"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VB3-Yr-wN6">
+                                <rect key="frame" x="10" y="38" width="30" height="30"/>
+                                <state key="normal" image="backward-7.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yWI-a7-XbD" kind="modal" id="wI9-QK-fuR"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tFb-Pi-ygL">
+                                <rect key="frame" x="0.0" y="72" width="320" height="496"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="IYc-wp-1f1">
+                                <rect key="frame" x="142" y="301" width="37" height="37"/>
+                                <color key="color" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityind" destination="IYc-wp-1f1" id="ExF-4E-6e2"/>
+                        <outlet property="gview" destination="tFb-Pi-ygL" id="CA5-Fm-sBE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y1T-t2-gcb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1578" y="1090"/>
+        </scene>
+        <!--Group Fitness Schedule-->
+        <scene sceneID="V4T-19-5q8">
+            <objects>
+                <viewController title="Group Fitness Schedule" modalTransitionStyle="crossDissolve" id="pNi-eQ-pBg" customClass="GroupFitnessController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bTV-eJ-WQk"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Lo-jh-O0Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SPr-91-8PF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ubU-hL-teC">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <color key="barTintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Group Fitness Schedule" id="sY5-b6-ipn"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpZ-x1-UC7">
+                                <rect key="frame" x="10" y="38" width="30" height="30"/>
+                                <state key="normal" image="backward-7.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yWI-a7-XbD" kind="modal" id="VZz-hI-nKb"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jvY-iE-oCk">
+                                <rect key="frame" x="0.0" y="72" width="320" height="496"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="f3c-Fh-DAU">
+                                <rect key="frame" x="142" y="301" width="37" height="37"/>
+                                <color key="color" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityind" destination="f3c-Fh-DAU" id="RdO-rd-tDl"/>
+                        <outlet property="gfview" destination="jvY-iE-oCk" id="xql-tI-41S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lIL-QW-1Xd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2262" y="1090"/>
+        </scene>
     </scenes>
     <resources>
         <image name="applabels.png" width="388" height="72"/>
         <image name="applabelsdark.png" width="372" height="88"/>
-        <image name="reload.png" width="512" height="512"/>
+        <image name="backward-7.png" width="30" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -262,4 +592,9 @@
             <size key="landscapeSize" width="568" height="320"/>
         </simulatedScreenMetrics>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="VZz-hI-nKb"/>
+        <segue reference="iIb-3H-8y0"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
 </document>

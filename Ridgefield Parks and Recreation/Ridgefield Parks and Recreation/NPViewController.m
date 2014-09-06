@@ -38,8 +38,7 @@
 	[super viewDidLoad];
 }
 -(IBAction)openAgenda:(id)sender{
-	NPViewController *agenda = [[NPViewController alloc ] initWithNibName:nil bundle:nil];
-	[self presentViewController:agenda animated:YES completion:NULL];
+	[super viewDidLoad];
 }
 -(IBAction)reloadData:(id)sender{
     // 1
