@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="14A329f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <deployment defaultVersion="1808" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--Ridgefield Parks and Rec-->
+        <!--View Controller - Ridgefield Parks and Rec-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController title="Ridgefield Parks and Rec" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="vXZ-lx-hvc" customClass="NPViewController" sceneMemberID="viewController">
+                <viewController title="Ridgefield Parks and Rec" modalTransitionStyle="crossDissolve" id="vXZ-lx-hvc" customClass="NPViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="g0l-XO-Ej4"/>
                         <viewControllerLayoutGuide type="bottom" id="Wim-Qb-5jY"/>
@@ -115,10 +115,10 @@
             </objects>
             <point key="canvasLocation" x="138" y="80"/>
         </scene>
-        <!--Schedules-->
+        <!--Schedule View Controller - Schedules-->
         <scene sceneID="bu9-Ic-3Az">
             <objects>
-                <viewController title="Schedules" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="yWI-a7-XbD" customClass="NPScheduleViewController" sceneMemberID="viewController">
+                <viewController title="Schedules" modalTransitionStyle="crossDissolve" id="yWI-a7-XbD" customClass="NPScheduleViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uVv-LW-GeF"/>
                         <viewControllerLayoutGuide type="bottom" id="Eb0-ht-t8W"/>
@@ -236,7 +236,7 @@
             </objects>
             <point key="canvasLocation" x="567" y="307"/>
         </scene>
-        <!--About-->
+        <!--About View Controller - About-->
         <scene sceneID="lZd-tr-5jW">
             <objects>
                 <viewController title="About" modalTransitionStyle="crossDissolve" id="FYJ-w0-xA5" customClass="NPAboutViewController" sceneMemberID="viewController">
@@ -311,10 +311,10 @@
             </objects>
             <point key="canvasLocation" x="138" y="729"/>
         </scene>
-        <!--Pool Schedule-->
+        <!--Pool Controller - Pool Schedule-->
         <scene sceneID="3Cm-6p-hB2">
             <objects>
-                <viewController title="Pool Schedule" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="38u-Oj-GaV" customClass="PoolController" sceneMemberID="viewController">
+                <viewController title="Pool Schedule" modalTransitionStyle="crossDissolve" id="38u-Oj-GaV" customClass="PoolController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4BB-Fn-NoT"/>
                         <viewControllerLayoutGuide type="bottom" id="U6J-jB-EFR"/>
@@ -357,7 +357,7 @@
                                         <barButtonItem key="backBarButtonItem" title="back" id="MF7-7P-F2x"/>
                                         <barButtonItem key="leftBarButtonItem" style="plain" id="pX2-DG-mrq">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="atH-gp-AJs">
-                                                <rect key="frame" x="10" y="30" width="30" height="30"/>
+                                                <rect key="frame" x="16" y="7" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="backward-7.png" backgroundImage="backward-7.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -428,7 +428,7 @@
                                     <navigationItem title="Private Swim Schedule" id="CB2-hF-Bzd">
                                         <barButtonItem key="leftBarButtonItem" style="plain" id="8Gk-20-P8I">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AhZ-zZ-31Z">
-                                                <rect key="frame" x="10" y="38" width="30" height="30"/>
+                                                <rect key="frame" x="16" y="7" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="backward-7.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -453,10 +453,10 @@
             </objects>
             <point key="canvasLocation" x="886" y="1090"/>
         </scene>
-        <!--Agenda-->
+        <!--Agenda View Controller - Agenda-->
         <scene sceneID="kRl-75-F0p">
             <objects>
-                <viewController title="Agenda" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="KMI-A1-w9N" customClass="NPAgendaViewController" sceneMemberID="viewController">
+                <viewController title="Agenda" modalTransitionStyle="crossDissolve" id="KMI-A1-w9N" customClass="NPAgendaViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Bcd-0Z-bSc"/>
                         <viewControllerLayoutGuide type="bottom" id="iLc-BG-SoA"/>
@@ -556,7 +556,7 @@
             </objects>
             <point key="canvasLocation" x="555" y="-350"/>
         </scene>
-        <!--Swim Lesson Schedule-->
+        <!--Swim Lesson Controller - Swim Lesson Schedule-->
         <scene sceneID="Osu-SP-hHd">
             <objects>
                 <viewController title="Swim Lesson Schedule" modalTransitionStyle="crossDissolve" id="bfw-er-XBU" customClass="SwimLessonController" sceneMemberID="viewController">
@@ -590,12 +590,13 @@
                             </navigationBar>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JPx-58-ipy">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="barTintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="Swim Lesson Schedule" id="Bv5-MU-pJw">
                                         <barButtonItem key="leftBarButtonItem" style="plain" id="VHE-4M-nr1">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AJW-9c-nwq">
-                                                <rect key="frame" x="10" y="38" width="30" height="30"/>
+                                                <rect key="frame" x="16" y="7" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="backward-7.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -620,7 +621,7 @@
             </objects>
             <point key="canvasLocation" x="1236" y="1094"/>
         </scene>
-        <!--Premium Group Schedule-->
+        <!--Premium Group Controller - Premium Group Schedule-->
         <scene sceneID="5Sq-dx-r7z">
             <objects>
                 <viewController title="Premium Group Schedule" modalTransitionStyle="crossDissolve" id="sbZ-kW-882" customClass="PremiumGroupController" sceneMemberID="viewController">
@@ -655,12 +656,13 @@
                             </navigationBar>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y3k-k3-AW4">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="barTintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="Premium Group Schedule" id="hvx-B7-rXT">
                                         <barButtonItem key="leftBarButtonItem" style="plain" id="1RE-UM-3PA">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vxr-TD-pE6">
-                                                <rect key="frame" x="10" y="38" width="30" height="30"/>
+                                                <rect key="frame" x="16" y="7" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="backward-7.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -685,7 +687,7 @@
             </objects>
             <point key="canvasLocation" x="1921" y="1090"/>
         </scene>
-        <!--Gymnasium Schedule-->
+        <!--Gym Controller - Gymnasium Schedule-->
         <scene sceneID="khn-EB-ISA">
             <objects>
                 <viewController title="Gymnasium Schedule" modalTransitionStyle="crossDissolve" id="3yr-Iz-yzY" customClass="GymController" sceneMemberID="viewController">
@@ -720,12 +722,13 @@
                             </navigationBar>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SX0-jc-NR6">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="barTintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="Gymnasium Schedule" id="kfs-Wv-WxF">
                                         <barButtonItem key="leftBarButtonItem" style="plain" id="sRo-RR-nnf">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VB3-Yr-wN6">
-                                                <rect key="frame" x="10" y="38" width="30" height="30"/>
+                                                <rect key="frame" x="16" y="7" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="backward-7.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -750,7 +753,7 @@
             </objects>
             <point key="canvasLocation" x="1578" y="1090"/>
         </scene>
-        <!--Group Fitness Schedule-->
+        <!--Group Fitness Controller - Group Fitness Schedule-->
         <scene sceneID="V4T-19-5q8">
             <objects>
                 <viewController title="Group Fitness Schedule" modalTransitionStyle="crossDissolve" id="pNi-eQ-pBg" customClass="GroupFitnessController" sceneMemberID="viewController">
@@ -785,12 +788,13 @@
                             </navigationBar>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ubU-hL-teC">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="barTintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="Group Fitness Schedule" id="sY5-b6-ipn">
                                         <barButtonItem key="leftBarButtonItem" style="plain" id="8cu-EH-cHk">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kpZ-x1-UC7">
-                                                <rect key="frame" x="10" y="38" width="30" height="30"/>
+                                                <rect key="frame" x="16" y="7" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="backward-7.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -823,17 +827,14 @@
         <image name="prlogo.png" width="945" height="547"/>
         <image name="rec2.png" width="700" height="300"/>
     </resources>
+    <color key="tintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4">
-            <size key="portraitSize" width="320" height="568"/>
-            <size key="landscapeSize" width="568" height="320"/>
-        </simulatedScreenMetrics>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="c6I-Tz-A8F"/>
+        <segue reference="VZz-hI-nKb"/>
         <segue reference="aRk-et-Bk1"/>
     </inferredMetricsTieBreakers>
-    <color key="tintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
 </document>

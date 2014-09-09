@@ -18,5 +18,9 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>UIMainStoryboardFile~iphone</key>
+	<string>Main</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
 </dict>
 </plist>
