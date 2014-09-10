@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4C26A73D18C56FB5001845CB /* NPAgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26A73C18C56FB5001845CB /* NPAgendaViewController.m */; };
+		4C2B50F619BFECA90051071F /* privSwim.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B50F519BFECA90051071F /* privSwim.pdf */; };
 		4C7F0F4C197E510F0094BB48 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F4B197E510F0094BB48 /* background2.png */; };
 		4C7F0F50198120A90094BB48 /* applabelsdark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F4F198120A90094BB48 /* applabelsdark.png */; };
 		4C7F0F5419839CD30094BB48 /* default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F5319839CD30094BB48 /* default-568h@2x.png */; };
@@ -15,7 +16,6 @@
 		4C853A1A19BB37B700C3CFF3 /* rec2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C853A1919BB37B700C3CFF3 /* rec2.png */; };
 		4C85477D19BAA4690044AA4F /* pool.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C85477C19BAA4690044AA4F /* pool.pdf */; };
 		4C85478919BAAE180044AA4F /* PoolController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C85478819BAAE180044AA4F /* PoolController.m */; };
-		4C85478B19BAB0CA0044AA4F /* privateswim.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C85478A19BAB0CA0044AA4F /* privateswim.pdf */; };
 		4C85478E19BAB0E90044AA4F /* PrivateSwimController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C85478D19BAB0E90044AA4F /* PrivateSwimController.m */; };
 		4C85479819BAB7040044AA4F /* reload2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C85479519BAB7040044AA4F /* reload2.png */; };
 		4C85479919BAB7040044AA4F /* reload3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C85479619BAB7040044AA4F /* reload3.png */; };
@@ -72,6 +72,7 @@
 /* Begin PBXFileReference section */
 		4C26A73B18C56FB5001845CB /* NPAgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPAgendaViewController.h; sourceTree = "<group>"; };
 		4C26A73C18C56FB5001845CB /* NPAgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPAgendaViewController.m; sourceTree = "<group>"; };
+		4C2B50F519BFECA90051071F /* privSwim.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = privSwim.pdf; path = ../../../../Downloads/privSwim.pdf; sourceTree = "<group>"; };
 		4C7F0F4B197E510F0094BB48 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
 		4C7F0F4F198120A90094BB48 /* applabelsdark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applabelsdark.png; sourceTree = "<group>"; };
 		4C7F0F5319839CD30094BB48 /* default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-568h@2x.png"; sourceTree = "<group>"; };
@@ -80,7 +81,6 @@
 		4C85477C19BAA4690044AA4F /* pool.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pool.pdf; sourceTree = "<group>"; };
 		4C85478719BAAE180044AA4F /* PoolController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoolController.h; sourceTree = "<group>"; };
 		4C85478819BAAE180044AA4F /* PoolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoolController.m; sourceTree = "<group>"; };
-		4C85478A19BAB0CA0044AA4F /* privateswim.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = privateswim.pdf; sourceTree = "<group>"; };
 		4C85478C19BAB0E90044AA4F /* PrivateSwimController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateSwimController.h; sourceTree = "<group>"; };
 		4C85478D19BAB0E90044AA4F /* PrivateSwimController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateSwimController.m; sourceTree = "<group>"; };
 		4C85479519BAB7040044AA4F /* reload2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload2.png; sourceTree = "<group>"; };
@@ -321,8 +321,8 @@
 				4C8547A919BAB85A0044AA4F /* groupfitness.pdf */,
 				4C8547AB19BAB8680044AA4F /* gym.pdf */,
 				4C8547AC19BAB8680044AA4F /* premiumgroup.pdf */,
+				4C2B50F519BFECA90051071F /* privSwim.pdf */,
 				4C8547AD19BAB8680044AA4F /* swimlesson.pdf */,
-				4C85478A19BAB0CA0044AA4F /* privateswim.pdf */,
 				4C85477C19BAA4690044AA4F /* pool.pdf */,
 			);
 			name = PDF;
@@ -419,6 +419,7 @@
 				4C85479819BAB7040044AA4F /* reload2.png in Resources */,
 				4C8547B019BAB8680044AA4F /* swimlesson.pdf in Resources */,
 				4C85479A19BAB7040044AA4F /* reload4.png in Resources */,
+				4C2B50F619BFECA90051071F /* privSwim.pdf in Resources */,
 				4C8547A819BAB7F40044AA4F /* reload.png in Resources */,
 				4C8547AA19BAB85A0044AA4F /* groupfitness.pdf in Resources */,
 				4C7F0F5619839CD80094BB48 /* default@2x.png in Resources */,
@@ -426,7 +427,6 @@
 				4C88D4FE18C2806B00D4F4AC /* InfoPlist.strings in Resources */,
 				4C8547AF19BAB8680044AA4F /* premiumgroup.pdf in Resources */,
 				4C8547C319BAC3480044AA4F /* prlogo.png in Resources */,
-				4C85478B19BAB0CA0044AA4F /* privateswim.pdf in Resources */,
 				4C8547A019BAB71B0044AA4F /* reload6.png in Resources */,
 				4C88D50718C2806B00D4F4AC /* Main.storyboard in Resources */,
 				4C85477D19BAA4690044AA4F /* pool.pdf in Resources */,

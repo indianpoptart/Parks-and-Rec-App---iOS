@@ -18,7 +18,7 @@
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 	
-	NSString *path = [[NSBundle mainBundle] pathForResource:@"privateswim" ofType:@"pdf"];
+	NSString *path = [[NSBundle mainBundle] pathForResource:@"privSwim" ofType:@"pdf"];
 	NSURL *url = [NSURL fileURLWithPath:path];
 	NSURLRequest *request = [NSURLRequest requestWithURL:url];
 	[psview loadRequest:request];
