@@ -9,17 +9,13 @@ It is only useful to members of Ridgefield Parks and Recreation
 It displays alerts for closings, and it has schedules, agenda's
 and a button to call the facility
 
-## Why go open source?
+[iTunes](https://itunes.apple.com/us/app/ridgefield-parks-and-rec/id914302833?ls=1&mt=8) link
 
-Just cause I wanted to.
 
-Nah, this app is open source since the app is already free. It is intended to be a source of sample code for everyone to benefit from. You can make cool apps that use core features of this app and hopefully get more users because you built something cool.
-
-Also, if you want to help out and fix some bugs, that would make my year :).
 
 ## Helping out
 
-If you want to fix bugs, I'll love you forever! If you would like to add some features, I may, or may not merge it. If I think it will really benefit the app, I will message you saying that it will be added, with you name in it. Check out the  [issues](https://github.com/indianpoptart/Parks-and-Rec-App---iOS/issues) page if you would like to help out with the code, I'd greatly appreciate it.
+You may help me squash bugs if you want. If you would like to add some features, I may, or may not merge it. If I think it will really benefit the app, I will message you saying that it will be added, with you name in it. Check out the  [issues](https://github.com/indianpoptart/Parks-and-Rec-App---iOS/issues) page if you would like to help out with the code, I'd greatly appreciate it.
 
 
 ## License
