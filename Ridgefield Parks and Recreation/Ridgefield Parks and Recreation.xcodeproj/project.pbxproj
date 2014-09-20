@@ -42,7 +42,6 @@
 		4C88D4FE18C2806B00D4F4AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D4FC18C2806B00D4F4AC /* InfoPlist.strings */; };
 		4C88D50018C2806B00D4F4AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C88D4FF18C2806B00D4F4AC /* main.m */; };
 		4C88D50418C2806B00D4F4AC /* NPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C88D50318C2806B00D4F4AC /* NPAppDelegate.m */; };
-		4C88D50718C2806B00D4F4AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D50518C2806B00D4F4AC /* Main.storyboard */; };
 		4C88D50A18C2806B00D4F4AC /* NPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C88D50918C2806B00D4F4AC /* NPViewController.m */; };
 		4C88D50C18C2806B00D4F4AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D50B18C2806B00D4F4AC /* Images.xcassets */; };
 		4C88D51318C2806B00D4F4AC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D51218C2806B00D4F4AC /* XCTest.framework */; };
@@ -50,6 +49,8 @@
 		4C88D51518C2806B00D4F4AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D4F718C2806B00D4F4AC /* UIKit.framework */; };
 		4C88D51D18C2806B00D4F4AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D51B18C2806B00D4F4AC /* InfoPlist.strings */; };
 		4C88D51F18C2806B00D4F4AC /* Ridgefield_Parks_and_RecreationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C88D51E18C2806B00D4F4AC /* Ridgefield_Parks_and_RecreationTests.m */; };
+		4C89704619CDEE7900EE8B18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C89704519CDEE7900EE8B18 /* Main.storyboard */; };
+		4C89704A19CDEF2E00EE8B18 /* Main-ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C89704919CDEF2E00EE8B18 /* Main-ipad.storyboard */; };
 		4C8CC6FB1901A4BB008A2316 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CC6F81901A4BB008A2316 /* TFHpple.m */; };
 		4C8CC6FC1901A4BB008A2316 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CC6FA1901A4BB008A2316 /* TFHppleElement.m */; };
 		4C8CC6FE1901A528008A2316 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8CC6FD1901A528008A2316 /* libxml2.2.dylib */; };
@@ -118,7 +119,6 @@
 		4C88D50118C2806B00D4F4AC /* Ridgefield Parks and Recreation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ridgefield Parks and Recreation-Prefix.pch"; sourceTree = "<group>"; };
 		4C88D50218C2806B00D4F4AC /* NPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPAppDelegate.h; sourceTree = "<group>"; };
 		4C88D50318C2806B00D4F4AC /* NPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPAppDelegate.m; sourceTree = "<group>"; };
-		4C88D50618C2806B00D4F4AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C88D50818C2806B00D4F4AC /* NPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPViewController.h; sourceTree = "<group>"; };
 		4C88D50918C2806B00D4F4AC /* NPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPViewController.m; sourceTree = "<group>"; };
 		4C88D50B18C2806B00D4F4AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -128,6 +128,8 @@
 		4C88D51C18C2806B00D4F4AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C88D51E18C2806B00D4F4AC /* Ridgefield_Parks_and_RecreationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ridgefield_Parks_and_RecreationTests.m; sourceTree = "<group>"; };
 		4C88D55118C2927D00D4F4AC /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		4C89704519CDEE7900EE8B18 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4C89704919CDEF2E00EE8B18 /* Main-ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-ipad.storyboard"; sourceTree = "<group>"; };
 		4C8CC6F71901A4BB008A2316 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
 		4C8CC6F81901A4BB008A2316 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
 		4C8CC6F91901A4BB008A2316 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
@@ -239,9 +241,10 @@
 		4C88D4F918C2806B00D4F4AC /* Ridgefield Parks and Recreation */ = {
 			isa = PBXGroup;
 			children = (
+				4CB5D06619CDED56005ECD4B /* iPad */,
 				4C88D50218C2806B00D4F4AC /* NPAppDelegate.h */,
 				4C88D50318C2806B00D4F4AC /* NPAppDelegate.m */,
-				4C88D50518C2806B00D4F4AC /* Main.storyboard */,
+				4C89704519CDEE7900EE8B18 /* Main.storyboard */,
 				4C8CC6F61901A47E008A2316 /* HTMLParsing */,
 				4C26A73E18C56FC3001845CB /* Controllers */,
 				4CC96C6419BAA2BF008B94E6 /* Schedules */,
@@ -294,6 +297,14 @@
 				4C8CC7001901A5A0008A2316 /* Contributer.h */,
 			);
 			name = HTMLParsing;
+			sourceTree = "<group>";
+		};
+		4CB5D06619CDED56005ECD4B /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				4C89704919CDEF2E00EE8B18 /* Main-ipad.storyboard */,
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 		4CC96C6419BAA2BF008B94E6 /* Schedules */ = {
@@ -415,6 +426,7 @@
 				4C8547A119BAB71B0044AA4F /* reload7.png in Resources */,
 				4C7F0F50198120A90094BB48 /* applabelsdark.png in Resources */,
 				4C853A1A19BB37B700C3CFF3 /* rec2.png in Resources */,
+				4C89704619CDEE7900EE8B18 /* Main.storyboard in Resources */,
 				4CA894D819BA955800D74A46 /* backward-7.png in Resources */,
 				4C85479819BAB7040044AA4F /* reload2.png in Resources */,
 				4C8547B019BAB8680044AA4F /* swimlesson.pdf in Resources */,
@@ -428,9 +440,9 @@
 				4C8547AF19BAB8680044AA4F /* premiumgroup.pdf in Resources */,
 				4C8547C319BAC3480044AA4F /* prlogo.png in Resources */,
 				4C8547A019BAB71B0044AA4F /* reload6.png in Resources */,
-				4C88D50718C2806B00D4F4AC /* Main.storyboard in Resources */,
 				4C85477D19BAA4690044AA4F /* pool.pdf in Resources */,
 				4C8547A219BAB71B0044AA4F /* reload8.png in Resources */,
+				4C89704A19CDEF2E00EE8B18 /* Main-ipad.storyboard in Resources */,
 				4C7F0F5419839CD30094BB48 /* default-568h@2x.png in Resources */,
 				4C7F0F4C197E510F0094BB48 /* background2.png in Resources */,
 			);
@@ -494,14 +506,6 @@
 				4C88D4FD18C2806B00D4F4AC /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4C88D50518C2806B00D4F4AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C88D50618C2806B00D4F4AC /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		4C88D51B18C2806B00D4F4AC /* InfoPlist.strings */ = {
@@ -606,7 +610,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "36675819-c5f2-4ad9-b944-b6ba99ae1319";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "";
 				WRAPPER_EXTENSION = app;
@@ -632,7 +636,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "36675819-c5f2-4ad9-b944-b6ba99ae1319";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "";
 				WRAPPER_EXTENSION = app;
