@@ -3,6 +3,7 @@
     <dependencies>
         <deployment defaultVersion="1808" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -15,7 +16,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Wim-Qb-5jY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hm-T4-Mmh">
@@ -45,26 +46,20 @@
                                     <action selector="makePhoneCall:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7xz-i3-4ZP"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KTG-Rx-xmf">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KTG-Rx-xmf">
                                 <rect key="frame" x="40" y="85" width="240" height="85"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="applabelsdark.png" translatesAutoresizingMaskIntoConstraints="NO" id="qN3-pi-8Hz">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="applabelsdark.png" translatesAutoresizingMaskIntoConstraints="NO" id="qN3-pi-8Hz">
                                         <rect key="frame" x="-37" y="0.0" width="314" height="522"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
                                         </accessibility>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="522" id="laB-gZ-bv9"/>
-                                        </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="prlogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="BQK-8c-80O">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prlogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="BQK-8c-80O">
                                         <rect key="frame" x="52" y="4" width="136" height="77"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.31521613569777351" green="0.59370350439876329" blue="0.84466287364130432" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="BQK-8c-80O" firstAttribute="centerX" secondItem="qN3-pi-8Hz" secondAttribute="centerX" id="rAC-vP-UeT"/>
-                                </constraints>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6iQ-81-Fal">
                                 <rect key="frame" x="20" y="280" width="280" height="52"/>
@@ -94,7 +89,7 @@
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EDM-eO-KCe">
-                                <rect key="frame" x="-6" y="0.0" width="365" height="44"/>
+                                <rect key="frame" x="-6" y="0.0" width="420" height="44"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.64313725489999995" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.97254901959999995" green="0.64313725489999995" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="barTintColor" red="0.97254901959999995" green="0.64313725489999995" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -106,9 +101,12 @@
                                     <navigationItem id="M6e-7z-ceo"/>
                                 </items>
                             </navigationBar>
-                            <navigationBar contentMode="bottom" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d39-1h-jtB">
-                                <rect key="frame" x="-55" y="20" width="431" height="44"/>
+                            <navigationBar contentMode="top" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d39-1h-jtB">
+                                <rect key="frame" x="-55" y="20" width="486" height="50"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.64313725489999995" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="d39-1h-jtB" secondAttribute="height" multiplier="431:44" id="uPK-nc-0Mx"/>
+                                </constraints>
                                 <color key="tintColor" red="0.97254901959999995" green="0.64313725489999995" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="barTintColor" red="0.97254901960784312" green="0.64313725490196083" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
                                 <textAttributes key="titleTextAttributes">
@@ -129,14 +127,18 @@
                             <constraint firstAttribute="trailingMargin" secondItem="EDM-eO-KCe" secondAttribute="trailing" constant="-55" id="H2g-NG-aIR"/>
                             <constraint firstItem="pVT-TV-3p5" firstAttribute="trailing" secondItem="6iQ-81-Fal" secondAttribute="trailing" id="Jrc-Zc-bak"/>
                             <constraint firstItem="pVT-TV-3p5" firstAttribute="leading" secondItem="TBf-DQ-a1r" secondAttribute="leading" id="P3G-Ee-wdD"/>
+                            <constraint firstItem="KTG-Rx-xmf" firstAttribute="centerX" secondItem="8hm-T4-Mmh" secondAttribute="centerX" id="dpy-2x-ZyD"/>
                             <constraint firstItem="6iQ-81-Fal" firstAttribute="top" secondItem="8hm-T4-Mmh" secondAttribute="bottom" constant="8" symbolic="YES" id="erT-Pt-bRT"/>
                             <constraint firstItem="8hm-T4-Mmh" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="4" id="eyM-41-oOk"/>
                             <constraint firstItem="d39-1h-jtB" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-99" id="gvX-Zo-fra"/>
+                            <constraint firstItem="KTG-Rx-xmf" firstAttribute="centerX" secondItem="TBf-DQ-a1r" secondAttribute="centerX" id="hFb-SP-dme"/>
                             <constraint firstItem="Wim-Qb-5jY" firstAttribute="top" secondItem="TBf-DQ-a1r" secondAttribute="bottom" constant="213" id="j1N-yK-rAW"/>
                             <constraint firstItem="EDM-eO-KCe" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-22" id="kuR-Js-9SG"/>
                             <constraint firstItem="TBf-DQ-a1r" firstAttribute="top" secondItem="pVT-TV-3p5" secondAttribute="bottom" constant="8" symbolic="YES" id="mum-jG-YeD"/>
+                            <constraint firstItem="KTG-Rx-xmf" firstAttribute="centerX" secondItem="pVT-TV-3p5" secondAttribute="centerX" id="qmh-f7-V0J"/>
                             <constraint firstItem="pVT-TV-3p5" firstAttribute="leading" secondItem="6iQ-81-Fal" secondAttribute="leading" id="rFH-h1-sri"/>
                             <constraint firstItem="TBf-DQ-a1r" firstAttribute="trailing" secondItem="pVT-TV-3p5" secondAttribute="trailing" id="sss-ug-cK0"/>
+                            <constraint firstItem="KTG-Rx-xmf" firstAttribute="centerX" secondItem="6iQ-81-Fal" secondAttribute="centerX" id="u7v-Zo-omu"/>
                             <constraint firstItem="pVT-TV-3p5" firstAttribute="top" secondItem="6iQ-81-Fal" secondAttribute="bottom" constant="8" symbolic="YES" id="vZ1-TK-NPc"/>
                             <constraint firstItem="6iQ-81-Fal" firstAttribute="trailing" secondItem="8hm-T4-Mmh" secondAttribute="trailing" id="wK6-ka-xKK"/>
                             <constraint firstItem="EDM-eO-KCe" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="yPH-M2-1sD"/>
@@ -148,7 +150,7 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -166,8 +168,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCx-eK-cyV">
-                                <rect key="frame" x="20" y="147" width="280" height="52"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCx-eK-cyV">
+                                <rect key="frame" x="47" y="149" width="280" height="52"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Gymnasium Schedule" backgroundImage="applabels.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -177,8 +179,8 @@
                                     <segue destination="3yr-Iz-yzY" kind="modal" id="l4s-g5-dJm"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRF-BW-bt2">
-                                <rect key="frame" x="20" y="87" width="280" height="52"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRF-BW-bt2">
+                                <rect key="frame" x="47" y="89" width="280" height="52"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Pool Schedule" backgroundImage="applabels.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -188,8 +190,8 @@
                                     <segue destination="38u-Oj-GaV" kind="modal" id="Zp0-U4-fGR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQC-F4-SsP">
-                                <rect key="frame" x="20" y="207" width="280" height="52"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQC-F4-SsP">
+                                <rect key="frame" x="47" y="209" width="280" height="52"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Premium Group Schedule" backgroundImage="applabels.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -199,8 +201,8 @@
                                     <segue destination="sbZ-kW-882" kind="modal" id="Xix-5W-vxa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gUe-rH-TMU">
-                                <rect key="frame" x="20" y="267" width="280" height="52"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gUe-rH-TMU">
+                                <rect key="frame" x="47" y="269" width="280" height="52"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Swim Lesson Schedule" backgroundImage="applabels.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -210,8 +212,8 @@
                                     <segue destination="bfw-er-XBU" kind="modal" id="rxd-es-m9q"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="scA-sC-U7z">
-                                <rect key="frame" x="20" y="327" width="280" height="52"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="scA-sC-U7z">
+                                <rect key="frame" x="47" y="329" width="280" height="52"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Group Fitness Schedule" backgroundImage="applabels.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -221,8 +223,8 @@
                                     <segue destination="pNi-eQ-pBg" kind="modal" id="srm-H6-kL0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AyW-CU-0FZ">
-                                <rect key="frame" x="20" y="387" width="280" height="52"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AyW-CU-0FZ">
+                                <rect key="frame" x="47" y="389" width="280" height="52"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Private Swim Schedule" backgroundImage="applabels.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -233,7 +235,7 @@
                                 </connections>
                             </button>
                             <navigationBar userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5qU-hr-aPP">
-                                <rect key="frame" x="0.0" y="-16" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="-16" width="288" height="44"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="barTintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
@@ -245,8 +247,8 @@
                                     <navigationItem title="Title" id="bBr-uE-BIu"/>
                                 </items>
                             </navigationBar>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5D0-d3-VpP">
-                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                            <navigationBar contentMode="top" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5D0-d3-VpP">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="barTintColor" red="0.98431372549019602" green="0.67843137254901964" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
@@ -267,13 +269,29 @@
                             </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pRF-BW-bt2" firstAttribute="centerX" secondItem="GCx-eK-cyV" secondAttribute="centerX" id="0WD-gr-kDP"/>
+                            <constraint firstAttribute="centerY" secondItem="5D0-d3-VpP" secondAttribute="centerY" id="4Ks-h5-4PP"/>
+                            <constraint firstItem="pRF-BW-bt2" firstAttribute="centerX" secondItem="scA-sC-U7z" secondAttribute="centerX" id="7lb-Cw-3PM"/>
+                            <constraint firstAttribute="centerX" secondItem="5D0-d3-VpP" secondAttribute="centerX" id="9Lu-I4-3Gj"/>
+                            <constraint firstItem="pRF-BW-bt2" firstAttribute="centerX" secondItem="TQC-F4-SsP" secondAttribute="centerX" id="A5K-KI-sRC"/>
+                            <constraint firstItem="pRF-BW-bt2" firstAttribute="centerX" secondItem="gUe-rH-TMU" secondAttribute="centerX" id="C6X-zS-pUn"/>
+                            <constraint firstAttribute="centerY" secondItem="5D0-d3-VpP" secondAttribute="centerY" id="Gqt-AO-ndH"/>
+                            <constraint firstItem="pRF-BW-bt2" firstAttribute="centerY" secondItem="gUe-rH-TMU" secondAttribute="centerY" id="YeR-Xq-20F"/>
+                            <constraint firstItem="pRF-BW-bt2" firstAttribute="centerX" secondItem="AyW-CU-0FZ" secondAttribute="centerX" id="df8-di-8K8"/>
+                            <constraint firstItem="pRF-BW-bt2" firstAttribute="centerY" secondItem="TQC-F4-SsP" secondAttribute="centerY" id="h8y-oM-LLq"/>
+                            <constraint firstItem="pRF-BW-bt2" firstAttribute="centerY" secondItem="AyW-CU-0FZ" secondAttribute="centerY" id="p4S-i7-NdG"/>
+                            <constraint firstItem="pRF-BW-bt2" firstAttribute="centerY" secondItem="GCx-eK-cyV" secondAttribute="centerY" id="qQ0-wi-Rov"/>
+                            <constraint firstItem="pRF-BW-bt2" firstAttribute="centerY" secondItem="scA-sC-U7z" secondAttribute="centerY" id="r9q-5Z-ejy"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="yyd-ka-iQH"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aCq-5j-Yt2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="761" y="53"/>
+            <point key="canvasLocation" x="698" y="53"/>
         </scene>
         <!--About-->
         <scene sceneID="lZd-tr-5jW">
@@ -284,7 +302,7 @@
                         <viewControllerLayoutGuide type="bottom" id="vym-4H-zT1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="xRq-H9-w6Y">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Parks and Rec for iOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFU-rE-qyl">
@@ -501,7 +519,7 @@
                         <viewControllerLayoutGuide type="bottom" id="iLc-BG-SoA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="FvG-m9-4oa">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N4N-5o-YqD">
@@ -872,8 +890,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="IuI-zK-xjV"/>
         <segue reference="c6I-Tz-A8F"/>
-        <segue reference="tNc-KW-KXA"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
 </document>
