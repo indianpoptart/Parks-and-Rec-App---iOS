@@ -9,6 +9,12 @@ It is only useful to members of Ridgefield Parks and Recreation
 It displays alerts for closings, and it has schedules, agenda's
 and a button to call the facility
 
+Current stable relese: N/A
+
+Current unstable release: N/A
+
+Upcoming release: v1.0
+
 ## Why go open source?
 
 Just cause I wanted to.
