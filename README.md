@@ -1,6 +1,6 @@
 ## Parks-and-Rec-App---iOS
 ---
-![Pandr](http://images.nikhilp.org/pandr.png)
+![Pandr](http://images.nikhilp.org/a.png)
 
 iOS version of the parks and rec app
 
