@@ -40,5 +40,28 @@
 -(IBAction)openAgenda:(id)sender{
 	[super viewDidLoad];
 }
+-(IBAction)reloadData:(id)sender{
+    // 1
+    NSURL *tutorialsUrl = [NSURL URLWithString:@"http://www.ridgefieldparksandrec.org/"];
+    NSData *tutorialsHtmlData = [NSData dataWithContentsOfURL:tutorialsUrl];
+    
+    // 2
+    TFHpple *tutorialsParser = [TFHpple hppleWithHTMLData:tutorialsHtmlData];
+    
+    // 3
+    NSString *tutorialsXpathQueryString = @"//div[@class='alert']/ul/li/a";
+    NSArray *tutorialsNodes = [tutorialsParser searchWithXPathQuery:tutorialsXpathQueryString];
+    
+    // 4
+    NSMutableArray *newTutorials = [[NSMutableArray alloc] initWithCapacity:0];
+    for (TFHppleElement *element in tutorialsNodes) {
+        // 5
+        NPViewController *tutorial = [[NPViewController alloc] init];
+        [newTutorials addObject:tutorial];
+        
+        // 6
+        tutorial.title = [[element firstChild] content];
+    }
+}
 
 @end

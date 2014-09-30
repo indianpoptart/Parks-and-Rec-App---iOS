@@ -14,6 +14,31 @@
 		4CCCCD5D19DA071B00237B98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCD5C19DA071B00237B98 /* Images.xcassets */; };
 		4CCCCD6019DA071B00237B98 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCD5E19DA071B00237B98 /* LaunchScreen.xib */; };
 		4CCCCD6C19DA071B00237B98 /* myParksandRecTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCD6B19DA071B00237B98 /* myParksandRecTests.m */; };
+		4CCCCD7719DA086F00237B98 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCD7619DA086F00237B98 /* background2.png */; };
+		4CCCCD8619DA089800237B98 /* applabels.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCD7819DA089800237B98 /* applabels.png */; };
+		4CCCCD8719DA089800237B98 /* applabelsdark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCD7919DA089800237B98 /* applabelsdark.png */; };
+		4CCCCD8819DA089800237B98 /* backward-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCD7A19DA089800237B98 /* backward-7.png */; };
+		4CCCCD8919DA089800237B98 /* prlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCD7B19DA089800237B98 /* prlogo.png */; };
+		4CCCCD8A19DA089800237B98 /* rec2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCD7C19DA089800237B98 /* rec2.png */; };
+		4CCCCD8B19DA089800237B98 /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCD7D19DA089800237B98 /* reload.png */; };
+		4CCCCD8C19DA089800237B98 /* reload2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCD7E19DA089800237B98 /* reload2.png */; };
+		4CCCCD8D19DA089800237B98 /* reload3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCD7F19DA089800237B98 /* reload3.png */; };
+		4CCCCD8E19DA089800237B98 /* reload4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCD8019DA089800237B98 /* reload4.png */; };
+		4CCCCD8F19DA089800237B98 /* reload5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCD8119DA089800237B98 /* reload5.png */; };
+		4CCCCD9019DA089800237B98 /* reload6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCD8219DA089800237B98 /* reload6.png */; };
+		4CCCCD9119DA089800237B98 /* reload7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCD8319DA089800237B98 /* reload7.png */; };
+		4CCCCD9219DA089800237B98 /* reload8.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCD8419DA089800237B98 /* reload8.png */; };
+		4CCCCD9319DA089800237B98 /* reload9.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCCD8519DA089800237B98 /* reload9.png */; };
+		4CCCCDAA19DA092500237B98 /* GroupFitnessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCD9719DA092500237B98 /* GroupFitnessController.m */; };
+		4CCCCDAB19DA092500237B98 /* GymController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCD9919DA092500237B98 /* GymController.m */; };
+		4CCCCDAC19DA092500237B98 /* NPAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCD9B19DA092500237B98 /* NPAboutViewController.m */; };
+		4CCCCDAD19DA092500237B98 /* NPAgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCD9D19DA092500237B98 /* NPAgendaViewController.m */; };
+		4CCCCDAE19DA092500237B98 /* NPScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCD9F19DA092500237B98 /* NPScheduleViewController.m */; };
+		4CCCCDAF19DA092500237B98 /* NPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCDA119DA092500237B98 /* NPViewController.m */; };
+		4CCCCDB019DA092500237B98 /* PoolController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCDA319DA092500237B98 /* PoolController.m */; };
+		4CCCCDB119DA092500237B98 /* PremiumGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCDA519DA092500237B98 /* PremiumGroupController.m */; };
+		4CCCCDB219DA092500237B98 /* PrivateSwimController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCDA719DA092500237B98 /* PrivateSwimController.m */; };
+		4CCCCDB319DA092500237B98 /* SwimLessonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCCDA919DA092500237B98 /* SwimLessonController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +65,41 @@
 		4CCCCD6519DA071B00237B98 /* myParksandRecTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myParksandRecTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCCCD6A19DA071B00237B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CCCCD6B19DA071B00237B98 /* myParksandRecTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myParksandRecTests.m; sourceTree = "<group>"; };
+		4CCCCD7619DA086F00237B98 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
+		4CCCCD7819DA089800237B98 /* applabels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applabels.png; sourceTree = "<group>"; };
+		4CCCCD7919DA089800237B98 /* applabelsdark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applabelsdark.png; sourceTree = "<group>"; };
+		4CCCCD7A19DA089800237B98 /* backward-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backward-7.png"; sourceTree = "<group>"; };
+		4CCCCD7B19DA089800237B98 /* prlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prlogo.png; sourceTree = "<group>"; };
+		4CCCCD7C19DA089800237B98 /* rec2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec2.png; sourceTree = "<group>"; };
+		4CCCCD7D19DA089800237B98 /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
+		4CCCCD7E19DA089800237B98 /* reload2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload2.png; sourceTree = "<group>"; };
+		4CCCCD7F19DA089800237B98 /* reload3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload3.png; sourceTree = "<group>"; };
+		4CCCCD8019DA089800237B98 /* reload4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload4.png; sourceTree = "<group>"; };
+		4CCCCD8119DA089800237B98 /* reload5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload5.png; sourceTree = "<group>"; };
+		4CCCCD8219DA089800237B98 /* reload6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload6.png; sourceTree = "<group>"; };
+		4CCCCD8319DA089800237B98 /* reload7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload7.png; sourceTree = "<group>"; };
+		4CCCCD8419DA089800237B98 /* reload8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload8.png; sourceTree = "<group>"; };
+		4CCCCD8519DA089800237B98 /* reload9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload9.png; sourceTree = "<group>"; };
+		4CCCCD9619DA092500237B98 /* GroupFitnessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupFitnessController.h; sourceTree = "<group>"; };
+		4CCCCD9719DA092500237B98 /* GroupFitnessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupFitnessController.m; sourceTree = "<group>"; };
+		4CCCCD9819DA092500237B98 /* GymController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GymController.h; sourceTree = "<group>"; };
+		4CCCCD9919DA092500237B98 /* GymController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GymController.m; sourceTree = "<group>"; };
+		4CCCCD9A19DA092500237B98 /* NPAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPAboutViewController.h; sourceTree = "<group>"; };
+		4CCCCD9B19DA092500237B98 /* NPAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPAboutViewController.m; sourceTree = "<group>"; };
+		4CCCCD9C19DA092500237B98 /* NPAgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPAgendaViewController.h; sourceTree = "<group>"; };
+		4CCCCD9D19DA092500237B98 /* NPAgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPAgendaViewController.m; sourceTree = "<group>"; };
+		4CCCCD9E19DA092500237B98 /* NPScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPScheduleViewController.h; sourceTree = "<group>"; };
+		4CCCCD9F19DA092500237B98 /* NPScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPScheduleViewController.m; sourceTree = "<group>"; };
+		4CCCCDA019DA092500237B98 /* NPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPViewController.h; sourceTree = "<group>"; };
+		4CCCCDA119DA092500237B98 /* NPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPViewController.m; sourceTree = "<group>"; };
+		4CCCCDA219DA092500237B98 /* PoolController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoolController.h; sourceTree = "<group>"; };
+		4CCCCDA319DA092500237B98 /* PoolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoolController.m; sourceTree = "<group>"; };
+		4CCCCDA419DA092500237B98 /* PremiumGroupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremiumGroupController.h; sourceTree = "<group>"; };
+		4CCCCDA519DA092500237B98 /* PremiumGroupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremiumGroupController.m; sourceTree = "<group>"; };
+		4CCCCDA619DA092500237B98 /* PrivateSwimController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateSwimController.h; sourceTree = "<group>"; };
+		4CCCCDA719DA092500237B98 /* PrivateSwimController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateSwimController.m; sourceTree = "<group>"; };
+		4CCCCDA819DA092500237B98 /* SwimLessonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwimLessonController.h; sourceTree = "<group>"; };
+		4CCCCDA919DA092500237B98 /* SwimLessonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwimLessonController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +148,9 @@
 				4CCCCD5919DA071B00237B98 /* Main.storyboard */,
 				4CCCCD5C19DA071B00237B98 /* Images.xcassets */,
 				4CCCCD5E19DA071B00237B98 /* LaunchScreen.xib */,
+				4CCCCD9519DA090900237B98 /* Controllers */,
+				4CCCCD9419DA089F00237B98 /* PDFs */,
+				4CCCCD7519DA086100237B98 /* Images */,
 				4CCCCD4F19DA071B00237B98 /* Supporting Files */,
 			);
 			path = myParksandRec;
@@ -117,6 +180,62 @@
 				4CCCCD6A19DA071B00237B98 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CCCCD7519DA086100237B98 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4CCCCD7619DA086F00237B98 /* background2.png */,
+				4CCCCD7819DA089800237B98 /* applabels.png */,
+				4CCCCD7919DA089800237B98 /* applabelsdark.png */,
+				4CCCCD7A19DA089800237B98 /* backward-7.png */,
+				4CCCCD7B19DA089800237B98 /* prlogo.png */,
+				4CCCCD7C19DA089800237B98 /* rec2.png */,
+				4CCCCD7D19DA089800237B98 /* reload.png */,
+				4CCCCD7E19DA089800237B98 /* reload2.png */,
+				4CCCCD7F19DA089800237B98 /* reload3.png */,
+				4CCCCD8019DA089800237B98 /* reload4.png */,
+				4CCCCD8119DA089800237B98 /* reload5.png */,
+				4CCCCD8219DA089800237B98 /* reload6.png */,
+				4CCCCD8319DA089800237B98 /* reload7.png */,
+				4CCCCD8419DA089800237B98 /* reload8.png */,
+				4CCCCD8519DA089800237B98 /* reload9.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4CCCCD9419DA089F00237B98 /* PDFs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PDFs;
+			sourceTree = "<group>";
+		};
+		4CCCCD9519DA090900237B98 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CCCCD9619DA092500237B98 /* GroupFitnessController.h */,
+				4CCCCD9719DA092500237B98 /* GroupFitnessController.m */,
+				4CCCCD9819DA092500237B98 /* GymController.h */,
+				4CCCCD9919DA092500237B98 /* GymController.m */,
+				4CCCCD9A19DA092500237B98 /* NPAboutViewController.h */,
+				4CCCCD9B19DA092500237B98 /* NPAboutViewController.m */,
+				4CCCCD9C19DA092500237B98 /* NPAgendaViewController.h */,
+				4CCCCD9D19DA092500237B98 /* NPAgendaViewController.m */,
+				4CCCCD9E19DA092500237B98 /* NPScheduleViewController.h */,
+				4CCCCD9F19DA092500237B98 /* NPScheduleViewController.m */,
+				4CCCCDA019DA092500237B98 /* NPViewController.h */,
+				4CCCCDA119DA092500237B98 /* NPViewController.m */,
+				4CCCCDA219DA092500237B98 /* PoolController.h */,
+				4CCCCDA319DA092500237B98 /* PoolController.m */,
+				4CCCCDA419DA092500237B98 /* PremiumGroupController.h */,
+				4CCCCDA519DA092500237B98 /* PremiumGroupController.m */,
+				4CCCCDA619DA092500237B98 /* PrivateSwimController.h */,
+				4CCCCDA719DA092500237B98 /* PrivateSwimController.m */,
+				4CCCCDA819DA092500237B98 /* SwimLessonController.h */,
+				4CCCCDA919DA092500237B98 /* SwimLessonController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +319,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CCCCD8D19DA089800237B98 /* reload3.png in Resources */,
+				4CCCCD8919DA089800237B98 /* prlogo.png in Resources */,
+				4CCCCD8719DA089800237B98 /* applabelsdark.png in Resources */,
+				4CCCCD8A19DA089800237B98 /* rec2.png in Resources */,
+				4CCCCD8819DA089800237B98 /* backward-7.png in Resources */,
+				4CCCCD8B19DA089800237B98 /* reload.png in Resources */,
+				4CCCCD7719DA086F00237B98 /* background2.png in Resources */,
+				4CCCCD8619DA089800237B98 /* applabels.png in Resources */,
+				4CCCCD8F19DA089800237B98 /* reload5.png in Resources */,
+				4CCCCD9019DA089800237B98 /* reload6.png in Resources */,
 				4CCCCD5B19DA071B00237B98 /* Main.storyboard in Resources */,
+				4CCCCD9219DA089800237B98 /* reload8.png in Resources */,
+				4CCCCD9319DA089800237B98 /* reload9.png in Resources */,
+				4CCCCD8C19DA089800237B98 /* reload2.png in Resources */,
+				4CCCCD9119DA089800237B98 /* reload7.png in Resources */,
 				4CCCCD6019DA071B00237B98 /* LaunchScreen.xib in Resources */,
+				4CCCCD8E19DA089800237B98 /* reload4.png in Resources */,
 				4CCCCD5D19DA071B00237B98 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,9 +354,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CCCCDAC19DA092500237B98 /* NPAboutViewController.m in Sources */,
+				4CCCCDB219DA092500237B98 /* PrivateSwimController.m in Sources */,
+				4CCCCDAA19DA092500237B98 /* GroupFitnessController.m in Sources */,
 				4CCCCD5819DA071B00237B98 /* ViewController.m in Sources */,
+				4CCCCDAB19DA092500237B98 /* GymController.m in Sources */,
+				4CCCCDAD19DA092500237B98 /* NPAgendaViewController.m in Sources */,
+				4CCCCDB019DA092500237B98 /* PoolController.m in Sources */,
 				4CCCCD5519DA071B00237B98 /* AppDelegate.m in Sources */,
+				4CCCCDB319DA092500237B98 /* SwimLessonController.m in Sources */,
+				4CCCCDAF19DA092500237B98 /* NPViewController.m in Sources */,
 				4CCCCD5219DA071B00237B98 /* main.m in Sources */,
+				4CCCCDAE19DA092500237B98 /* NPScheduleViewController.m in Sources */,
+				4CCCCDB119DA092500237B98 /* PremiumGroupController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
