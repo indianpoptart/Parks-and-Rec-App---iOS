@@ -16,8 +16,8 @@ Current unstable release: N/A
 Upcoming release: v1.0
 
 ## Tested on
-*iPhone 5 - iOS 7 & iOS 8
-*iPhone 6 Simulator
+* iPhone 5 - iOS 7 & iOS 8
+* iPhone 6 Simulator
 
 ## License
 
