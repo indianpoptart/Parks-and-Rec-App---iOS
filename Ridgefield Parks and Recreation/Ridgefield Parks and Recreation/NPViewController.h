@@ -15,5 +15,6 @@
 -(IBAction)makePhoneCall:(id)sender;
 -(IBAction)openSchedules:(id)sender;
 -(IBAction)openAgenda:(id)sender;
+-(IBAction)alert:(id)sender;
 
 @end
