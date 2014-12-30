@@ -38,16 +38,6 @@
 -(IBAction)openAgenda:(id)sender{
 	[super viewDidLoad];
 }
--(IBAction)alert:(id)sender{
-    NSURL *url = [NSURL URLWithString:@"http://ridgefieldparksandrec.org"]];
-    NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    /* set headers, etc. on request if needed */
-    NSData *data = [NSURLConnection sendSynchronousRequest:request returningResponse:NULL error:NULL];
-    NSString *html = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]];
-    NSScanner *scanner = [NSScanner scannerWithString:html];
-    NSString *token = nil;
-    [scanner scanUpToString:@"<h1>" intoString:NULL];
-    [scanner scanUpToString:@"</h1>" intoString:&token];
-}
+
 
 @end
