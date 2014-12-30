@@ -61,7 +61,7 @@
 }
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
 	[searchBar resignFirstResponder];
-	[webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[NSString         stringWithFormat:@"http://%@",searchBar.text]]]];
+	[webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://%@",searchBar.text]]]];
 	[webview addSubview:activityind];
 }
 

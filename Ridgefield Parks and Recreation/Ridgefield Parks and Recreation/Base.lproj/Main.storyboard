@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <deployment defaultVersion="1808" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--Ridgefield Parks and Rec-->
@@ -14,7 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Wim-Qb-5jY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hm-T4-Mmh">
@@ -110,7 +110,7 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -125,7 +125,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Eb0-ht-t8W"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="59h-SI-76h">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCx-eK-cyV">
@@ -194,7 +194,7 @@
                                     <segue destination="hwi-11-6Zz" kind="modal" id="b11-xU-nib"/>
                                 </connections>
                             </button>
-                            <navigationBar userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5qU-hr-aPP">
+                            <navigationBar userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qU-hr-aPP">
                                 <rect key="frame" x="0.0" y="-16" width="320" height="44"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
@@ -204,10 +204,10 @@
                                     <color key="textShadowColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Title" id="bBr-uE-BIu"/>
+                                    <navigationItem id="bBr-uE-BIu"/>
                                 </items>
                             </navigationBar>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5D0-d3-VpP">
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5D0-d3-VpP">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
@@ -246,7 +246,7 @@
                         <viewControllerLayoutGuide type="bottom" id="vym-4H-zT1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="xRq-H9-w6Y">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Parks and Rec for iOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFU-rE-qyl">
@@ -270,7 +270,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rec2.png" translatesAutoresizingMaskIntoConstraints="NO" id="6AA-pX-kEz">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rec.png" translatesAutoresizingMaskIntoConstraints="NO" id="6AA-pX-kEz">
                                 <rect key="frame" x="10" y="127" width="294" height="128"/>
                             </imageView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lM9-N7-sTT">
@@ -321,7 +321,7 @@
                         <viewControllerLayoutGuide type="bottom" id="U6J-jB-EFR"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="b6G-h1-9g1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eIh-Iw-CaI">
@@ -330,7 +330,7 @@
                             </webView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="9e0-yG-awJ">
                                 <rect key="frame" x="142" y="297" width="37" height="37"/>
-                                <color key="color" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </activityIndicatorView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Khv-Zh-KFW">
                                 <rect key="frame" x="0.0" y="-16" width="320" height="44"/>
@@ -392,7 +392,7 @@
                         <viewControllerLayoutGuide type="bottom" id="5cd-l6-OTf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kUe-3x-qay">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6hH-3B-77n">
@@ -401,7 +401,7 @@
                             </webView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="uwl-fo-c4p">
                                 <rect key="frame" x="142" y="301" width="37" height="37"/>
-                                <color key="color" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </activityIndicatorView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eID-li-mQU">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -463,7 +463,7 @@
                         <viewControllerLayoutGuide type="bottom" id="iLc-BG-SoA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="FvG-m9-4oa">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N4N-5o-YqD">
@@ -511,9 +511,10 @@
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="color" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="0.0" colorSpace="calibratedRGB"/>
                             </activityIndicatorView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wlX-W3-xOw">
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlX-W3-xOw">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.64313725489999995" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.97254901959999995" green="0.64313725489999995" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="barTintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <textAttributes key="titleTextAttributes">
                                     <color key="textColor" red="0.97254901959999995" green="0.64313725489999995" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -525,7 +526,7 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="McX-Yl-QEe">
                                 <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.97254901959999995" green="0.64313725489999995" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="barTintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
                                 <textAttributes key="titleTextAttributes">
                                     <color key="textShadowColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
@@ -566,7 +567,7 @@
                         <viewControllerLayoutGuide type="bottom" id="sJb-ns-zTY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="E5l-oh-Ksc">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vi3-fA-tBB">
@@ -575,7 +576,7 @@
                             </webView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="d1t-cI-Un8">
                                 <rect key="frame" x="142" y="301" width="37" height="37"/>
-                                <color key="color" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </activityIndicatorView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fcO-y8-1BQ">
                                 <rect key="frame" x="0.0" y="-24" width="320" height="44"/>
@@ -631,7 +632,7 @@
                         <viewControllerLayoutGuide type="bottom" id="jg2-9M-XHG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="BEE-WH-NNW">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vce-VH-E2R">
@@ -640,7 +641,7 @@
                             </webView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="2no-aG-lxv">
                                 <rect key="frame" x="142" y="301" width="37" height="37"/>
-                                <color key="color" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </activityIndicatorView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ukv-Td-T8a">
                                 <rect key="frame" x="0.0" y="-16" width="320" height="44"/>
@@ -697,7 +698,7 @@
                         <viewControllerLayoutGuide type="bottom" id="MT7-lo-nv6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="M6Z-B0-uFw">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tFb-Pi-ygL">
@@ -706,7 +707,7 @@
                             </webView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="IYc-wp-1f1">
                                 <rect key="frame" x="142" y="301" width="37" height="37"/>
-                                <color key="color" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </activityIndicatorView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DFP-qo-do9">
                                 <rect key="frame" x="0.0" y="-16" width="320" height="44"/>
@@ -763,7 +764,7 @@
                         <viewControllerLayoutGuide type="bottom" id="5Lo-jh-O0Y"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="SPr-91-8PF">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jvY-iE-oCk">
@@ -772,7 +773,7 @@
                             </webView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="f3c-Fh-DAU">
                                 <rect key="frame" x="142" y="301" width="37" height="37"/>
-                                <color key="color" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </activityIndicatorView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2yQ-Mq-B10">
                                 <rect key="frame" x="0.0" y="-16" width="320" height="44"/>
@@ -826,7 +827,7 @@
         <image name="applabelsdark.png" width="372" height="88"/>
         <image name="backward-7.png" width="30" height="30"/>
         <image name="prlogo.png" width="945" height="547"/>
-        <image name="rec2.png" width="700" height="300"/>
+        <image name="rec.png" width="700" height="300"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -835,7 +836,7 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="c6I-Tz-A8F"/>
-        <segue reference="aRk-et-Bk1"/>
+        <segue reference="tNc-KW-KXA"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
 </document>

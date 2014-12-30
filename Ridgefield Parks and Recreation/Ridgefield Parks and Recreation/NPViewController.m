@@ -8,8 +8,6 @@
 
 #import "NPViewController.h"
 #import "NPAgendaViewController.h"
-#import "TFHpple.h"
-#import "Contributor.h"
 
 @interface NPViewController ()
 

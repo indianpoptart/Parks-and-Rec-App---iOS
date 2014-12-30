@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4C26A73D18C56FB5001845CB /* NPAgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26A73C18C56FB5001845CB /* NPAgendaViewController.m */; };
-		4C2B50F619BFECA90051071F /* privSwim.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C2B50F519BFECA90051071F /* privSwim.pdf */; };
+		4C4F83711A521CC9005BDE6B /* rec.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C4F83701A521CC9005BDE6B /* rec.png */; };
 		4C7F0F4C197E510F0094BB48 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F4B197E510F0094BB48 /* background2.png */; };
 		4C7F0F50198120A90094BB48 /* applabelsdark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F4F198120A90094BB48 /* applabelsdark.png */; };
 		4C7F0F5419839CD30094BB48 /* default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F5319839CD30094BB48 /* default-568h@2x.png */; };
 		4C7F0F5619839CD80094BB48 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F5519839CD80094BB48 /* default@2x.png */; };
-		4C853A1A19BB37B700C3CFF3 /* rec2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C853A1919BB37B700C3CFF3 /* rec2.png */; };
-		4C85477D19BAA4690044AA4F /* pool.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C85477C19BAA4690044AA4F /* pool.pdf */; };
 		4C85478919BAAE180044AA4F /* PoolController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C85478819BAAE180044AA4F /* PoolController.m */; };
 		4C85478E19BAB0E90044AA4F /* PrivateSwimController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C85478D19BAB0E90044AA4F /* PrivateSwimController.m */; };
 		4C85479819BAB7040044AA4F /* reload2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C85479519BAB7040044AA4F /* reload2.png */; };
@@ -25,10 +23,6 @@
 		4C8547A119BAB71B0044AA4F /* reload7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C85479D19BAB71B0044AA4F /* reload7.png */; };
 		4C8547A219BAB71B0044AA4F /* reload8.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C85479E19BAB71B0044AA4F /* reload8.png */; };
 		4C8547A819BAB7F40044AA4F /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8547A719BAB7F40044AA4F /* reload.png */; };
-		4C8547AA19BAB85A0044AA4F /* groupfitness.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8547A919BAB85A0044AA4F /* groupfitness.pdf */; };
-		4C8547AE19BAB8680044AA4F /* gym.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8547AB19BAB8680044AA4F /* gym.pdf */; };
-		4C8547AF19BAB8680044AA4F /* premiumgroup.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8547AC19BAB8680044AA4F /* premiumgroup.pdf */; };
-		4C8547B019BAB8680044AA4F /* swimlesson.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4C8547AD19BAB8680044AA4F /* swimlesson.pdf */; };
 		4C8547B419BAB87F0044AA4F /* SwimLessonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8547B219BAB87F0044AA4F /* SwimLessonController.m */; };
 		4C8547B819BABB870044AA4F /* GymController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8547B719BABB870044AA4F /* GymController.m */; };
 		4C8547BB19BABCFF0044AA4F /* GroupFitnessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8547BA19BABCFF0044AA4F /* GroupFitnessController.m */; };
@@ -50,11 +44,8 @@
 		4C88D51518C2806B00D4F4AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D4F718C2806B00D4F4AC /* UIKit.framework */; };
 		4C88D51D18C2806B00D4F4AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D51B18C2806B00D4F4AC /* InfoPlist.strings */; };
 		4C88D51F18C2806B00D4F4AC /* Ridgefield_Parks_and_RecreationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C88D51E18C2806B00D4F4AC /* Ridgefield_Parks_and_RecreationTests.m */; };
-		4C8CC6FB1901A4BB008A2316 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CC6F81901A4BB008A2316 /* TFHpple.m */; };
-		4C8CC6FC1901A4BB008A2316 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CC6FA1901A4BB008A2316 /* TFHppleElement.m */; };
 		4C8CC6FE1901A528008A2316 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8CC6FD1901A528008A2316 /* libxml2.2.dylib */; };
 		4C8CC6FF1901A52F008A2316 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D55118C2927D00D4F4AC /* libxml2.dylib */; };
-		4C8CC7031901A67F008A2316 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8CC7021901A67F008A2316 /* XPathQuery.m */; };
 		4CA894D819BA955800D74A46 /* backward-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA894D719BA955800D74A46 /* backward-7.png */; };
 		4CD9ABC5195E548700E03CFA /* applabels.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD9ABC4195E548700E03CFA /* applabels.png */; };
 /* End PBXBuildFile section */
@@ -72,13 +63,11 @@
 /* Begin PBXFileReference section */
 		4C26A73B18C56FB5001845CB /* NPAgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPAgendaViewController.h; sourceTree = "<group>"; };
 		4C26A73C18C56FB5001845CB /* NPAgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPAgendaViewController.m; sourceTree = "<group>"; };
-		4C2B50F519BFECA90051071F /* privSwim.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = privSwim.pdf; path = ../../../../Downloads/privSwim.pdf; sourceTree = "<group>"; };
+		4C4F83701A521CC9005BDE6B /* rec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec.png; sourceTree = "<group>"; };
 		4C7F0F4B197E510F0094BB48 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
 		4C7F0F4F198120A90094BB48 /* applabelsdark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applabelsdark.png; sourceTree = "<group>"; };
 		4C7F0F5319839CD30094BB48 /* default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-568h@2x.png"; sourceTree = "<group>"; };
 		4C7F0F5519839CD80094BB48 /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@2x.png"; sourceTree = "<group>"; };
-		4C853A1919BB37B700C3CFF3 /* rec2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec2.png; sourceTree = "<group>"; };
-		4C85477C19BAA4690044AA4F /* pool.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pool.pdf; sourceTree = "<group>"; };
 		4C85478719BAAE180044AA4F /* PoolController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoolController.h; sourceTree = "<group>"; };
 		4C85478819BAAE180044AA4F /* PoolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoolController.m; sourceTree = "<group>"; };
 		4C85478C19BAB0E90044AA4F /* PrivateSwimController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateSwimController.h; sourceTree = "<group>"; };
@@ -91,10 +80,6 @@
 		4C85479D19BAB71B0044AA4F /* reload7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload7.png; sourceTree = "<group>"; };
 		4C85479E19BAB71B0044AA4F /* reload8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload8.png; sourceTree = "<group>"; };
 		4C8547A719BAB7F40044AA4F /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
-		4C8547A919BAB85A0044AA4F /* groupfitness.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = groupfitness.pdf; path = Images.xcassets/groupfitness.pdf; sourceTree = "<group>"; };
-		4C8547AB19BAB8680044AA4F /* gym.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = gym.pdf; path = Images.xcassets/gym.pdf; sourceTree = "<group>"; };
-		4C8547AC19BAB8680044AA4F /* premiumgroup.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = premiumgroup.pdf; path = Images.xcassets/premiumgroup.pdf; sourceTree = "<group>"; };
-		4C8547AD19BAB8680044AA4F /* swimlesson.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = swimlesson.pdf; path = Images.xcassets/swimlesson.pdf; sourceTree = "<group>"; };
 		4C8547B119BAB87F0044AA4F /* SwimLessonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwimLessonController.h; sourceTree = "<group>"; };
 		4C8547B219BAB87F0044AA4F /* SwimLessonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwimLessonController.m; sourceTree = "<group>"; };
 		4C8547B619BABB870044AA4F /* GymController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GymController.h; sourceTree = "<group>"; };
@@ -128,14 +113,7 @@
 		4C88D51C18C2806B00D4F4AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C88D51E18C2806B00D4F4AC /* Ridgefield_Parks_and_RecreationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ridgefield_Parks_and_RecreationTests.m; sourceTree = "<group>"; };
 		4C88D55118C2927D00D4F4AC /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		4C8CC6F71901A4BB008A2316 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
-		4C8CC6F81901A4BB008A2316 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
-		4C8CC6F91901A4BB008A2316 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
-		4C8CC6FA1901A4BB008A2316 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
 		4C8CC6FD1901A528008A2316 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
-		4C8CC7001901A5A0008A2316 /* Contributer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contributer.h; sourceTree = "<group>"; };
-		4C8CC7011901A67F008A2316 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
-		4C8CC7021901A67F008A2316 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 		4CA894D719BA955800D74A46 /* backward-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backward-7.png"; sourceTree = "<group>"; };
 		4CD9ABC4195E548700E03CFA /* applabels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applabels.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,7 +174,7 @@
 				4C85479D19BAB71B0044AA4F /* reload7.png */,
 				4C85479E19BAB71B0044AA4F /* reload8.png */,
 				4C8547C219BAC3480044AA4F /* prlogo.png */,
-				4C853A1919BB37B700C3CFF3 /* rec2.png */,
+				4C4F83701A521CC9005BDE6B /* rec.png */,
 				4CD9ABC4195E548700E03CFA /* applabels.png */,
 				4C7F0F4F198120A90094BB48 /* applabelsdark.png */,
 				4C7F0F4B197E510F0094BB48 /* background2.png */,
@@ -242,10 +220,8 @@
 				4C88D50218C2806B00D4F4AC /* NPAppDelegate.h */,
 				4C88D50318C2806B00D4F4AC /* NPAppDelegate.m */,
 				4C88D50518C2806B00D4F4AC /* Main.storyboard */,
-				4C8CC6F61901A47E008A2316 /* HTMLParsing */,
 				4C26A73E18C56FC3001845CB /* Controllers */,
 				4CC96C6419BAA2BF008B94E6 /* Schedules */,
-				4CC96C6719BAA3A6008B94E6 /* PDF */,
 				4C26A73F18C56FD7001845CB /* Images */,
 				4C88D50B18C2806B00D4F4AC /* Images.xcassets */,
 				4C88D4FA18C2806B00D4F4AC /* Supporting Files */,
@@ -282,20 +258,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4C8CC6F61901A47E008A2316 /* HTMLParsing */ = {
-			isa = PBXGroup;
-			children = (
-				4C8CC6F71901A4BB008A2316 /* TFHpple.h */,
-				4C8CC6F81901A4BB008A2316 /* TFHpple.m */,
-				4C8CC7011901A67F008A2316 /* XPathQuery.h */,
-				4C8CC7021901A67F008A2316 /* XPathQuery.m */,
-				4C8CC6F91901A4BB008A2316 /* TFHppleElement.h */,
-				4C8CC6FA1901A4BB008A2316 /* TFHppleElement.m */,
-				4C8CC7001901A5A0008A2316 /* Contributer.h */,
-			);
-			name = HTMLParsing;
-			sourceTree = "<group>";
-		};
 		4CC96C6419BAA2BF008B94E6 /* Schedules */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,19 +275,6 @@
 				4C8547BD19BABD940044AA4F /* PremiumGroupController.m */,
 			);
 			name = Schedules;
-			sourceTree = "<group>";
-		};
-		4CC96C6719BAA3A6008B94E6 /* PDF */ = {
-			isa = PBXGroup;
-			children = (
-				4C8547A919BAB85A0044AA4F /* groupfitness.pdf */,
-				4C8547AB19BAB8680044AA4F /* gym.pdf */,
-				4C8547AC19BAB8680044AA4F /* premiumgroup.pdf */,
-				4C2B50F519BFECA90051071F /* privSwim.pdf */,
-				4C8547AD19BAB8680044AA4F /* swimlesson.pdf */,
-				4C85477C19BAA4690044AA4F /* pool.pdf */,
-			);
-			name = PDF;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,7 +322,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = NP;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = NikhilP;
 				TargetAttributes = {
 					4C88D4EF18C2806B00D4F4AC = {
@@ -411,25 +360,19 @@
 				4C85479F19BAB71B0044AA4F /* reload5.png in Resources */,
 				4C85479919BAB7040044AA4F /* reload3.png in Resources */,
 				4C88D50C18C2806B00D4F4AC /* Images.xcassets in Resources */,
-				4C8547AE19BAB8680044AA4F /* gym.pdf in Resources */,
 				4C8547A119BAB71B0044AA4F /* reload7.png in Resources */,
+				4C4F83711A521CC9005BDE6B /* rec.png in Resources */,
 				4C7F0F50198120A90094BB48 /* applabelsdark.png in Resources */,
-				4C853A1A19BB37B700C3CFF3 /* rec2.png in Resources */,
 				4CA894D819BA955800D74A46 /* backward-7.png in Resources */,
 				4C85479819BAB7040044AA4F /* reload2.png in Resources */,
-				4C8547B019BAB8680044AA4F /* swimlesson.pdf in Resources */,
 				4C85479A19BAB7040044AA4F /* reload4.png in Resources */,
-				4C2B50F619BFECA90051071F /* privSwim.pdf in Resources */,
 				4C8547A819BAB7F40044AA4F /* reload.png in Resources */,
-				4C8547AA19BAB85A0044AA4F /* groupfitness.pdf in Resources */,
 				4C7F0F5619839CD80094BB48 /* default@2x.png in Resources */,
 				4CD9ABC5195E548700E03CFA /* applabels.png in Resources */,
 				4C88D4FE18C2806B00D4F4AC /* InfoPlist.strings in Resources */,
-				4C8547AF19BAB8680044AA4F /* premiumgroup.pdf in Resources */,
 				4C8547C319BAC3480044AA4F /* prlogo.png in Resources */,
 				4C8547A019BAB71B0044AA4F /* reload6.png in Resources */,
 				4C88D50718C2806B00D4F4AC /* Main.storyboard in Resources */,
-				4C85477D19BAA4690044AA4F /* pool.pdf in Resources */,
 				4C8547A219BAB71B0044AA4F /* reload8.png in Resources */,
 				4C7F0F5419839CD30094BB48 /* default-568h@2x.png in Resources */,
 				4C7F0F4C197E510F0094BB48 /* background2.png in Resources */,
@@ -451,7 +394,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C8CC7031901A67F008A2316 /* XPathQuery.m in Sources */,
 				4C8547B419BAB87F0044AA4F /* SwimLessonController.m in Sources */,
 				4C85478919BAAE180044AA4F /* PoolController.m in Sources */,
 				4C8547BE19BABD940044AA4F /* PremiumGroupController.m in Sources */,
@@ -464,8 +406,6 @@
 				4C8547C119BAC2500044AA4F /* NPAboutViewController.m in Sources */,
 				4C26A73D18C56FB5001845CB /* NPAgendaViewController.m in Sources */,
 				4C8547C819BAC83C0044AA4F /* NPScheduleViewController.m in Sources */,
-				4C8CC6FC1901A4BB008A2316 /* TFHppleElement.m in Sources */,
-				4C8CC6FB1901A4BB008A2316 /* TFHpple.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,7 +459,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -558,7 +497,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -592,8 +530,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Nikhil Paranjape (8EW3GQQZAQ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nikhil Paranjape (8EW3GQQZAQ)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ridgefield Parks and Recreation/Ridgefield Parks and Recreation-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -605,7 +543,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "36675819-c5f2-4ad9-b944-b6ba99ae1319";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "";
@@ -618,8 +556,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Nikhil Paranjape (8EW3GQQZAQ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nikhil Paranjape (8EW3GQQZAQ)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ridgefield Parks and Recreation/Ridgefield Parks and Recreation-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -631,7 +569,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "36675819-c5f2-4ad9-b944-b6ba99ae1319";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "";
@@ -642,7 +580,6 @@
 		4C88D52618C2806B00D4F4AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ridgefield Parks and Recreation.app/Ridgefield Parks and Recreation";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -665,7 +602,6 @@
 		4C88D52718C2806B00D4F4AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ridgefield Parks and Recreation.app/Ridgefield Parks and Recreation";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
