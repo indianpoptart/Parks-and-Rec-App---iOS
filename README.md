@@ -15,8 +15,7 @@ Current unstable release: N/A
 
 Upcoming release: v1.1
 
-![Parks and Rec on the Apple App Store](https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.png)[1] (Free)
-
+<a href="https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.png">![alt text][1]</a>
 [1]: https://itunes.apple.com/us/app/myparksandrec/id924248341?ls=1&mt=8
 
 ## Tested on
