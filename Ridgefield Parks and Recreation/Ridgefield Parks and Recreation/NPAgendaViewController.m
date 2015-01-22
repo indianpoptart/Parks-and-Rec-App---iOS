@@ -44,7 +44,28 @@
 										 [UIImage imageNamed:@"reload5.png"],
 										 [UIImage imageNamed:@"reload6.png"],
 										 [UIImage imageNamed:@"reload7.png"],
-										 [UIImage imageNamed:@"reload8.png"],nil];
+										 [UIImage imageNamed:@"reload8.png"],
+                                         [UIImage imageNamed:@"reload9.png"],
+                                         [UIImage imageNamed:@"reload10.png"],
+                                         [UIImage imageNamed:@"reload11.png"],
+                                         [UIImage imageNamed:@"reload12.png"],
+                                         [UIImage imageNamed:@"reload13.png"],
+                                         [UIImage imageNamed:@"reload14.png"],
+                                         [UIImage imageNamed:@"reload15.png"],
+                                         [UIImage imageNamed:@"reload16.png"],
+                                         [UIImage imageNamed:@"reload17.png"],
+                                         [UIImage imageNamed:@"reload18.png"],
+                                         [UIImage imageNamed:@"reload19.png"],
+                                         [UIImage imageNamed:@"reload20.png"],
+                                         [UIImage imageNamed:@"reload21.png"],
+                                         [UIImage imageNamed:@"reload22.png"],
+                                         [UIImage imageNamed:@"reload23.png"],
+                                         [UIImage imageNamed:@"reload24.png"],
+                                         [UIImage imageNamed:@"reload25.png"],
+                                         [UIImage imageNamed:@"reload26.png"],
+                                         [UIImage imageNamed:@"reload27.png"],
+                                         [UIImage imageNamed:@"reload28.png"],
+                                         [UIImage imageNamed:@"reload29.png"],nil];
 	activityImageView.alpha = 1.0;
 	activityImageView.animationDuration = 1.0;
 	
