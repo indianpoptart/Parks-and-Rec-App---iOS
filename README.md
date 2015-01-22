@@ -1,6 +1,6 @@
 ## Parks-and-Rec-App---iOS
 ---
-![Pandr](http://images.nikhilp.org/a.png)
+![Pandr](https://nikhilp.org/images/a.png)
 
 iOS version of the parks and rec app
 
@@ -15,9 +15,9 @@ Current unstable release: N/A
 
 Upcoming release: v1.1
 
-![Parks and Rec on the Apple App Store](https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.png)[1] (Free)
+[<img src="https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.png">][2]
 
-[1]: https://itunes.apple.com/us/app/myparksandrec/id924248341?ls=1&mt=8
+[2]: https://itunes.apple.com/us/app/myparksandrec/id924248341?ls=1&mt=8
 
 ## Tested on
 * iPhone 5 - iOS 7 & iOS 8
