@@ -78,7 +78,7 @@
                                 </items>
                             </navigationBar>
                             <navigationBar contentMode="bottom" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d39-1h-jtB">
-                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="330" height="44"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.64313725489999995" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.97254901959999995" green="0.64313725489999995" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="barTintColor" red="0.97254901960784312" green="0.64313725490196083" blue="0.16862745098039217" alpha="1" colorSpace="calibratedRGB"/>
@@ -110,11 +110,10 @@
                     <nil key="simulatedTopBarMetrics"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138" y="80"/>
+            <point key="canvasLocation" x="137.5" y="79.5"/>
         </scene>
         <!--Schedules-->
         <scene sceneID="bu9-Ic-3Az">
@@ -264,12 +263,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Created by Nikhil Paranjape" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsC-vF-e9k">
-                                <rect key="frame" x="0.0" y="352" width="320" height="21"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lM9-N7-sTT">
                                 <rect key="frame" x="0.0" y="-10" width="320" height="44"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
@@ -355,6 +348,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Created by Nikhil Paranjape" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsC-vF-e9k">
+                                <rect key="frame" x="0.0" y="347" width="320" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -362,24 +361,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FN0-RA-Slf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="138" y="729"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="npR-w3-xSn">
-            <objects>
-                <viewController id="gFX-N9-NcV" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="mpe-hM-5uI"/>
-                        <viewControllerLayoutGuide type="bottom" id="n6l-Pj-ABh"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="9Vx-Ad-2YE">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="r3n-R6-Jmv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="137" y="1354"/>
         </scene>
         <!--Pool Schedule-->
         <scene sceneID="3Cm-6p-hB2">
