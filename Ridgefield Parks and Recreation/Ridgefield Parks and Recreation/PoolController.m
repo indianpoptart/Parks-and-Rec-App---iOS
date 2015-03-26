@@ -21,7 +21,7 @@
 	//NSString *path = [[NSBundle mainBundle] pathForResource:@"pool" ofType:@"pdf"];
 	//NSURL *url = [NSURL fileURLWithPath:path];
 	//NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    [poolview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://nikhilp.org/pandr-pdf/pool.pdf"]]];
+    [poolview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://ridgefieldparksandrec.org/wp-content/uploads/Pool-Schedule.pdf"]]];
 	[poolview setScalesPageToFit:YES];
 	[poolview addSubview:activityind];
 	

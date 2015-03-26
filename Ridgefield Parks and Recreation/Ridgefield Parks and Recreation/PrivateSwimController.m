@@ -21,7 +21,7 @@
 //	NSString *path = [[NSBundle mainBundle] pathForResource:@"privSwim" ofType:@"pdf"];
 //	NSURL *url = [NSURL fileURLWithPath:path];
 //	NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    [psview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.nikhilp.org/pandr-pdf/privSwim.pdf"]]];
+    [psview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://ridgefieldparksandrec.org/wp-content/uploads/Private-Swim-Schedule-spring-20152.pdf"]]];
     psview.scalesPageToFit = YES;
 	//[psview loadRequest:request];
 	[psview setScalesPageToFit:YES];

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4C26A73D18C56FB5001845CB /* NPAgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26A73C18C56FB5001845CB /* NPAgendaViewController.m */; };
+		4C6024CB1AC4A6B10020F2DF /* TestOutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6024CA1AC4A6B10020F2DF /* TestOutController.m */; };
 		4C7F0F4C197E510F0094BB48 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F4B197E510F0094BB48 /* background2.png */; };
 		4C7F0F50198120A90094BB48 /* applabelsdark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F4F198120A90094BB48 /* applabelsdark.png */; };
 		4C7F0F5419839CD30094BB48 /* default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F5319839CD30094BB48 /* default-568h@2x.png */; };
@@ -87,6 +88,8 @@
 /* Begin PBXFileReference section */
 		4C26A73B18C56FB5001845CB /* NPAgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPAgendaViewController.h; sourceTree = "<group>"; };
 		4C26A73C18C56FB5001845CB /* NPAgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPAgendaViewController.m; sourceTree = "<group>"; };
+		4C6024C91AC4A69C0020F2DF /* TestOutController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestOutController.h; sourceTree = "<group>"; };
+		4C6024CA1AC4A6B10020F2DF /* TestOutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOutController.m; sourceTree = "<group>"; };
 		4C7F0F4B197E510F0094BB48 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
 		4C7F0F4F198120A90094BB48 /* applabelsdark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applabelsdark.png; sourceTree = "<group>"; };
 		4C7F0F5319839CD30094BB48 /* default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-568h@2x.png"; sourceTree = "<group>"; };
@@ -351,6 +354,8 @@
 				4C8547BA19BABCFF0044AA4F /* GroupFitnessController.m */,
 				4C8547BC19BABD940044AA4F /* PremiumGroupController.h */,
 				4C8547BD19BABD940044AA4F /* PremiumGroupController.m */,
+				4C6024C91AC4A69C0020F2DF /* TestOutController.h */,
+				4C6024CA1AC4A6B10020F2DF /* TestOutController.m */,
 			);
 			name = Schedules;
 			sourceTree = "<group>";
@@ -503,6 +508,7 @@
 				4C88D50018C2806B00D4F4AC /* main.m in Sources */,
 				4CC0C7701A52CE920034F463 /* NPRSSparser.m in Sources */,
 				4CC0C76D1A52CDB80034F463 /* NPAlertController.m in Sources */,
+				4C6024CB1AC4A6B10020F2DF /* TestOutController.m in Sources */,
 				4CC0C76B1A52BCB00034F463 /* XPathQuery.m in Sources */,
 				4C8547BB19BABCFF0044AA4F /* GroupFitnessController.m in Sources */,
 				4C8547C119BAC2500044AA4F /* NPAboutViewController.m in Sources */,
