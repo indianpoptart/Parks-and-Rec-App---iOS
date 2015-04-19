@@ -11,7 +11,7 @@ and a button to call the facility
 
 Current stable relese: v1.1
 
-Current unstable release: NA
+Current beta release: NA
 
 Upcoming release: v1.2
 
@@ -32,3 +32,11 @@ While it is not strictly forbidden by the license, I would greatly appreciate it
 ## 3rd Party API's
 
 Thank you [topfunky](http://topfunky.com) for creating [hpple](https://github.com/topfunky/hpple), useful for website scraping and getting data from the website
+
+## Currently Testing in beta
+
+## What's New in v1.1
+-  Made schedules dynamic instead of static
+-  New test out schedule
+-  Minor bug fixes
+-  Minor graphical changes
