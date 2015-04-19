@@ -9,11 +9,11 @@ It is only useful to members of Ridgefield Parks and Recreation
 It displays alerts for closings, and it has schedules, agenda's
 and a button to call the facility
 
-Current stable relese: v1.0
+Current stable relese: v1.1
 
-Current unstable release: N/A
+Current unstable release: NA
 
-Upcoming release: v1.1
+Upcoming release: v1.2
 
 [<img src="https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.png">][2]
 
