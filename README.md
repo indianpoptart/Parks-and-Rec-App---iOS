@@ -20,8 +20,11 @@ Upcoming release: v1.2
 [2]: https://itunes.apple.com/us/app/myparksandrec/id924248341?ls=1&mt=8
 
 ## Tested on
-* iPhone 5 - iOS 7 & iOS 8
-* iPhone 6 Simulator
+* iPhone 4S
+* iPhone 5
+* iPhone 5S
+* iPhone 6 
+* iPhone 6 +
 
 ## License
 
