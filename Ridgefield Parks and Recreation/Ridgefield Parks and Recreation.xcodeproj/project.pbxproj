@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0B78C11B39D2E300495235 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B78C01B39D2E300495235 /* Images-2.xcassets */; };
 		4C26A73D18C56FB5001845CB /* NPAgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26A73C18C56FB5001845CB /* NPAgendaViewController.m */; };
 		4C6024CB1AC4A6B10020F2DF /* TestOutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6024CA1AC4A6B10020F2DF /* TestOutController.m */; };
 		4C7F0F4C197E510F0094BB48 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F4B197E510F0094BB48 /* background2.png */; };
 		4C7F0F50198120A90094BB48 /* applabelsdark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F4F198120A90094BB48 /* applabelsdark.png */; };
 		4C7F0F5419839CD30094BB48 /* default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F5319839CD30094BB48 /* default-568h@2x.png */; };
 		4C7F0F5619839CD80094BB48 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F5519839CD80094BB48 /* default@2x.png */; };
+		4C8260291B35D02D002A7A42 /* ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8260281B35D02D002A7A42 /* ipad.storyboard */; };
+		4C82602F1B35D334002A7A42 /* gradient2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C82602E1B35D334002A7A42 /* gradient2.png */; };
 		4C85478919BAAE180044AA4F /* PoolController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C85478819BAAE180044AA4F /* PoolController.m */; };
 		4C85478E19BAB0E90044AA4F /* PrivateSwimController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C85478D19BAB0E90044AA4F /* PrivateSwimController.m */; };
 		4C8547B419BAB87F0044AA4F /* SwimLessonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8547B219BAB87F0044AA4F /* SwimLessonController.m */; };
@@ -86,6 +89,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C0B78C01B39D2E300495235 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		4C26A73B18C56FB5001845CB /* NPAgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPAgendaViewController.h; sourceTree = "<group>"; };
 		4C26A73C18C56FB5001845CB /* NPAgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPAgendaViewController.m; sourceTree = "<group>"; };
 		4C6024C91AC4A69C0020F2DF /* TestOutController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestOutController.h; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 		4C7F0F4F198120A90094BB48 /* applabelsdark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applabelsdark.png; sourceTree = "<group>"; };
 		4C7F0F5319839CD30094BB48 /* default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-568h@2x.png"; sourceTree = "<group>"; };
 		4C7F0F5519839CD80094BB48 /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default@2x.png"; sourceTree = "<group>"; };
+		4C8260281B35D02D002A7A42 /* ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ipad.storyboard; sourceTree = "<group>"; };
+		4C82602E1B35D334002A7A42 /* gradient2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient2.png; sourceTree = "<group>"; };
 		4C85478719BAAE180044AA4F /* PoolController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoolController.h; sourceTree = "<group>"; };
 		4C85478819BAAE180044AA4F /* PoolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoolController.m; sourceTree = "<group>"; };
 		4C85478C19BAB0E90044AA4F /* PrivateSwimController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateSwimController.h; sourceTree = "<group>"; };
@@ -240,6 +246,7 @@
 				4CBABE4E1A7162A700F8B649 /* reload12.png */,
 				4CBABE4F1A7162A700F8B649 /* reload13.png */,
 				4CBABE501A7162A700F8B649 /* reload14.png */,
+				4C82602E1B35D334002A7A42 /* gradient2.png */,
 				4CBABE511A7162A700F8B649 /* reload15.png */,
 				4CBABE521A7162A700F8B649 /* reload16.png */,
 				4CBABE531A7162A700F8B649 /* reload17.png */,
@@ -301,10 +308,12 @@
 				4C88D50218C2806B00D4F4AC /* NPAppDelegate.h */,
 				4C88D50318C2806B00D4F4AC /* NPAppDelegate.m */,
 				4C88D50518C2806B00D4F4AC /* Main.storyboard */,
+				4C8260281B35D02D002A7A42 /* ipad.storyboard */,
 				4C26A73E18C56FC3001845CB /* Controllers */,
 				4CC96C6419BAA2BF008B94E6 /* Schedules */,
 				4C26A73F18C56FD7001845CB /* Images */,
 				4C88D50B18C2806B00D4F4AC /* Images.xcassets */,
+				4C0B78C01B39D2E300495235 /* Images-2.xcassets */,
 				4C88D4FA18C2806B00D4F4AC /* Supporting Files */,
 			);
 			path = "Ridgefield Parks and Recreation";
@@ -446,6 +455,7 @@
 				4C7F0F50198120A90094BB48 /* applabelsdark.png in Resources */,
 				4CBABE671A7162A700F8B649 /* reload7.png in Resources */,
 				4CBABE711A7162A700F8B649 /* reload17.png in Resources */,
+				4C82602F1B35D334002A7A42 /* gradient2.png in Resources */,
 				4CBABE6D1A7162A700F8B649 /* reload13.png in Resources */,
 				4CBABE661A7162A700F8B649 /* reload6.png in Resources */,
 				4CA894D819BA955800D74A46 /* backward-7.png in Resources */,
@@ -478,8 +488,10 @@
 				4CBABE701A7162A700F8B649 /* reload16.png in Resources */,
 				4C7F0F4C197E510F0094BB48 /* background2.png in Resources */,
 				4CBABE731A7162A700F8B649 /* reload19.png in Resources */,
+				4C8260291B35D02D002A7A42 /* ipad.storyboard in Resources */,
 				4CBABE7D1A7162A700F8B649 /* reload29.png in Resources */,
 				4CBABE621A7162A700F8B649 /* reload2.png in Resources */,
+				4C0B78C11B39D2E300495235 /* Images-2.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,7 +665,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "";
 				WRAPPER_EXTENSION = app;
@@ -680,7 +692,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "";
 				WRAPPER_EXTENSION = app;
