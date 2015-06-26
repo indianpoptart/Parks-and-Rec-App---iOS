@@ -11,7 +11,7 @@ and a button to call the facility
 
 Current stable relese: v1.1
 
-Current beta release: NA
+Current beta release: v1.1.2
 
 Upcoming release: v1.2
 
