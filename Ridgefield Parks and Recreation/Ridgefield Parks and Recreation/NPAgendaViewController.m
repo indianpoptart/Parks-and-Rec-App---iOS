@@ -17,7 +17,6 @@
 
 @implementation NPAgendaViewController
 
-
 - (void)viewDidLoad {
 	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"gradient2.png"]]];
 	[super viewDidLoad];
@@ -75,10 +74,14 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 -(void)loading {
-	if (!webview.loading)
+    if (!webview.loading){
 		[activityind stopAnimating];
-	else
+        [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+    }
+    else{
 		[activityind startAnimating];
+        [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+    }
 }
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
 	[searchBar resignFirstResponder];

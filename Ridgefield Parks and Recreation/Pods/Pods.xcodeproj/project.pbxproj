@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DC2C6AD7B0F96C795C383BC /* Pods-Ridgefield Parks and Recreation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D671844502438E6B82F53694 /* Pods-Ridgefield Parks and Recreation-dummy.m */; };
+		B08B2399A709F6BBE87FB299 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED214FBB3CE64EDC6DF83C /* Foundation.framework */; };
+		C2EE8FC8B895E2B85005ED9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED214FBB3CE64EDC6DF83C /* Foundation.framework */; };
+		CAA44134AF9D9DC1B283775F /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3A611E8CDC0CDF60436859 /* Pods-dummy.m */; };
+		ECE3B8BB6A537FB8BE7655A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED214FBB3CE64EDC6DF83C /* Foundation.framework */; };
+		F771D05F92C66E51825F69DB /* Pods-Ridgefield Parks and RecreationTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE34CC6C1BB79386E50FAEE4 /* Pods-Ridgefield Parks and RecreationTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		079458C91020F72A8C5B383F /* Pods-Ridgefield Parks and RecreationTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ridgefield Parks and RecreationTests-resources.sh"; sourceTree = "<group>"; };
+		08EC74323997D4147EC1E3C8 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		0BD1866AAE868CDAAEABF16D /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0EA1416E7D196ADDF07EE548 /* libGGLCloudMessaging.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLCloudMessaging.a; path = Libraries/libGGLCloudMessaging.a; sourceTree = "<group>"; };
+		0F018A7ECB6FF19F20713D3F /* GoogleCloudMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GoogleCloudMessaging.h; path = Headers/Public/GoogleCloudMessaging.h; sourceTree = "<group>"; };
+		0F73436D651A2B8604E4D777 /* GGLInstanceIDConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLInstanceIDConfig.h; path = Headers/Public/GGLInstanceIDConfig.h; sourceTree = "<group>"; };
+		100294AD0BA7F40DBD8E8A93 /* GCMReceiverDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCMReceiverDelegate.h; path = Headers/Public/GCMReceiverDelegate.h; sourceTree = "<group>"; };
+		14AFFD4BC51A4E5E3D800903 /* Pods-Ridgefield Parks and Recreation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ridgefield Parks and Recreation.debug.xcconfig"; sourceTree = "<group>"; };
+		206D8BE741AAF68A160D5835 /* libGTMStackTrace.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMStackTrace.a; path = Libraries/libGTMStackTrace.a; sourceTree = "<group>"; };
+		212DE295EF459171E2ABE08D /* GGLErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLErrorCode.h; path = Headers/GGLCore/Public/GGLErrorCode.h; sourceTree = "<group>"; };
+		213034DCE8C12E035F0C9868 /* Pods-Ridgefield Parks and RecreationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ridgefield Parks and RecreationTests.release.xcconfig"; sourceTree = "<group>"; };
+		328641B692A279DF842D8498 /* GCMService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCMService.h; path = Headers/Public/GCMService.h; sourceTree = "<group>"; };
+		3A1BEC05C41A449BBD36F381 /* libGcmLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGcmLib.a; path = Libraries/libGcmLib.a; sourceTree = "<group>"; };
+		3BBF1D7FCAD05E2011FC5BE2 /* Pods-Ridgefield Parks and RecreationTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ridgefield Parks and RecreationTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CC1915E40C53CCB8A517D55 /* libGTMSessionFetcher_core.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMSessionFetcher_core.a; path = Libraries/libGTMSessionFetcher_core.a; sourceTree = "<group>"; };
+		3E35A9C74A36E5D79B091EFF /* Pods-Ridgefield Parks and Recreation-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ridgefield Parks and Recreation-environment.h"; sourceTree = "<group>"; };
+		51B16CF5F64458CEF472195A /* Pods-Ridgefield Parks and RecreationTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ridgefield Parks and RecreationTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		54598738B708929649F965B4 /* libGTM_NSStringHTML.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSStringHTML.a; path = Libraries/libGTM_NSStringHTML.a; sourceTree = "<group>"; };
+		58C437B314CD507A8202F541 /* GGLInstanceIDDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLInstanceIDDelegate.h; path = Headers/Public/GGLInstanceIDDelegate.h; sourceTree = "<group>"; };
+		5E4996175189DCC3D678E174 /* libGGLInstanceIDLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLInstanceIDLib.a; path = Libraries/libGGLInstanceIDLib.a; sourceTree = "<group>"; };
+		60DFDB95769D4F320BB4988E /* libGTM_iPhone.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_iPhone.a; path = Libraries/libGTM_iPhone.a; sourceTree = "<group>"; };
+		662963C47872A1669E7F1BFB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		663C8582B6B00854F3FA816D /* libGTM_UIFont+LineHeight.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libGTM_UIFont+LineHeight.a"; path = "Libraries/libGTM_UIFont+LineHeight.a"; sourceTree = "<group>"; };
+		6EE796FD0B65698DD8FFA1BA /* libGTM_SystemVersion.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_SystemVersion.a; path = Libraries/libGTM_SystemVersion.a; sourceTree = "<group>"; };
+		733068633883117585011649 /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Core.h; path = Headers/GGLCore/Public/Core.h; sourceTree = "<group>"; };
+		746F63550B6D71B87363AC77 /* libGTMSessionFetcher_full.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMSessionFetcher_full.a; path = Libraries/libGTMSessionFetcher_full.a; sourceTree = "<group>"; };
+		76B1387CF2F53C1F97343DCF /* GGLConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLConfiguration.h; path = Headers/GGLCore/Public/GGLConfiguration.h; sourceTree = "<group>"; };
+		774A3B81B41CC1A1909F2A60 /* libGTM_NSStringXML.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSStringXML.a; path = Libraries/libGTM_NSStringXML.a; sourceTree = "<group>"; };
+		7D666097CAF92FFDBD2B5B08 /* CloudMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CloudMessaging.h; path = Headers/GGLCloudMessaging/Public/CloudMessaging.h; sourceTree = "<group>"; };
+		7EB35D5AF592F5BEFFC91F3A /* libGSDK_Overload.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGSDK_Overload.a; path = Libraries/libGSDK_Overload.a; sourceTree = "<group>"; };
+		7F6D9E1E9AB948BDB6A0BBD2 /* libGTM_KVO.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_KVO.a; path = Libraries/libGTM_KVO.a; sourceTree = "<group>"; };
+		84ED214FBB3CE64EDC6DF83C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		84F3AD6B47540DF4280D3B83 /* Pods-Ridgefield Parks and RecreationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ridgefield Parks and RecreationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		877C3E4BAC57DEC7ACA7C7A7 /* libGTM_DebugUtils.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_DebugUtils.a; path = Libraries/libGTM_DebugUtils.a; sourceTree = "<group>"; };
+		8B6B0D81EDE26BA726080991 /* GGLInstanceIDHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLInstanceIDHeaders.h; path = Headers/Public/GGLInstanceIDHeaders.h; sourceTree = "<group>"; };
+		907F93F4C4B440317EB609EA /* libPods-Ridgefield Parks and RecreationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ridgefield Parks and RecreationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C737830C4A35F6E0CF4031 /* libGTM_NSScannerJSON.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSScannerJSON.a; path = Libraries/libGTM_NSScannerJSON.a; sourceTree = "<group>"; };
+		916F189982586332851BA6E8 /* Pods-Ridgefield Parks and Recreation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ridgefield Parks and Recreation-acknowledgements.plist"; sourceTree = "<group>"; };
+		97D7BFEF719B41B99F523902 /* libGTM_GTMURLBuilder.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_GTMURLBuilder.a; path = Libraries/libGTM_GTMURLBuilder.a; sourceTree = "<group>"; };
+		99CBB79387FE7FD09D871346 /* Pods-Ridgefield Parks and Recreation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ridgefield Parks and Recreation.release.xcconfig"; sourceTree = "<group>"; };
+		A0F65DAB40CBC2F6350FE2A9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		A794E63777FD383F45B81FF6 /* libProtocolBuffers.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libProtocolBuffers.a; path = Libraries/libProtocolBuffers.a; sourceTree = "<group>"; };
+		AE3A611E8CDC0CDF60436859 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		AEAB7B10FAA2F970FE8377C1 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF37F47DFAA9252796F16202 /* Pods-Ridgefield Parks and Recreation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ridgefield Parks and Recreation-resources.sh"; sourceTree = "<group>"; };
+		B009B815BE792087897F0B2F /* Pods-Ridgefield Parks and Recreation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ridgefield Parks and Recreation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B49F7EFA1BFDDB253F1CC219 /* libGTM_Regex.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_Regex.a; path = Libraries/libGTM_Regex.a; sourceTree = "<group>"; };
+		B7D25A77C58523C56B040B5C /* libGTM_StringEncoding.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_StringEncoding.a; path = Libraries/libGTM_StringEncoding.a; sourceTree = "<group>"; };
+		B9591BB4E3D4225E917CE939 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		BD2CA049364A819E05E3F9E9 /* libGTM_NSDictionary+URLArguments.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libGTM_NSDictionary+URLArguments.a"; path = "Libraries/libGTM_NSDictionary+URLArguments.a"; sourceTree = "<group>"; };
+		C1EC752996FEA29F67A16715 /* GCMConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCMConfig.h; path = Headers/Public/GCMConfig.h; sourceTree = "<group>"; };
+		C2A6F1EE77A34214DB58B86B /* libGGLCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLCore.a; path = Libraries/libGGLCore.a; sourceTree = "<group>"; };
+		C36DE12E2CA1277033BFC4B8 /* GGLInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLInstanceID.h; path = Headers/Public/GGLInstanceID.h; sourceTree = "<group>"; };
+		C4E15E1518ED051B59A80EE4 /* libGTM_AddressBook.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_AddressBook.a; path = Libraries/libGTM_AddressBook.a; sourceTree = "<group>"; };
+		CAD15CEA9052DC6CECFF8A43 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE90DCA8E1B33EE93E41AF82 /* libGTM_RoundedRectPath.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_RoundedRectPath.a; path = Libraries/libGTM_RoundedRectPath.a; sourceTree = "<group>"; };
+		D671844502438E6B82F53694 /* Pods-Ridgefield Parks and Recreation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ridgefield Parks and Recreation-dummy.m"; sourceTree = "<group>"; };
+		D68396D7B28F2D0151A88C92 /* Pods-Ridgefield Parks and RecreationTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ridgefield Parks and RecreationTests-environment.h"; sourceTree = "<group>"; };
+		DA372A8FE24C4BA68A3E8C73 /* GGLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLContext.h; path = Headers/GGLCore/Public/GGLContext.h; sourceTree = "<group>"; };
+		E2A4DE6B6D1B3F8AB0FC7FE6 /* libPods-Ridgefield Parks and Recreation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ridgefield Parks and Recreation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F1A0ECE5056CF18768F3C4 /* libGTM_core.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_core.a; path = Libraries/libGTM_core.a; sourceTree = "<group>"; };
+		F87F02EB7673EA67E2A7D309 /* GCMPubSub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCMPubSub.h; path = Headers/Public/GCMPubSub.h; sourceTree = "<group>"; };
+		FA2E42321C7A1282E94F427E /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		FC574E0049D35CBA6808BC7B /* GGLContext+CloudMessaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GGLContext+CloudMessaging.h"; path = "Headers/GGLCloudMessaging/Public/GGLContext+CloudMessaging.h"; sourceTree = "<group>"; };
+		FE34CC6C1BB79386E50FAEE4 /* Pods-Ridgefield Parks and RecreationTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ridgefield Parks and RecreationTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AE4BB9E4EDCF1BB63B9768A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EE8FC8B895E2B85005ED9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3700B1C34823E7802CDAF150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE3B8BB6A537FB8BE7655A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54E9C2FBEDEC066856366965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B08B2399A709F6BBE87FB299 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000252B6AE4D1628F4925CBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26F743528BDB0FA7485DC234 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		043738A852F4E7897959918E /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				963B1646114C8CF1A806F041 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		219A600689F36C442A1F51AA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				733068633883117585011649 /* Core.h */,
+				76B1387CF2F53C1F97343DCF /* GGLConfiguration.h */,
+				DA372A8FE24C4BA68A3E8C73 /* GGLContext.h */,
+				212DE295EF459171E2ABE08D /* GGLErrorCode.h */,
+				AF02D559BCC30046D6CA61C3 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		26F743528BDB0FA7485DC234 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				84ED214FBB3CE64EDC6DF83C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		27CE430CF88C6EC8102DC4B0 = {
+			isa = PBXGroup;
+			children = (
+				0BD1866AAE868CDAAEABF16D /* Podfile */,
+				000252B6AE4D1628F4925CBA /* Frameworks */,
+				2DED1C2CC1F63F32D4A9A4C5 /* Pods */,
+				631FABFA51862F96A3E5CEC8 /* Products */,
+				6D480146B591C094ED0273F2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		2DED1C2CC1F63F32D4A9A4C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				719A87809DD91D498E9C6994 /* GGLInstanceID */,
+				75093503AA336A5961BF35D2 /* Google */,
+				95BBDB1D8536C513DE56BCE6 /* GoogleCloudMessaging */,
+				043738A852F4E7897959918E /* GoogleInterchangeUtilities */,
+				86BFBC3F72DF40F6BCB43595 /* GoogleNetworkingUtilities */,
+				36C9D7BCA2E9246ABEECF47E /* GoogleSymbolUtilities */,
+				8B998E6EA141B2B71DD9EAD7 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		36C9D7BCA2E9246ABEECF47E /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				3B9BACCDEC6F466D5283C2CB /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		3B9BACCDEC6F466D5283C2CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EB35D5AF592F5BEFFC91F3A /* libGSDK_Overload.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E9AFA1A3E11E8561E0526AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				206D8BE741AAF68A160D5835 /* libGTMStackTrace.a */,
+				C4E15E1518ED051B59A80EE4 /* libGTM_AddressBook.a */,
+				877C3E4BAC57DEC7ACA7C7A7 /* libGTM_DebugUtils.a */,
+				97D7BFEF719B41B99F523902 /* libGTM_GTMURLBuilder.a */,
+				7F6D9E1E9AB948BDB6A0BBD2 /* libGTM_KVO.a */,
+				BD2CA049364A819E05E3F9E9 /* libGTM_NSDictionary+URLArguments.a */,
+				90C737830C4A35F6E0CF4031 /* libGTM_NSScannerJSON.a */,
+				54598738B708929649F965B4 /* libGTM_NSStringHTML.a */,
+				774A3B81B41CC1A1909F2A60 /* libGTM_NSStringXML.a */,
+				B49F7EFA1BFDDB253F1CC219 /* libGTM_Regex.a */,
+				CE90DCA8E1B33EE93E41AF82 /* libGTM_RoundedRectPath.a */,
+				B7D25A77C58523C56B040B5C /* libGTM_StringEncoding.a */,
+				6EE796FD0B65698DD8FFA1BA /* libGTM_SystemVersion.a */,
+				663C8582B6B00854F3FA816D /* libGTM_UIFont+LineHeight.a */,
+				F0F1A0ECE5056CF18768F3C4 /* libGTM_core.a */,
+				60DFDB95769D4F320BB4988E /* libGTM_iPhone.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5ECF74C9CAD4E3D653B52048 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEAB7B10FAA2F970FE8377C1 /* Pods-acknowledgements.markdown */,
+				CAD15CEA9052DC6CECFF8A43 /* Pods-acknowledgements.plist */,
+				AE3A611E8CDC0CDF60436859 /* Pods-dummy.m */,
+				08EC74323997D4147EC1E3C8 /* Pods-environment.h */,
+				FA2E42321C7A1282E94F427E /* Pods-resources.sh */,
+				A0F65DAB40CBC2F6350FE2A9 /* Pods.debug.xcconfig */,
+				B9591BB4E3D4225E917CE939 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		631FABFA51862F96A3E5CEC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				662963C47872A1669E7F1BFB /* libPods.a */,
+				E2A4DE6B6D1B3F8AB0FC7FE6 /* libPods-Ridgefield Parks and Recreation.a */,
+				907F93F4C4B440317EB609EA /* libPods-Ridgefield Parks and RecreationTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D480146B591C094ED0273F2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5ECF74C9CAD4E3D653B52048 /* Pods */,
+				A15E6CCACFD206EE140A6F29 /* Pods-Ridgefield Parks and Recreation */,
+				9F26882E07CC6A8204F17934 /* Pods-Ridgefield Parks and RecreationTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7074506CDD12299C2035D717 /* CloudMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				7D666097CAF92FFDBD2B5B08 /* CloudMessaging.h */,
+				FC574E0049D35CBA6808BC7B /* GGLContext+CloudMessaging.h */,
+				785FDCF0FF46E7DF8FCE1E04 /* Frameworks */,
+			);
+			name = CloudMessaging;
+			sourceTree = "<group>";
+		};
+		719A87809DD91D498E9C6994 /* GGLInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				C36DE12E2CA1277033BFC4B8 /* GGLInstanceID.h */,
+				0F73436D651A2B8604E4D777 /* GGLInstanceIDConfig.h */,
+				58C437B314CD507A8202F541 /* GGLInstanceIDDelegate.h */,
+				8B6B0D81EDE26BA726080991 /* GGLInstanceIDHeaders.h */,
+				DADAFDF2FB195DFF5AC3D585 /* Frameworks */,
+			);
+			path = GGLInstanceID;
+			sourceTree = "<group>";
+		};
+		75093503AA336A5961BF35D2 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				7074506CDD12299C2035D717 /* CloudMessaging */,
+				219A600689F36C442A1F51AA /* Core */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		785FDCF0FF46E7DF8FCE1E04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EA1416E7D196ADDF07EE548 /* libGGLCloudMessaging.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86BFBC3F72DF40F6BCB43595 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				C8CBBDA4CFA1AB0D05302917 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		8B998E6EA141B2B71DD9EAD7 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				3E9AFA1A3E11E8561E0526AF /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		91F51325693E537070E3CBDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A1BEC05C41A449BBD36F381 /* libGcmLib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95BBDB1D8536C513DE56BCE6 /* GoogleCloudMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				C1EC752996FEA29F67A16715 /* GCMConfig.h */,
+				F87F02EB7673EA67E2A7D309 /* GCMPubSub.h */,
+				100294AD0BA7F40DBD8E8A93 /* GCMReceiverDelegate.h */,
+				328641B692A279DF842D8498 /* GCMService.h */,
+				0F018A7ECB6FF19F20713D3F /* GoogleCloudMessaging.h */,
+				91F51325693E537070E3CBDB /* Frameworks */,
+			);
+			path = GoogleCloudMessaging;
+			sourceTree = "<group>";
+		};
+		963B1646114C8CF1A806F041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A794E63777FD383F45B81FF6 /* libProtocolBuffers.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F26882E07CC6A8204F17934 /* Pods-Ridgefield Parks and RecreationTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF1D7FCAD05E2011FC5BE2 /* Pods-Ridgefield Parks and RecreationTests-acknowledgements.markdown */,
+				51B16CF5F64458CEF472195A /* Pods-Ridgefield Parks and RecreationTests-acknowledgements.plist */,
+				FE34CC6C1BB79386E50FAEE4 /* Pods-Ridgefield Parks and RecreationTests-dummy.m */,
+				D68396D7B28F2D0151A88C92 /* Pods-Ridgefield Parks and RecreationTests-environment.h */,
+				079458C91020F72A8C5B383F /* Pods-Ridgefield Parks and RecreationTests-resources.sh */,
+				84F3AD6B47540DF4280D3B83 /* Pods-Ridgefield Parks and RecreationTests.debug.xcconfig */,
+				213034DCE8C12E035F0C9868 /* Pods-Ridgefield Parks and RecreationTests.release.xcconfig */,
+			);
+			name = "Pods-Ridgefield Parks and RecreationTests";
+			path = "Target Support Files/Pods-Ridgefield Parks and RecreationTests";
+			sourceTree = "<group>";
+		};
+		A15E6CCACFD206EE140A6F29 /* Pods-Ridgefield Parks and Recreation */ = {
+			isa = PBXGroup;
+			children = (
+				B009B815BE792087897F0B2F /* Pods-Ridgefield Parks and Recreation-acknowledgements.markdown */,
+				916F189982586332851BA6E8 /* Pods-Ridgefield Parks and Recreation-acknowledgements.plist */,
+				D671844502438E6B82F53694 /* Pods-Ridgefield Parks and Recreation-dummy.m */,
+				3E35A9C74A36E5D79B091EFF /* Pods-Ridgefield Parks and Recreation-environment.h */,
+				AF37F47DFAA9252796F16202 /* Pods-Ridgefield Parks and Recreation-resources.sh */,
+				14AFFD4BC51A4E5E3D800903 /* Pods-Ridgefield Parks and Recreation.debug.xcconfig */,
+				99CBB79387FE7FD09D871346 /* Pods-Ridgefield Parks and Recreation.release.xcconfig */,
+			);
+			name = "Pods-Ridgefield Parks and Recreation";
+			path = "Target Support Files/Pods-Ridgefield Parks and Recreation";
+			sourceTree = "<group>";
+		};
+		AF02D559BCC30046D6CA61C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2A6F1EE77A34214DB58B86B /* libGGLCore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8CBBDA4CFA1AB0D05302917 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CC1915E40C53CCB8A517D55 /* libGTMSessionFetcher_core.a */,
+				746F63550B6D71B87363AC77 /* libGTMSessionFetcher_full.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DADAFDF2FB195DFF5AC3D585 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E4996175189DCC3D678E174 /* libGGLInstanceIDLib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66C7129F900C08C340C9872F /* Pods-Ridgefield Parks and Recreation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 659452ECF4155D9BB1C4BE71 /* Build configuration list for PBXNativeTarget "Pods-Ridgefield Parks and Recreation" */;
+			buildPhases = (
+				1CC251B04A4878745353630A /* Sources */,
+				1AE4BB9E4EDCF1BB63B9768A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Ridgefield Parks and Recreation";
+			productName = "Pods-Ridgefield Parks and Recreation";
+			productReference = E2A4DE6B6D1B3F8AB0FC7FE6 /* libPods-Ridgefield Parks and Recreation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		782438621CB979D69F28373D /* Pods-Ridgefield Parks and RecreationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72B1236D6237010947A839C9 /* Build configuration list for PBXNativeTarget "Pods-Ridgefield Parks and RecreationTests" */;
+			buildPhases = (
+				C0A22CF60FF4E06F1C88D98C /* Sources */,
+				3700B1C34823E7802CDAF150 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Ridgefield Parks and RecreationTests";
+			productName = "Pods-Ridgefield Parks and RecreationTests";
+			productReference = 907F93F4C4B440317EB609EA /* libPods-Ridgefield Parks and RecreationTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FE7D638B1BEB0F1D623D245E /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A109C63C713AAA358021AED4 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				9DDF3140F83D74209527F5CD /* Sources */,
+				54E9C2FBEDEC066856366965 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 662963C47872A1669E7F1BFB /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27D646EE14E022181BF7FDBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = C7CA54268E73F3BFBB57D085 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27CE430CF88C6EC8102DC4B0;
+			productRefGroup = 631FABFA51862F96A3E5CEC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE7D638B1BEB0F1D623D245E /* Pods */,
+				66C7129F900C08C340C9872F /* Pods-Ridgefield Parks and Recreation */,
+				782438621CB979D69F28373D /* Pods-Ridgefield Parks and RecreationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CC251B04A4878745353630A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC2C6AD7B0F96C795C383BC /* Pods-Ridgefield Parks and Recreation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DDF3140F83D74209527F5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA44134AF9D9DC1B283775F /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A22CF60FF4E06F1C88D98C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F771D05F92C66E51825F69DB /* Pods-Ridgefield Parks and RecreationTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0C9A5AE8D3AF4FD7286C42D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2385A73C0C93123D3B371D5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0F65DAB40CBC2F6350FE2A9 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4354748B605E768B3C5A0CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9591BB4E3D4225E917CE939 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8816F517ED2F4DAA6C18993D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		911C42F394AE9146D4145E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14AFFD4BC51A4E5E3D800903 /* Pods-Ridgefield Parks and Recreation.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ADBE70E995E50DC8D12CD7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99CBB79387FE7FD09D871346 /* Pods-Ridgefield Parks and Recreation.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B94E2E1CBA3840A664112E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 213034DCE8C12E035F0C9868 /* Pods-Ridgefield Parks and RecreationTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C3973461C124B9EA3F2607DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F3AD6B47540DF4280D3B83 /* Pods-Ridgefield Parks and RecreationTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		659452ECF4155D9BB1C4BE71 /* Build configuration list for PBXNativeTarget "Pods-Ridgefield Parks and Recreation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911C42F394AE9146D4145E97 /* Debug */,
+				ADBE70E995E50DC8D12CD7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72B1236D6237010947A839C9 /* Build configuration list for PBXNativeTarget "Pods-Ridgefield Parks and RecreationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3973461C124B9EA3F2607DD /* Debug */,
+				B94E2E1CBA3840A664112E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A109C63C713AAA358021AED4 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2385A73C0C93123D3B371D5D /* Debug */,
+				4354748B605E768B3C5A0CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7CA54268E73F3BFBB57D085 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C9A5AE8D3AF4FD7286C42D8 /* Debug */,
+				8816F517ED2F4DAA6C18993D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27D646EE14E022181BF7FDBB /* Project object */;
+}

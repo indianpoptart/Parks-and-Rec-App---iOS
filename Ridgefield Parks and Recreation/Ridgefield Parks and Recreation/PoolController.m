@@ -15,7 +15,7 @@
 @implementation PoolController
 
 - (void)viewDidLoad {
-	[super viewDidLoad];
+    [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 	
 	//NSString *path = [[NSBundle mainBundle] pathForResource:@"pool" ofType:@"pdf"];
@@ -74,10 +74,14 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 -(void)loading {
-	if (!poolview.loading)
-		[activityind stopAnimating];
-	else
-		[activityind startAnimating];
+    if (!poolview.loading){
+        [activityind stopAnimating];
+        [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+    }
+    else{
+        [activityind startAnimating];
+        [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+    }
 }
 - (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];

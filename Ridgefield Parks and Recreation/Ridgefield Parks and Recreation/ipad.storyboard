@@ -26,9 +26,16 @@
                                             <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
                                         </accessibility>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prlogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="5cp-2H-Joi">
-                                        <rect key="frame" x="52" y="4" width="136" height="77"/>
-                                    </imageView>
+                                    <webView opaque="NO" multipleTouchEnabled="YES" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jxu-d1-mox">
+                                        <rect key="frame" x="8" y="0.0" width="224" height="85"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </webView>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Wcd-Yz-6Vw">
+                                        <rect key="frame" x="102" y="24" width="37" height="37"/>
+                                        <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                        <color key="color" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="0.0" colorSpace="calibratedRGB"/>
+                                    </activityIndicatorView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.31521613570000001" green="0.59370350439999997" blue="0.84466287360000003" alpha="1" colorSpace="calibratedRGB"/>
                             </scrollView>
@@ -211,7 +218,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Version 1.2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIQ-WY-I9h">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Version 1.2a" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIQ-WY-I9h">
                                 <rect key="frame" x="224" y="534" width="320" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -961,7 +968,7 @@
         <image name="prlogo.png" width="945" height="547"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cRQ-hY-Rgx"/>
-        <segue reference="pgF-Xn-KOF"/>
+        <segue reference="2wJ-4C-coe"/>
+        <segue reference="u9z-WZ-Dx9"/>
     </inferredMetricsTieBreakers>
 </document>
