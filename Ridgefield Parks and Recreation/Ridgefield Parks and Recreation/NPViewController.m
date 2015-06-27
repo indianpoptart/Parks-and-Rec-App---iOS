@@ -20,6 +20,7 @@
 	[self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"gradient2.png"]]];
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[NSURLCache sharedURLCache] removeAllCachedResponses];
     
     [alertview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://nikhilp.org/alert.txt"]]];
     alertview.scalesPageToFit = YES;
@@ -69,18 +70,16 @@
     activityImageView.frame = CGRectMake(-8, 0, 50, 50);
     [activityImageView startAnimating];
     [activityind addSubview:activityImageView];
-    // Do any additional setup after loading the view, typically from a nib.
-    
 }
 
 -(void)loading {
     if (!alertview.loading){
-        [activityind stopAnimating];
         [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+        [activityind stopAnimating];
     }
     else{
-        [activityind startAnimating];
         [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+        [activityind startAnimating];
     }
 }
 - (void)didReceiveMemoryWarning {

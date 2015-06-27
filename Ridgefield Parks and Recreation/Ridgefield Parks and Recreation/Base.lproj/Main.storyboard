@@ -111,7 +111,7 @@
                                 <gestureRecognizers/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="FIP-ge-24M" appends="YES" id="7IZ-cN-wk6"/>
+                                    <outletCollection property="gestureRecognizers" destination="lyI-7d-kGk" appends="YES" id="z2p-96-bVF"/>
                                 </connections>
                             </webView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="dtH-98-zqR">
@@ -124,7 +124,7 @@
                                 </constraints>
                                 <color key="color" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="FIP-ge-24M" appends="YES" id="7ku-Zt-z6d"/>
+                                    <outletCollection property="gestureRecognizers" destination="lyI-7d-kGk" appends="YES" id="kg0-wr-L3H"/>
                                 </connections>
                             </activityIndicatorView>
                         </subviews>
@@ -166,9 +166,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="FIP-ge-24M">
+                <tapGestureRecognizer id="lyI-7d-kGk">
                     <connections>
-                        <action selector="reload" destination="PGS-0R-1jp" id="wVl-ly-TpU"/>
+                        <action selector="reload" destination="PGS-0R-1jp" id="i4c-zn-xHn"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>

@@ -72,16 +72,13 @@
 	[activityImageView startAnimating];
 	[activityind addSubview:activityImageView];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 -(void)loading {
-    if (!webview.loading){
+    if (!webview.loading)
 		[activityind stopAnimating];
-        [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
-    }
-    else{
+    else
 		[activityind startAnimating];
-        [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
-    }
 }
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
 	[searchBar resignFirstResponder];

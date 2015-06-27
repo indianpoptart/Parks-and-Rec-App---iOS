@@ -84,6 +84,8 @@
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="GE5-NU-QPa" appends="YES" id="9tb-8F-iYE"/>
+                                    <outletCollection property="gestureRecognizers" destination="GE5-NU-QPa" appends="YES" id="yMQ-uD-G1e"/>
+                                    <outletCollection property="gestureRecognizers" destination="GE5-NU-QPa" appends="YES" id="R14-BK-cD5"/>
                                 </connections>
                             </webView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Wcd-Yz-6Vw">
@@ -93,6 +95,7 @@
                                 <color key="color" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="GE5-NU-QPa" appends="YES" id="WAh-Xk-nfa"/>
+                                    <outletCollection property="gestureRecognizers" destination="GE5-NU-QPa" appends="YES" id="Lhn-nm-O9y"/>
                                 </connections>
                             </activityIndicatorView>
                         </subviews>
@@ -113,7 +116,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PfE-fB-tQR" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="GE5-NU-QPa">
                     <connections>
-                        <action selector="reload" destination="Jxu-d1-mox" id="LFr-W4-1aq"/>
+                        <action selector="reload" destination="Jxu-d1-mox" id="1bf-Bu-iVq"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
