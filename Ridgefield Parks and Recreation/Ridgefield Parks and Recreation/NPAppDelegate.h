@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Google/CloudMessaging.h"
 
 @interface NPAppDelegate : UIResponder <UIApplicationDelegate>
 

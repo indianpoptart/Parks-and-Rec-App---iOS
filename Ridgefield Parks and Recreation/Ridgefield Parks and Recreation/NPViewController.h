@@ -10,7 +10,9 @@
 
 
 @interface NPViewController : UIViewController{
-    
+    IBOutlet UIWebView *alertview;
+    IBOutlet UIActivityIndicatorView *activityind;
+    NSTimer *timer;
 }
 
 -(IBAction)makePhoneCall:(id)sender;

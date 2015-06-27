@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4C26A73D18C56FB5001845CB /* NPAgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26A73C18C56FB5001845CB /* NPAgendaViewController.m */; };
+		4C56FAEE1B3E552F00E2DFB1 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D55118C2927D00D4F4AC /* libxml2.dylib */; };
+		4C56FAEF1B3E553A00E2DFB1 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8CC6FD1901A528008A2316 /* libxml2.2.dylib */; };
 		4C6024CB1AC4A6B10020F2DF /* TestOutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6024CA1AC4A6B10020F2DF /* TestOutController.m */; };
 		4C7F0F4C197E510F0094BB48 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F4B197E510F0094BB48 /* background2.png */; };
 		4C7F0F50198120A90094BB48 /* applabelsdark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C7F0F4F198120A90094BB48 /* applabelsdark.png */; };
@@ -38,8 +40,6 @@
 		4C88D51518C2806B00D4F4AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D4F718C2806B00D4F4AC /* UIKit.framework */; };
 		4C88D51D18C2806B00D4F4AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C88D51B18C2806B00D4F4AC /* InfoPlist.strings */; };
 		4C88D51F18C2806B00D4F4AC /* Ridgefield_Parks_and_RecreationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C88D51E18C2806B00D4F4AC /* Ridgefield_Parks_and_RecreationTests.m */; };
-		4C8CC6FE1901A528008A2316 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8CC6FD1901A528008A2316 /* libxml2.2.dylib */; };
-		4C8CC6FF1901A52F008A2316 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D55118C2927D00D4F4AC /* libxml2.dylib */; };
 		4CA894D819BA955800D74A46 /* backward-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CA894D719BA955800D74A46 /* backward-7.png */; };
 		4CBABE601A7162A700F8B649 /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBABE421A7162A700F8B649 /* reload.png */; };
 		4CBABE611A7162A700F8B649 /* reload1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBABE431A7162A700F8B649 /* reload1.png */; };
@@ -71,34 +71,7 @@
 		4CBABE7B1A7162A700F8B649 /* reload27.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBABE5D1A7162A700F8B649 /* reload27.png */; };
 		4CBABE7C1A7162A700F8B649 /* reload28.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBABE5E1A7162A700F8B649 /* reload28.png */; };
 		4CBABE7D1A7162A700F8B649 /* reload29.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CBABE5F1A7162A700F8B649 /* reload29.png */; };
-		4CC0C76B1A52BCB00034F463 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0C76A1A52BCB00034F463 /* XPathQuery.m */; };
-		4CC0C7701A52CE920034F463 /* NPRSSparser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC0C76F1A52CE920034F463 /* NPRSSparser.m */; };
-		4CC7C0F41B3D19740008C075 /* libGGLInstanceIDLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0C01B3D19740008C075 /* libGGLInstanceIDLib.a */; };
-		4CC7C0F51B3D19740008C075 /* libGGLCloudMessaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0C51B3D19740008C075 /* libGGLCloudMessaging.a */; };
-		4CC7C0F61B3D19740008C075 /* libGGLCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0CC1B3D19740008C075 /* libGGLCore.a */; };
-		4CC7C0F71B3D19740008C075 /* libGcmLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0D51B3D19740008C075 /* libGcmLib.a */; };
-		4CC7C0F81B3D19740008C075 /* libProtocolBuffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0D81B3D19740008C075 /* libProtocolBuffers.a */; };
-		4CC7C0F91B3D19740008C075 /* libGTMSessionFetcher_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0DB1B3D19740008C075 /* libGTMSessionFetcher_core.a */; };
-		4CC7C0FA1B3D19740008C075 /* libGTMSessionFetcher_full.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0DC1B3D19740008C075 /* libGTMSessionFetcher_full.a */; };
-		4CC7C0FB1B3D19740008C075 /* libGSDK_Overload.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0DF1B3D19740008C075 /* libGSDK_Overload.a */; };
-		4CC7C0FC1B3D19740008C075 /* libGTMStackTrace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0E21B3D19740008C075 /* libGTMStackTrace.a */; };
-		4CC7C0FD1B3D19740008C075 /* libGTM_AddressBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0E31B3D19740008C075 /* libGTM_AddressBook.a */; };
-		4CC7C0FE1B3D19740008C075 /* libGTM_DebugUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0E41B3D19740008C075 /* libGTM_DebugUtils.a */; };
-		4CC7C0FF1B3D19740008C075 /* libGTM_GTMURLBuilder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0E51B3D19740008C075 /* libGTM_GTMURLBuilder.a */; };
-		4CC7C1001B3D19740008C075 /* libGTM_KVO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0E61B3D19740008C075 /* libGTM_KVO.a */; };
-		4CC7C1011B3D19740008C075 /* libGTM_NSDictionary+URLArguments.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0E71B3D19740008C075 /* libGTM_NSDictionary+URLArguments.a */; };
-		4CC7C1021B3D19740008C075 /* libGTM_NSScannerJSON.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0E81B3D19740008C075 /* libGTM_NSScannerJSON.a */; };
-		4CC7C1031B3D19740008C075 /* libGTM_NSStringHTML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0E91B3D19740008C075 /* libGTM_NSStringHTML.a */; };
-		4CC7C1041B3D19740008C075 /* libGTM_NSStringXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0EA1B3D19740008C075 /* libGTM_NSStringXML.a */; };
-		4CC7C1051B3D19740008C075 /* libGTM_Regex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0EB1B3D19740008C075 /* libGTM_Regex.a */; };
-		4CC7C1061B3D19740008C075 /* libGTM_RoundedRectPath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0EC1B3D19740008C075 /* libGTM_RoundedRectPath.a */; };
-		4CC7C1071B3D19740008C075 /* libGTM_StringEncoding.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0ED1B3D19740008C075 /* libGTM_StringEncoding.a */; };
-		4CC7C1081B3D19740008C075 /* libGTM_SystemVersion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0EE1B3D19740008C075 /* libGTM_SystemVersion.a */; };
-		4CC7C1091B3D19740008C075 /* libGTM_UIFont+LineHeight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0EF1B3D19740008C075 /* libGTM_UIFont+LineHeight.a */; };
-		4CC7C10A1B3D19740008C075 /* libGTM_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0F01B3D19740008C075 /* libGTM_core.a */; };
-		4CC7C10B1B3D19740008C075 /* libGTM_iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC7C0F11B3D19740008C075 /* libGTM_iPhone.a */; };
 		4CC7C10D1B3D1AE40008C075 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CC7C10C1B3D1AE40008C075 /* GoogleService-Info.plist */; };
-		4CC7C1151B3D28980008C075 /* NPAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC7C1141B3D28980008C075 /* NPAlertController.m */; };
 		4CD9ABC5195E548700E03CFA /* applabels.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD9ABC4195E548700E03CFA /* applabels.png */; };
 /* End PBXBuildFile section */
 
@@ -193,10 +166,6 @@
 		4CBABE5D1A7162A700F8B649 /* reload27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload27.png; sourceTree = "<group>"; };
 		4CBABE5E1A7162A700F8B649 /* reload28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload28.png; sourceTree = "<group>"; };
 		4CBABE5F1A7162A700F8B649 /* reload29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload29.png; sourceTree = "<group>"; };
-		4CC0C7691A52BCB00034F463 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
-		4CC0C76A1A52BCB00034F463 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
-		4CC0C76F1A52CE920034F463 /* NPRSSparser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPRSSparser.m; sourceTree = "<group>"; };
-		4CC0C7711A52D12D0034F463 /* NPRSSparser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPRSSparser.h; sourceTree = "<group>"; };
 		4CC7C0BC1B3D19740008C075 /* GGLInstanceID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GGLInstanceID.h; path = Headers/Public/GGLInstanceID.h; sourceTree = "<group>"; };
 		4CC7C0BD1B3D19740008C075 /* GGLInstanceIDConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GGLInstanceIDConfig.h; path = Headers/Public/GGLInstanceIDConfig.h; sourceTree = "<group>"; };
 		4CC7C0BE1B3D19740008C075 /* GGLInstanceIDDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GGLInstanceIDDelegate.h; path = Headers/Public/GGLInstanceIDDelegate.h; sourceTree = "<group>"; };
@@ -237,12 +206,8 @@
 		4CC7C0F01B3D19740008C075 /* libGTM_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGTM_core.a; path = Libraries/libGTM_core.a; sourceTree = "<group>"; };
 		4CC7C0F11B3D19740008C075 /* libGTM_iPhone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGTM_iPhone.a; path = Libraries/libGTM_iPhone.a; sourceTree = "<group>"; };
 		4CC7C10C1B3D1AE40008C075 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		4CC7C10E1B3D1AEB0008C075 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
-		4CC7C1131B3D286B0008C075 /* NPAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPAlertController.h; sourceTree = "<group>"; };
-		4CC7C1141B3D28980008C075 /* NPAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPAlertController.m; sourceTree = "<group>"; };
 		4CD9ABC4195E548700E03CFA /* applabels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applabels.png; sourceTree = "<group>"; };
 		5D8C9EA0DB76841D25EEAB2F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		6493EC65D43BFD18319F9706 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,35 +215,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CC7C1061B3D19740008C075 /* libGTM_RoundedRectPath.a in Frameworks */,
-				4CC7C1021B3D19740008C075 /* libGTM_NSScannerJSON.a in Frameworks */,
-				4C8CC6FF1901A52F008A2316 /* libxml2.dylib in Frameworks */,
-				4CC7C10A1B3D19740008C075 /* libGTM_core.a in Frameworks */,
-				4C8CC6FE1901A528008A2316 /* libxml2.2.dylib in Frameworks */,
-				4CC7C10B1B3D19740008C075 /* libGTM_iPhone.a in Frameworks */,
-				4CC7C1091B3D19740008C075 /* libGTM_UIFont+LineHeight.a in Frameworks */,
-				4CC7C1081B3D19740008C075 /* libGTM_SystemVersion.a in Frameworks */,
-				4CC7C1011B3D19740008C075 /* libGTM_NSDictionary+URLArguments.a in Frameworks */,
-				4CC7C0FD1B3D19740008C075 /* libGTM_AddressBook.a in Frameworks */,
+				4C56FAEF1B3E553A00E2DFB1 /* libxml2.2.dylib in Frameworks */,
+				4C56FAEE1B3E552F00E2DFB1 /* libxml2.dylib in Frameworks */,
 				4C88D4F618C2806B00D4F4AC /* CoreGraphics.framework in Frameworks */,
-				4CC7C1051B3D19740008C075 /* libGTM_Regex.a in Frameworks */,
-				4CC7C1001B3D19740008C075 /* libGTM_KVO.a in Frameworks */,
-				4CC7C0FE1B3D19740008C075 /* libGTM_DebugUtils.a in Frameworks */,
-				4CC7C1071B3D19740008C075 /* libGTM_StringEncoding.a in Frameworks */,
-				4CC7C0FA1B3D19740008C075 /* libGTMSessionFetcher_full.a in Frameworks */,
-				4CC7C1041B3D19740008C075 /* libGTM_NSStringXML.a in Frameworks */,
-				4CC7C1031B3D19740008C075 /* libGTM_NSStringHTML.a in Frameworks */,
-				4CC7C0F51B3D19740008C075 /* libGGLCloudMessaging.a in Frameworks */,
 				4C88D4F818C2806B00D4F4AC /* UIKit.framework in Frameworks */,
-				4CC7C0F71B3D19740008C075 /* libGcmLib.a in Frameworks */,
-				4CC7C0FC1B3D19740008C075 /* libGTMStackTrace.a in Frameworks */,
-				4CC7C0F91B3D19740008C075 /* libGTMSessionFetcher_core.a in Frameworks */,
-				4CC7C0FB1B3D19740008C075 /* libGSDK_Overload.a in Frameworks */,
 				4C88D4F418C2806B00D4F4AC /* Foundation.framework in Frameworks */,
-				4CC7C0FF1B3D19740008C075 /* libGTM_GTMURLBuilder.a in Frameworks */,
-				4CC7C0F81B3D19740008C075 /* libProtocolBuffers.a in Frameworks */,
-				4CC7C0F61B3D19740008C075 /* libGGLCore.a in Frameworks */,
-				4CC7C0F41B3D19740008C075 /* libGGLInstanceIDLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,16 +243,10 @@
 				4C88D50918C2806B00D4F4AC /* NPViewController.m */,
 				4C26A73B18C56FB5001845CB /* NPAgendaViewController.h */,
 				4C26A73C18C56FB5001845CB /* NPAgendaViewController.m */,
-				4CC0C7691A52BCB00034F463 /* XPathQuery.h */,
-				4CC0C76A1A52BCB00034F463 /* XPathQuery.m */,
 				4C8547BF19BAC2500044AA4F /* NPAboutViewController.h */,
 				4C8547C019BAC2500044AA4F /* NPAboutViewController.m */,
 				4C8547C619BAC83C0044AA4F /* NPScheduleViewController.h */,
 				4C8547C719BAC83C0044AA4F /* NPScheduleViewController.m */,
-				4CC0C76F1A52CE920034F463 /* NPRSSparser.m */,
-				4CC0C7711A52D12D0034F463 /* NPRSSparser.h */,
-				4CC7C1131B3D286B0008C075 /* NPAlertController.h */,
-				4CC7C1141B3D28980008C075 /* NPAlertController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -354,14 +289,12 @@
 		4C88D4F218C2806B00D4F4AC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4CC7C10E1B3D1AEB0008C075 /* libPods.a */,
 				4C8CC6FD1901A528008A2316 /* libxml2.2.dylib */,
 				4C88D55118C2927D00D4F4AC /* libxml2.dylib */,
 				4C88D4F318C2806B00D4F4AC /* Foundation.framework */,
 				4C88D4F518C2806B00D4F4AC /* CoreGraphics.framework */,
 				4C88D4F718C2806B00D4F4AC /* UIKit.framework */,
 				4C88D51218C2806B00D4F4AC /* XCTest.framework */,
-				6493EC65D43BFD18319F9706 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -669,11 +602,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C88D52218C2806B00D4F4AC /* Build configuration list for PBXNativeTarget "Ridgefield Parks and Recreation" */;
 			buildPhases = (
-				785DED2464D31737CD3A5F79 /* Check Pods Manifest.lock */,
 				4C88D4EC18C2806B00D4F4AC /* Sources */,
 				4C88D4ED18C2806B00D4F4AC /* Frameworks */,
 				4C88D4EE18C2806B00D4F4AC /* Resources */,
-				2037F0F073B7AC5C0695F7B8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -805,39 +736,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		2037F0F073B7AC5C0695F7B8 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		785DED2464D31737CD3A5F79 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		4C88D4EC18C2806B00D4F4AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -851,10 +749,7 @@
 				4C8547B819BABB870044AA4F /* GymController.m in Sources */,
 				4C85478E19BAB0E90044AA4F /* PrivateSwimController.m in Sources */,
 				4C88D50018C2806B00D4F4AC /* main.m in Sources */,
-				4CC7C1151B3D28980008C075 /* NPAlertController.m in Sources */,
-				4CC0C7701A52CE920034F463 /* NPRSSparser.m in Sources */,
 				4C6024CB1AC4A6B10020F2DF /* TestOutController.m in Sources */,
-				4CC0C76B1A52BCB00034F463 /* XPathQuery.m in Sources */,
 				4C8547BB19BABCFF0044AA4F /* GroupFitnessController.m in Sources */,
 				4C8547C119BAC2500044AA4F /* NPAboutViewController.m in Sources */,
 				4C26A73D18C56FB5001845CB /* NPAgendaViewController.m in Sources */,
@@ -980,7 +875,6 @@
 		};
 		4C88D52318C2806B00D4F4AC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D8C9EA0DB76841D25EEAB2F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -996,17 +890,6 @@
 				);
 				INFOPLIST_FILE = "Ridgefield Parks and Recreation/Ridgefield Parks and Recreation-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-					"$(PROJECT_DIR)/Pods/GGLInstanceID/Libraries",
-					"$(PROJECT_DIR)/Pods/Google/Libraries",
-					"$(PROJECT_DIR)/Pods/GoogleCloudMessaging/Libraries",
-					"$(PROJECT_DIR)/Pods/GoogleInterchangeUtilities/Libraries",
-					"$(PROJECT_DIR)/Pods/GoogleNetworkingUtilities/Libraries",
-					"$(PROJECT_DIR)/Pods/GoogleSymbolUtilities/Libraries",
-					"$(PROJECT_DIR)/Pods/GoogleUtilities/Libraries",
-				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1019,7 +902,6 @@
 		};
 		4C88D52418C2806B00D4F4AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36FFF7D382E3A46676D61658 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1035,18 +917,7 @@
 				);
 				INFOPLIST_FILE = "Ridgefield Parks and Recreation/Ridgefield Parks and Recreation-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-					"$(PROJECT_DIR)/Pods/GGLInstanceID/Libraries",
-					"$(PROJECT_DIR)/Pods/Google/Libraries",
-					"$(PROJECT_DIR)/Pods/GoogleCloudMessaging/Libraries",
-					"$(PROJECT_DIR)/Pods/GoogleInterchangeUtilities/Libraries",
-					"$(PROJECT_DIR)/Pods/GoogleNetworkingUtilities/Libraries",
-					"$(PROJECT_DIR)/Pods/GoogleSymbolUtilities/Libraries",
-					"$(PROJECT_DIR)/Pods/GoogleUtilities/Libraries",
-				);
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";

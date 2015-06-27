@@ -75,10 +75,14 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 -(void)loading {
-	if (!gview.loading)
-		[activityind stopAnimating];
-	else
-		[activityind startAnimating];
+    if (!gview.loading){
+        [activityind stopAnimating];
+        [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+    }
+    else{
+        [activityind startAnimating];
+        [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+    }
 }
 - (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];
