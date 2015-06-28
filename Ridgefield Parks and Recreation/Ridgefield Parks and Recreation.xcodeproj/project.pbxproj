@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4C26A73D18C56FB5001845CB /* NPAgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26A73C18C56FB5001845CB /* NPAgendaViewController.m */; };
+		4C4FF1771B3F672200AB9E7A /* pause3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C4FF1761B3F672200AB9E7A /* pause3.png */; };
+		4C4FF1791B3F679800AB9E7A /* pause2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C4FF1781B3F679800AB9E7A /* pause2.png */; };
+		4C4FF17B1B3F685B00AB9E7A /* pause4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C4FF17A1B3F685B00AB9E7A /* pause4.png */; };
 		4C56FAEE1B3E552F00E2DFB1 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C88D55118C2927D00D4F4AC /* libxml2.dylib */; };
 		4C56FAEF1B3E553A00E2DFB1 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8CC6FD1901A528008A2316 /* libxml2.2.dylib */; };
 		4C6024CB1AC4A6B10020F2DF /* TestOutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6024CA1AC4A6B10020F2DF /* TestOutController.m */; };
@@ -89,6 +92,9 @@
 		36FFF7D382E3A46676D61658 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4C26A73B18C56FB5001845CB /* NPAgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPAgendaViewController.h; sourceTree = "<group>"; };
 		4C26A73C18C56FB5001845CB /* NPAgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPAgendaViewController.m; sourceTree = "<group>"; };
+		4C4FF1761B3F672200AB9E7A /* pause3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause3.png; sourceTree = "<group>"; };
+		4C4FF1781B3F679800AB9E7A /* pause2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause2.png; sourceTree = "<group>"; };
+		4C4FF17A1B3F685B00AB9E7A /* pause4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause4.png; sourceTree = "<group>"; };
 		4C6024C91AC4A69C0020F2DF /* TestOutController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestOutController.h; sourceTree = "<group>"; };
 		4C6024CA1AC4A6B10020F2DF /* TestOutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOutController.m; sourceTree = "<group>"; };
 		4C7F0F4B197E510F0094BB48 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
@@ -261,6 +267,9 @@
 				4C8547C219BAC3480044AA4F /* prlogo.png */,
 				4CD9ABC4195E548700E03CFA /* applabels.png */,
 				4C7F0F4F198120A90094BB48 /* applabelsdark.png */,
+				4C4FF1781B3F679800AB9E7A /* pause2.png */,
+				4C4FF1761B3F672200AB9E7A /* pause3.png */,
+				4C4FF17A1B3F685B00AB9E7A /* pause4.png */,
 				4C7F0F4B197E510F0094BB48 /* background2.png */,
 			);
 			name = Images;
@@ -695,6 +704,7 @@
 				4CBABE6E1A7162A700F8B649 /* reload14.png in Resources */,
 				4CBABE7A1A7162A700F8B649 /* reload26.png in Resources */,
 				4CBABE6F1A7162A700F8B649 /* reload15.png in Resources */,
+				4C4FF17B1B3F685B00AB9E7A /* pause4.png in Resources */,
 				4CBABE651A7162A700F8B649 /* reload5.png in Resources */,
 				4CBABE6B1A7162A700F8B649 /* reload11.png in Resources */,
 				4CBABE791A7162A700F8B649 /* reload25.png in Resources */,
@@ -715,10 +725,12 @@
 				4CBABE781A7162A700F8B649 /* reload24.png in Resources */,
 				4CBABE631A7162A700F8B649 /* reload3.png in Resources */,
 				4CBABE721A7162A700F8B649 /* reload18.png in Resources */,
+				4C4FF1791B3F679800AB9E7A /* pause2.png in Resources */,
 				4CBABE681A7162A700F8B649 /* reload8.png in Resources */,
 				4CBABE701A7162A700F8B649 /* reload16.png in Resources */,
 				4C7F0F4C197E510F0094BB48 /* background2.png in Resources */,
 				4CBABE731A7162A700F8B649 /* reload19.png in Resources */,
+				4C4FF1771B3F672200AB9E7A /* pause3.png in Resources */,
 				4C8260291B35D02D002A7A42 /* ipad.storyboard in Resources */,
 				4CBABE7D1A7162A700F8B649 /* reload29.png in Resources */,
 				4CC7C10D1B3D1AE40008C075 /* GoogleService-Info.plist in Resources */,
