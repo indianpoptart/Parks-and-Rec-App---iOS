@@ -21,7 +21,7 @@
     //NSString *path = [[NSBundle mainBundle] pathForResource:@"pool" ofType:@"pdf"];
     //NSURL *url = [NSURL fileURLWithPath:path];
     //NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    [testview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://ridgefieldparksandrec.org/wp-content/uploads/Test-out-Schedule.pdf"]]];
+    [testview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://ridgefieldparksandrec.org/wp-content/uploads/Swim-Test-out-Schedule.pdf"]]];
     [testview setScalesPageToFit:YES];
     [testview addSubview:activityind];
     

@@ -290,7 +290,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.1.1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIQ-WY-I9h">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIQ-WY-I9h">
                                 <rect key="frame" x="1" y="420" width="767" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="3N3-of-r6Z"/>
@@ -1426,7 +1426,7 @@
         <image name="prlogo.png" width="945" height="547"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="pgF-Xn-KOF"/>
         <segue reference="MpY-Xt-fdc"/>
-        <segue reference="2wJ-4C-coe"/>
     </inferredMetricsTieBreakers>
 </document>

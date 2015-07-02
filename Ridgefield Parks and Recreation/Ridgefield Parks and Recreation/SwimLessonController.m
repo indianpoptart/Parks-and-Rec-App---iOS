@@ -21,7 +21,7 @@
 	//NSString *path = [[NSBundle mainBundle] pathForResource:@"swimlesson" ofType:@"pdf"];
 	//NSURL *url = [NSURL fileURLWithPath:path];
 	//NSURLRequest *request = [NSURLRequest requestWithURL:url];
-	[slview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://ridgefieldparksandrec.org/wp-content/uploads/swim-lesson-brochure-spring-20151.pdf"]]];
+	[slview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://ridgefieldparksandrec.org/wp-content/uploads/Swim-Lesson-Brochure.pdf"]]];
     //[slview loadRequest:request];
 	[slview setScalesPageToFit:YES];
 	[slview addSubview:activityind];
