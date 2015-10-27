@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -115,7 +115,7 @@
                                 </connections>
                             </webView>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="dtH-98-zqR">
-                                <rect key="frame" x="142" y="108" width="37" height="37"/>
+                                <rect key="frame" x="143" y="108" width="37" height="37"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -587,8 +587,8 @@
                                     <constraint firstAttribute="width" secondItem="eIh-Iw-CaI" secondAttribute="height" multiplier="40:63" id="sgO-hc-LA8"/>
                                 </constraints>
                             </webView>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="9e0-yG-awJ">
-                                <rect key="frame" x="142" y="297" width="37" height="37"/>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="9e0-yG-awJ">
+                                <rect key="frame" x="143" y="297" width="37" height="37"/>
                                 <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </activityIndicatorView>
                             <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Khv-Zh-KFW">
@@ -653,7 +653,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y1f-Aa-39z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="530" y="1094"/>
+            <point key="canvasLocation" x="467" y="1177"/>
         </scene>
         <!--Private Swim Controller-->
         <scene sceneID="JbA-pH-HN4">
@@ -674,8 +674,8 @@
                                     <constraint firstAttribute="width" secondItem="6hH-3B-77n" secondAttribute="height" multiplier="40:63" id="c5F-nS-5ka"/>
                                 </constraints>
                             </webView>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="uwl-fo-c4p">
-                                <rect key="frame" x="142" y="301" width="37" height="37"/>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="uwl-fo-c4p">
+                                <rect key="frame" x="143" y="301" width="37" height="37"/>
                                 <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </activityIndicatorView>
                             <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eID-li-mQU">
@@ -795,8 +795,8 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="X5u-cf-FIS">
-                                <rect key="frame" x="140" y="275" width="37" height="37"/>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="center" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="X5u-cf-FIS">
+                                <rect key="frame" x="140" y="276" width="37" height="37"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="37" id="C4g-x8-gSA"/>
@@ -887,8 +887,8 @@
                                     <constraint firstAttribute="width" secondItem="Vi3-fA-tBB" secondAttribute="height" multiplier="40:63" id="ydf-ik-pMU"/>
                                 </constraints>
                             </webView>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="d1t-cI-Un8">
-                                <rect key="frame" x="142" y="301" width="37" height="37"/>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="d1t-cI-Un8">
+                                <rect key="frame" x="143" y="301" width="37" height="37"/>
                                 <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </activityIndicatorView>
                             <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fcO-y8-1BQ">
@@ -968,8 +968,8 @@
                                     <constraint firstAttribute="width" secondItem="Vce-VH-E2R" secondAttribute="height" multiplier="40:63" id="DMs-zg-gnf"/>
                                 </constraints>
                             </webView>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="2no-aG-lxv">
-                                <rect key="frame" x="142" y="301" width="37" height="37"/>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="2no-aG-lxv">
+                                <rect key="frame" x="143" y="301" width="37" height="37"/>
                                 <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </activityIndicatorView>
                             <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ukv-Td-T8a">
@@ -1050,8 +1050,8 @@
                                     <constraint firstAttribute="width" secondItem="tFb-Pi-ygL" secondAttribute="height" multiplier="40:63" id="w8p-Zw-2Ck"/>
                                 </constraints>
                             </webView>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="IYc-wp-1f1">
-                                <rect key="frame" x="142" y="301" width="37" height="37"/>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="IYc-wp-1f1">
+                                <rect key="frame" x="143" y="301" width="37" height="37"/>
                                 <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </activityIndicatorView>
                             <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DFP-qo-do9">
@@ -1132,8 +1132,8 @@
                                     <constraint firstAttribute="width" secondItem="Sjq-0q-aKE" secondAttribute="height" multiplier="40:63" id="kiq-OK-teB"/>
                                 </constraints>
                             </webView>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="KQe-bu-0Cl">
-                                <rect key="frame" x="142" y="297" width="37" height="37"/>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="KQe-bu-0Cl">
+                                <rect key="frame" x="143" y="297" width="37" height="37"/>
                                 <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </activityIndicatorView>
                             <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zbv-bu-3HB">
@@ -1214,8 +1214,8 @@
                                     <constraint firstAttribute="width" secondItem="jvY-iE-oCk" secondAttribute="height" multiplier="40:63" id="NFf-8J-5Ht"/>
                                 </constraints>
                             </webView>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="f3c-Fh-DAU">
-                                <rect key="frame" x="142" y="301" width="37" height="37"/>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="f3c-Fh-DAU">
+                                <rect key="frame" x="143" y="301" width="37" height="37"/>
                                 <color key="color" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </activityIndicatorView>
                             <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2yQ-Mq-B10">
@@ -1297,14 +1297,9 @@
         <image name="backward-7.png" width="30" height="30"/>
         <image name="prlogo.png" width="945" height="547"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="c6I-Tz-A8F"/>
-        <segue reference="tNc-KW-KXA"/>
+        <segue reference="mAr-qu-Sf7"/>
+        <segue reference="IuI-zK-xjV"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
 </document>

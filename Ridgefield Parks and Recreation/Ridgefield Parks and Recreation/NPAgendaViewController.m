@@ -75,10 +75,14 @@
     
 }
 -(void)loading {
-    if (!webview.loading)
+    if (!webview.loading){
 		[activityind stopAnimating];
-    else
+        [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+    }
+    else{
 		[activityind startAnimating];
+        [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+    }
 }
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar{
 	[searchBar resignFirstResponder];

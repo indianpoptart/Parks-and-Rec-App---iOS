@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="WS1-kt-PdY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="WS1-kt-PdY">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -308,7 +308,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="prlogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="3xk-hb-9Tx">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="prlogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="3xk-hb-9Tx">
                                 <rect key="frame" x="114" y="709" width="541" height="315"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="448" id="DZH-Af-HwV"/>
@@ -872,7 +872,7 @@
                                         <barButtonItem key="backBarButtonItem" title="back" id="G5O-nj-fCS"/>
                                         <barButtonItem key="leftBarButtonItem" id="7jD-NB-16G">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TSu-O9-OnZ">
-                                                <rect key="frame" x="16" y="7" width="30" height="30"/>
+                                                <rect key="frame" x="20" y="7" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="backward-7.png" backgroundImage="backward-7.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -958,7 +958,7 @@
                                     <navigationItem title="Private Swim Schedule" id="80C-7X-IrD">
                                         <barButtonItem key="leftBarButtonItem" id="YHX-I8-csP">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uG9-aD-Udd">
-                                                <rect key="frame" x="16" y="7" width="30" height="30"/>
+                                                <rect key="frame" x="20" y="7" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="backward-7.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1038,7 +1038,7 @@
                                     <navigationItem title="Swim Lesson Schedule" id="VB8-or-UBZ">
                                         <barButtonItem key="leftBarButtonItem" id="sRj-Rt-a1E">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="reN-is-aUj">
-                                                <rect key="frame" x="16" y="7" width="30" height="30"/>
+                                                <rect key="frame" x="20" y="7" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="backward-7.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1120,7 +1120,7 @@
                                     <navigationItem title="Gymnasium Schedule" id="gAm-ps-UtJ">
                                         <barButtonItem key="leftBarButtonItem" id="j0Q-3O-hAR">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cf4-j5-nBs">
-                                                <rect key="frame" x="16" y="7" width="30" height="30"/>
+                                                <rect key="frame" x="20" y="7" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="backward-7.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1201,7 +1201,7 @@
                                     <navigationItem title="Premium Group Schedule" id="grQ-Ok-AGb">
                                         <barButtonItem key="leftBarButtonItem" id="57q-DR-NI9">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6M5-hI-ANz">
-                                                <rect key="frame" x="16" y="7" width="30" height="30"/>
+                                                <rect key="frame" x="20" y="7" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="backward-7.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1282,7 +1282,7 @@
                                     <navigationItem title="Test Out Schedule" id="fCN-7d-MuH">
                                         <barButtonItem key="leftBarButtonItem" id="A2m-mT-Ckr">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DMV-6R-UNn">
-                                                <rect key="frame" x="16" y="7" width="30" height="30"/>
+                                                <rect key="frame" x="20" y="7" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="backward-7.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1375,7 +1375,7 @@
                                     <navigationItem title="Group Fitness Schedule" id="Yp9-QV-24z">
                                         <barButtonItem key="leftBarButtonItem" id="jhV-Qm-D6l">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TDS-qV-T5e">
-                                                <rect key="frame" x="16" y="7" width="30" height="30"/>
+                                                <rect key="frame" x="20" y="7" width="30" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" image="backward-7.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -1426,7 +1426,7 @@
         <image name="prlogo.png" width="945" height="547"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="u9z-WZ-Dx9"/>
         <segue reference="pgF-Xn-KOF"/>
-        <segue reference="MpY-Xt-fdc"/>
     </inferredMetricsTieBreakers>
 </document>

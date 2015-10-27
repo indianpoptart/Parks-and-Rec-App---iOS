@@ -21,7 +21,7 @@
 	//NSString *path = [[NSBundle mainBundle] pathForResource:@"premiumgroup" ofType:@"pdf"];
 	//NSURL *url = [NSURL fileURLWithPath:path];
 	//NSURLRequest *request = [NSURLRequest requestWithURL:url];
-	[pgview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://ridgefieldparksandrec.org/wp-content/uploads/GroupFitnessPremium2.pdf"]]];
+	[pgview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://ridgefieldparksandrec.org/wp-content/uploads/Premium-Group-Fitness-Schedule.pdf"]]];
     //[pgview loadRequest:request];
 	[pgview setScalesPageToFit:YES];
 	[pgview addSubview:activityind];

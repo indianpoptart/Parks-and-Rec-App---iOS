@@ -21,7 +21,7 @@
 	//NSString *path = [[NSBundle mainBundle] pathForResource:@"groupfitness" ofType:@"pdf"];
 	//NSURL *url = [NSURL fileURLWithPath:path];
 	//NSURLRequest *request = [NSURLRequest requestWithURL:url];
-	[gfview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://ridgefieldparksandrec.org/wp-content/uploads/GroupFitnessRegular2.pdf"]]];
+	[gfview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://ridgefieldparksandrec.org/wp-content/uploads/GroupFitness-Schedules.pdf"]]];
     //[gfview loadRequest:request];
 	[gfview setScalesPageToFit:YES];
 	[gfview addSubview:activityind];

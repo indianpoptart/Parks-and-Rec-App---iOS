@@ -16,12 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 	
 	//NSString *path = [[NSBundle mainBundle] pathForResource:@"pool" ofType:@"pdf"];
 	//NSURL *url = [NSURL fileURLWithPath:path];
 	//NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    [poolview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://ridgefieldparksandrec.org/wp-content/uploads/Pool-Schedule1.pdf"]]];
+    [poolview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://ridgefieldparksandrec.org/wp-content/uploads/Pool-Schedule2.pdf"]]];
 	[poolview setScalesPageToFit:YES];
 	[poolview addSubview:activityind];
 	
