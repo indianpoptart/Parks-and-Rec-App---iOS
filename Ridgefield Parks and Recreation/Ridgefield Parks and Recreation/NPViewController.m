@@ -82,6 +82,24 @@
         [activityind startAnimating];
     }
 }
+-(void)check3DTouch {
+    // register for 3D touch if available
+    if( self.traitCollection.forceTouchCapability == UIForceTouchCapabilityAvailable) {
+        
+        [self registerForPreviewingWithDelegate:(id)self sourceView:self.view];
+        NSLog(@"3D Touch is available!");
+        
+        //no need for alternate
+        self.longPress.enabled = NO;
+    }
+    else {
+        NSLog(@"3D Touch is not available on this device.");
+        
+        //handle a 3D Touch alternative (long gesture recognizer)
+        self.longPress.enabled = YES;
+    }
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

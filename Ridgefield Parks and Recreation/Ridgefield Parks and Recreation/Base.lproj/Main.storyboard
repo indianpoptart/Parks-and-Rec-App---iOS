@@ -32,7 +32,10 @@
                                 </state>
                                 <connections>
                                     <action selector="openAgenda:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RNI-Sp-yzH"/>
-                                    <segue destination="KMI-A1-w9N" kind="modal" id="Ore-Gj-isn"/>
+                                    <segue destination="KMI-A1-w9N" kind="modal" id="Ore-Gj-isn">
+                                        <segue key="commit" inheritsFrom="parent" id="hgN-1f-s0m"/>
+                                        <segue key="preview" destination="KMI-A1-w9N" id="YdJ-co-ZJS"/>
+                                    </segue>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pVT-TV-3p5">
@@ -659,27 +662,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y1f-Aa-39z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="467" y="1177"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="227-Js-e4P">
-            <objects>
-                <viewController id="nQY-gI-pvH" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="MTq-dH-e1G"/>
-                        <viewControllerLayoutGuide type="bottom" id="T34-AT-lnh"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="PTa-tj-suz">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <segue destination="38u-Oj-GaV" kind="push" id="d61-rx-pPo"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="f3z-Qi-TWr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="467" y="1845"/>
         </scene>
         <!--Private Swim Controller-->
         <scene sceneID="JbA-pH-HN4">
@@ -1324,9 +1306,10 @@
         <image name="prlogo.png" width="945" height="547"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="mAr-qu-Sf7"/>
-        <segue reference="d61-rx-pPo"/>
-        <segue reference="IuI-zK-xjV"/>
+        <segue reference="x6M-3L-soc"/>
+        <segue reference="c6I-Tz-A8F"/>
+        <segue reference="aRk-et-Bk1"/>
+        <segue reference="Ore-Gj-isn"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
 </document>

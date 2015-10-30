@@ -12,8 +12,10 @@
 @interface NPViewController : UIViewController{
     IBOutlet UIWebView *alertview;
     IBOutlet UIActivityIndicatorView *activityind;
+    
     NSTimer *timer;
 }
+@property (nonatomic, strong) UILongPressGestureRecognizer * longPress;
 
 -(IBAction)makePhoneCall:(id)sender;
 -(IBAction)openSchedules:(id)sender;

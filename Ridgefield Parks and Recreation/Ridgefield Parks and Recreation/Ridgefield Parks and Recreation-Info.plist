@@ -52,8 +52,6 @@
 	<key>UIApplicationShortcutItems</key>
 	<array>
 		<dict>
-			<key>UIApplicationShortcutItemIconFile</key>
-			<string>openagenda</string>
 			<key>UIApplicationShortcutItemTitle</key>
 			<string>Agenda</string>
 			<key>UIApplicationShortcutItemType</key>
