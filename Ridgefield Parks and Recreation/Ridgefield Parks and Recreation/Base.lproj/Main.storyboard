@@ -399,7 +399,7 @@
                                     <constraint firstAttribute="width" constant="320" id="t9b-9u-2X8"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Version 1.2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wn7-EP-6N2">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Version 1.3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wn7-EP-6N2">
                                 <rect key="frame" x="0.0" y="362" width="320" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -1306,10 +1306,10 @@
         <image name="prlogo.png" width="945" height="547"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="x6M-3L-soc"/>
-        <segue reference="c6I-Tz-A8F"/>
-        <segue reference="aRk-et-Bk1"/>
         <segue reference="Ore-Gj-isn"/>
+        <segue reference="tNc-KW-KXA"/>
+        <segue reference="c6I-Tz-A8F"/>
+        <segue reference="x6M-3L-soc"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
 </document>
