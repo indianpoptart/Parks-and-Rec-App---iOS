@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@import WebKit;
 
 @interface PoolController : UIViewController{
 
-	IBOutlet UIWebView *poolview;
+	IBOutlet WKWebView *poolview;
 	IBOutlet UIActivityIndicatorView *activityind;
 	NSTimer *timer;
 }

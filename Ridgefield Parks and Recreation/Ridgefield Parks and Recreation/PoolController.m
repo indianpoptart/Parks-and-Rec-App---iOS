@@ -23,7 +23,6 @@
 	//NSURL *url = [NSURL fileURLWithPath:path];
 	//NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [poolview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://ridgefieldparksandrec.org/wp-content/uploads/Pool-Schedule2.pdf"]]];
-	[poolview setScalesPageToFit:YES];
 	[poolview addSubview:activityind];
 	
 	timer = [NSTimer scheduledTimerWithTimeInterval:(1.0/2.0)

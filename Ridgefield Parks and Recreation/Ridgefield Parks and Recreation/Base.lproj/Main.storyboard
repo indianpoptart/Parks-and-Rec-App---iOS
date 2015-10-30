@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Segues with Peek and Pop" minToolsVersion="7.1"/>
     </dependencies>
     <scenes>
         <!--Ridgefield Parks and Rec-->
@@ -311,7 +312,10 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="38u-Oj-GaV" kind="modal" id="Zp0-U4-fGR"/>
+                                    <segue destination="38u-Oj-GaV" kind="modal" id="Zp0-U4-fGR">
+                                        <segue key="commit" inheritsFrom="parent" id="ByY-dG-dmI"/>
+                                        <segue key="preview" inheritsFrom="commit" id="x6M-3L-soc"/>
+                                    </segue>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cuF-ln-EkK">
@@ -646,6 +650,7 @@
                             <constraint firstItem="zOS-oZ-jDh" firstAttribute="top" secondItem="gLc-8L-DIT" secondAttribute="bottom" id="zLB-tm-EpO"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="m6w-iJ-mR5"/>
                     <connections>
                         <outlet property="activityind" destination="9e0-yG-awJ" id="XYI-0V-00Y"/>
                         <outlet property="poolview" destination="eIh-Iw-CaI" id="z8o-fi-lAd"/>
@@ -654,6 +659,27 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y1f-Aa-39z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="467" y="1177"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="227-Js-e4P">
+            <objects>
+                <viewController id="nQY-gI-pvH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MTq-dH-e1G"/>
+                        <viewControllerLayoutGuide type="bottom" id="T34-AT-lnh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PTa-tj-suz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="38u-Oj-GaV" kind="push" id="d61-rx-pPo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f3z-Qi-TWr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="467" y="1845"/>
         </scene>
         <!--Private Swim Controller-->
         <scene sceneID="JbA-pH-HN4">
@@ -1299,6 +1325,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="mAr-qu-Sf7"/>
+        <segue reference="d61-rx-pPo"/>
         <segue reference="IuI-zK-xjV"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.98431372549999996" green="0.67843137249999996" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>

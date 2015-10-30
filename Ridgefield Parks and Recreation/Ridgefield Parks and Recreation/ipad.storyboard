@@ -93,7 +93,7 @@
                                 </connections>
                             </button>
                             <webView opaque="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFill" ambiguous="YES" misplaced="YES" scalesPageToFit="YES" allowsInlineMediaPlayback="NO" mediaPlaybackRequiresUserAction="NO" mediaPlaybackAllowsAirPlay="NO" keyboardDisplayRequiresUserAction="NO" paginationMode="leftToRight" pageLength="3" translatesAutoresizingMaskIntoConstraints="NO" id="Jxu-d1-mox">
-                                <rect key="frame" x="272" y="114" width="240" height="85"/>
+                                <rect key="frame" x="272" y="114" width="0.0" height="85"/>
                                 <color key="backgroundColor" red="0.41568627450980394" green="0.6705882352941176" blue="0.84313725490196079" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
