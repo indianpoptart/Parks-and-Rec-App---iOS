@@ -92,6 +92,7 @@
 		36FFF7D382E3A46676D61658 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4C26A73B18C56FB5001845CB /* NPAgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPAgendaViewController.h; sourceTree = "<group>"; };
 		4C26A73C18C56FB5001845CB /* NPAgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPAgendaViewController.m; sourceTree = "<group>"; };
+		4C3EEDD91BE7CF9600A4D834 /* Ridgefield Parks and Recreation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Ridgefield Parks and Recreation.entitlements"; sourceTree = "<group>"; };
 		4C4FF1761B3F672200AB9E7A /* pause3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause3.png; sourceTree = "<group>"; };
 		4C4FF1781B3F679800AB9E7A /* pause2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause2.png; sourceTree = "<group>"; };
 		4C4FF17A1B3F685B00AB9E7A /* pause4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause4.png; sourceTree = "<group>"; };
@@ -311,6 +312,7 @@
 		4C88D4F918C2806B00D4F4AC /* Ridgefield Parks and Recreation */ = {
 			isa = PBXGroup;
 			children = (
+				4C3EEDD91BE7CF9600A4D834 /* Ridgefield Parks and Recreation.entitlements */,
 				4C88D50218C2806B00D4F4AC /* NPAppDelegate.h */,
 				4C88D50318C2806B00D4F4AC /* NPAppDelegate.m */,
 				4C88D50518C2806B00D4F4AC /* Main.storyboard */,
@@ -656,7 +658,10 @@
 						DevelopmentTeam = H29XD2P9YS;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
-								enabled = 1;
+								enabled = 0;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
 							};
 						};
 					};
