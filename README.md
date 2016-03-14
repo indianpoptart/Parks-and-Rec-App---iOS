@@ -15,9 +15,10 @@ Current beta release: v1.1.2
 
 Upcoming release: v1.2
 
-[<img src="https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.png">][2]
+[<img src="https://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg">][2]
 
-[2]: https://itunes.apple.com/us/app/myparksandrec/id924248341?ls=1&mt=8
+[2]: https://geo.itunes.apple.com/us/app/myparksandrec/id924248341?mt=8
+
 
 ## Tested on
 * iPhone 4S
