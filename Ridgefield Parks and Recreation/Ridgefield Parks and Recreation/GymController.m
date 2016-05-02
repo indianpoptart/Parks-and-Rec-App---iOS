@@ -21,7 +21,7 @@
 	//NSString *path = [[NSBundle mainBundle] pathForResource:@"gym" ofType:@"pdf"];
 	//NSURL *url = [NSURL fileURLWithPath:path];
 	//NSURLRequest *request = [NSURLRequest requestWithURL:url];
-	[gview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://ridgefieldparksandrec.org/wp-content/uploads/Gym-Schedules.pdf"]]];
+	[gview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://ridgefieldparksandrec.org/wp-content/uploads/Gym_schedules.pdf"]]];
     //[gview loadRequest:request];
 	[gview setScalesPageToFit:YES];
 	[gview addSubview:activityind];
