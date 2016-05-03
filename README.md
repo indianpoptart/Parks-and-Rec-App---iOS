@@ -2,6 +2,8 @@
 ---
 ![Pandr](https://nikhilp.org/images/a.png)
 
+[![Build Status](https://travis-ci.org/indianpoptart/Parks-and-Rec-App---iOS.svg?branch=master)](https://travis-ci.org/indianpoptart/Parks-and-Rec-App---iOS)
+
 iOS version of the parks and rec app
 
 This app is in the process of being made
