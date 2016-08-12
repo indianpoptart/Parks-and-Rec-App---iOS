@@ -4,6 +4,8 @@
 
 [![Build Status](https://travis-ci.org/indianpoptart/Parks-and-Rec-App---iOS.svg?branch=master)](https://travis-ci.org/indianpoptart/Parks-and-Rec-App---iOS)
 
+!! THIS PROJECT HAS BEEN ABANDONED BY THE RIDGEFIELD PARKS AND RECREATION. I MAY CONTINUE TO WORK ON IT IF I WANT !!
+
 iOS version of the parks and rec app
 
 This app is in the process of being made
